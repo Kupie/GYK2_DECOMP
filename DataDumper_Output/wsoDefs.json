@@ -1,0 +1,1820 @@
+[
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBarn_xs_horizontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBarn_xs_horizontal_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBarn_xs_horizontal_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBarn_xs_verticall_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_vertical_01_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_11",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_12",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_13",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_14",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_15",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_16",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_17",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_18",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_19",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_20",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_21",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_22",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_23",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_24",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_25",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_26",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_27",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_28",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenBetween_m_verticall_02_29",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenConnection_s_horzontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenConnection_s_horzontal_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenConnection_s_horzontal_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenConnection_s_horzontal_03_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_horizontal_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_01_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_03_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenExtension_s_vertical_04_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_m_horzontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_11",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_12",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_13",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_14",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_15",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_s_horzontal_02_16",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryArches_xl_horzontal_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryCanopy_s_horzontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenGalleryCanopy_s_horzontal_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_01_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_l_vertical_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_00",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_01_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_01_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_04_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_04_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_horizontal_04_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02 (5)",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_02_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_04_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_04_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_06_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_07_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_11",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_12",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_13",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_14",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_15",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_16",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_17",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_18",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_19",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_20",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_21",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_22",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_23",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_24",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_25",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_26",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_27",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_28",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_29",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_30",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_08_31",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_11",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_12",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_13",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_14",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_15",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_16",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_17",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_18",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_19",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_20",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_21",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_22",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_23",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_24",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_25",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_26",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_09_27",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_10_09",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_11",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_11_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_11_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_03_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_03_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_03_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_03_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_03_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_03_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_03_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_06",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_07",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_tower_04_08",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_02_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_02_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_02_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_02_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_roof",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_roof_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_roof_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical_roof_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01_01",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01_02",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01_03",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenWoodenBridge_s_horzontal_01_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_vertical",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_04",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_s_horizontal_05",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "broken_2",
+    "townQuality": 0,
+    "id": "BrokenHouse_m_vertical_12",
+    "ReplacementConfig": "<UnityObject:ConstructorPartReplacementConfig>"
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1101",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1101",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1102",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1102",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1103",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1103",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1104",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1104",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1105",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1105",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1106",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1106",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1107",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1107",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1108",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1108",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1109",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1109",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1301",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1301",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1302",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1302",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1303",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1303",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1304",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1304",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1201",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1201",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1202",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1202",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1203",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1203",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1204",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1204",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1205",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1205",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1206",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1206",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1207",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1207",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1208",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1208",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1401",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1401",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1402",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1402",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1403",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1403",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1404",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1404",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1405",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1405",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1406",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1406",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "BrokenDecor_1407",
+    "ReplacementConfig": null
+  },
+  {
+    "replacementConfigId": "",
+    "townQuality": 0,
+    "id": "RepairedDecor_1407",
+    "ReplacementConfig": null
+  }
+]

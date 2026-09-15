@@ -1,0 +1,19 @@
+{
+  "garden_wheat_growing": 0,
+  "garden_carrot_growing": 0,
+  "garden_linum_growing": 0,
+  "garden_beet_growing": 0,
+  "garden_cabbage_growing_1": 0,
+  "garden_cabbage_growing_2": 0,
+  "garden_cabbage_growing_3": 0,
+  "garden_onion_growing_1": 0,
+  "garden_onion_growing_2": 0,
+  "garden_onion_growing_3": 0,
+  "garden_pumpkin_growing_1": 0,
+  "garden_pumpkin_growing_2": 0,
+  "garden_pumpkin_growing_3": 0,
+  "garden_hop_growing": 1,
+  "garden_grape_growing_1": 1,
+  "garden_grape_growing_2": 1,
+  "garden_grape_growing_3": 1
+}

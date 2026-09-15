@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBD65759-0CC9-419A-8B5C-057EF8448082}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Assembly-CSharp-firstpass</RootNamespace>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaxyCSharp">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\GalaxyCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Rewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="SoftMask">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\SoftMask.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GogGalaxyManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rewired\Data\UserDataStore_File.cs" />
+    <Compile Include="Rewired\Data\UserDataStore_KeyValue.cs" />
+    <Compile Include="Rewired\Data\UserDataStore_PlayerPrefs.cs" />
+    <Compile Include="Rewired\Demos\Bullet.cs" />
+    <Compile Include="Rewired\Demos\ControlMapperDemoMessage.cs" />
+    <Compile Include="Rewired\Demos\ControlRemappingDemo1.cs" />
+    <Compile Include="Rewired\Demos\CustomControllerDemo.cs" />
+    <Compile Include="Rewired\Demos\CustomControllerDemo_Player.cs" />
+    <Compile Include="Rewired\Demos\CustomControllersTiltDemo.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\CustomPlatformHardwareJoystickMapPlatformDataSet.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\CustomPlatformHardwareJoystickMapProvider.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\CustomPlatformManager.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\CustomPlatformType.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformControllerExtension.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformControllerIdentifier.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformHardwareJoystickMapPlatformMap.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformInputSource.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformUnifiedKeyboardSource.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\MyPlatformUnifiedMouseSource.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\UnityInputJoystickSource.cs" />
+    <Compile Include="Rewired\Demos\CustomPlatform\VibrationTest.cs" />
+    <Compile Include="Rewired\Demos\DualShock4SpecialFeaturesExample.cs" />
+    <Compile Include="Rewired\Demos\EightPlayersExample_Player.cs" />
+    <Compile Include="Rewired\Demos\FallbackJoystickIdentificationDemo.cs" />
+    <Compile Include="Rewired\Demos\GamepadTemplateUI\ControllerUIEffect.cs" />
+    <Compile Include="Rewired\Demos\GamepadTemplateUI\ControllerUIElement.cs" />
+    <Compile Include="Rewired\Demos\GamepadTemplateUI\GamepadTemplateUI.cs" />
+    <Compile Include="Rewired\Demos\PlayerMouseSpriteExample.cs" />
+    <Compile Include="Rewired\Demos\PlayerPointerEventHandlerExample.cs" />
+    <Compile Include="Rewired\Demos\PressAnyButtonToJoinExample_Assigner.cs" />
+    <Compile Include="Rewired\Demos\PressAnyButtonToJoinExample_GamePlayer.cs" />
+    <Compile Include="Rewired\Demos\PressStartToJoinExample_Assigner.cs" />
+    <Compile Include="Rewired\Demos\PressStartToJoinExample_GamePlayer.cs" />
+    <Compile Include="Rewired\Demos\SimpleCombinedKeyboardMouseRemapping.cs" />
+    <Compile Include="Rewired\Demos\SimpleControlRemapping.cs" />
+    <Compile Include="Rewired\Demos\TouchButtonExample.cs" />
+    <Compile Include="Rewired\Demos\TouchControls1_ManipulateCube.cs" />
+    <Compile Include="Rewired\Demos\TouchJoystickExample.cs" />
+    <Compile Include="Rewired\Demos\UIPointer.cs" />
+    <Compile Include="Rewired\FlightPedalsTemplate.cs" />
+    <Compile Include="Rewired\FlightYokeTemplate.cs" />
+    <Compile Include="Rewired\GamepadTemplate.cs" />
+    <Compile Include="Rewired\Glyphs\ControllerElementGlyph.cs" />
+    <Compile Include="Rewired\Glyphs\ControllerElementGlyphBase.cs" />
+    <Compile Include="Rewired\Glyphs\ControllerElementGlyphSelectorOptions.cs" />
+    <Compile Include="Rewired\Glyphs\ControllerElementGlyphSelectorOptionsSO.cs" />
+    <Compile Include="Rewired\Glyphs\ControllerElementGlyphSelectorOptionsSOBase.cs" />
+    <Compile Include="Rewired\Glyphs\DefaultControllerElementGlyphSettingsBase.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphOrTextBase.2.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphOrTextBase.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphProvider.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphSet.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphSetCollection.cs" />
+    <Compile Include="Rewired\Glyphs\GlyphTools.cs" />
+    <Compile Include="Rewired\Glyphs\SpriteGlyphSet.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIControllerElementGlyph.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIControllerElementGlyphBase.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIDefaultControllerElementGlyphSettings.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIDefaultGlyphOrTextTMProPrefabProvider.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIGlyphOrText.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIGlyphOrTextTMPro.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIPlayerControllerElementGlyph.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUIPlayerControllerElementGlyphBase.cs" />
+    <Compile Include="Rewired\Glyphs\UnityUI\UnityUITextMeshProGlyphHelper.cs" />
+    <Compile Include="Rewired\HOTASTemplate.cs" />
+    <Compile Include="Rewired\IFlightPedalsTemplate.cs" />
+    <Compile Include="Rewired\IFlightYokeTemplate.cs" />
+    <Compile Include="Rewired\IGamepadTemplate.cs" />
+    <Compile Include="Rewired\IHOTASTemplate.cs" />
+    <Compile Include="Rewired\InputManager.cs" />
+    <Compile Include="Rewired\Integration\UnityUI\PlayerPointerEventData.cs" />
+    <Compile Include="Rewired\Integration\UnityUI\PointerEventType.cs" />
+    <Compile Include="Rewired\Integration\UnityUI\RewiredEventSystem.cs" />
+    <Compile Include="Rewired\Integration\UnityUI\RewiredPointerInputModule.cs" />
+    <Compile Include="Rewired\Integration\UnityUI\RewiredStandaloneInputModule.cs" />
+    <Compile Include="Rewired\Internal\ControllerTemplateFactory.cs" />
+    <Compile Include="Rewired\IRacingWheelTemplate.cs" />
+    <Compile Include="Rewired\ISixDofControllerTemplate.cs" />
+    <Compile Include="Rewired\Localization\LocalizedStringProvider.cs" />
+    <Compile Include="Rewired\Localization\LocalizedStringProviderBase.cs" />
+    <Compile Include="Rewired\Platforms\Switch2\NintendoSwitch2InputManager.cs" />
+    <Compile Include="Rewired\Platforms\Switch\NintendoSwitchInputManager.cs" />
+    <Compile Include="Rewired\RacingWheelTemplate.cs" />
+    <Compile Include="Rewired\SixDofControllerTemplate.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ButtonInfo.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CalibrationWindow.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CanvasScalerExt.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CanvasScalerFitter.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ControlMapper.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CustomButton.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CustomSlider.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\CustomToggle.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ICustomSelectable.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\InputBehaviorWindow.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\InputFieldInfo.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\InputRow.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\LanguageData.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\LanguageDataBase.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ScrollbarVisibilityHelper.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ScrollRectSelectableChild.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ThemedElement.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ThemeSettings.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\ToggleInfo.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UIControl.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UIControlSet.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UIElementInfo.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UIGroup.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UIImageHelper.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UISelectionUtility.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UISliderControl.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\UITools.cs" />
+    <Compile Include="Rewired\UI\ControlMapper\Window.cs" />
+    <Compile Include="Rewired\Utils\ExternalTools.cs" />
+    <Compile Include="SoftMasking\Samples\Draggable.cs" />
+    <Compile Include="SoftMasking\Samples\HorizontalFovSetter.cs" />
+    <Compile Include="SoftMasking\Samples\Item.cs" />
+    <Compile Include="SoftMasking\Samples\ItemsGenerator.cs" />
+    <Compile Include="SoftMasking\Samples\MaskPainter.cs" />
+    <Compile Include="SoftMasking\Samples\Minimap.cs" />
+    <Compile Include="SoftMasking\Samples\PaintedMask.cs" />
+    <Compile Include="SoftMasking\Samples\RectManipulator.cs" />
+    <Compile Include="SoftMasking\Samples\ShowOnHover.cs" />
+    <Compile Include="SoftMasking\Samples\SoftMaskSampleChooser.cs" />
+    <Compile Include="SoftMasking\Samples\SoftMaskToggler.cs" />
+    <Compile Include="SoftMasking\Samples\Tooltip.cs" />
+    <Compile Include="UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

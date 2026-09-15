@@ -1,0 +1,20 @@
+[
+  {
+    "curWorldZoneId": "820_dev_church",
+    "attachedWorldZoneId": "graveyard",
+    "rewardBoxId": "donation_box",
+    "id": "643_playground_church_pray_stand"
+  },
+  {
+    "curWorldZoneId": "church",
+    "attachedWorldZoneId": "graveyard",
+    "rewardBoxId": "donation_box",
+    "id": "church_tribune"
+  },
+  {
+    "curWorldZoneId": "church",
+    "attachedWorldZoneId": "graveyard",
+    "rewardBoxId": "donation_box",
+    "id": "church_tribune_outside"
+  }
+]

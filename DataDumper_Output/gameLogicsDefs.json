@@ -1,0 +1,1181 @@
+[
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.5,
+    "periodTime": 0.1,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "test_execution"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.55,
+    "periodTime": 2.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "donkey"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.55,
+    "periodTime": 2.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "nun_body_drop"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.83,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "enable_bonfire_guards"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.175,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "disable_bonfire_guards"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_pride",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "reset_town_vendors"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_wrath",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "sermon_ready"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_wrath",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "sermon_lock"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_sloth",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "battle_ready"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_sloth",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "battle_lock"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_pride",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "clear_town_palettes"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_pride",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "enable_chalk_board"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_pride",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "disable_chalk_board"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_wrath",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "finish_panic_reduction_machine_craft"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_envy",
+    "dayTime": 0.01,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "day_envy_storm_start"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_envy",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "day_envy_storm_end"
+  },
+  {
+    "gameLogicStartType": 2,
+    "startTime": 0.0,
+    "periodTime": 0.0,
+    "dayNumber": "day_lust",
+    "dayTime": 0.99,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "restore_power_switch_energy"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.45,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.65,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_guard"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_guard_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.9,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_night_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.1,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_villagers_night_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.45,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.65,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.2,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_guards_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.4,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_guards_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.6,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_guards_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_guards_roll_04"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.99,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a1_guards_roll_05"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.45,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.65,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.2,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_guards_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.4,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_guards_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.6,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_guards_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_guards_roll_04"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.99,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a2_guards_roll_05"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.45,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.65,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.2,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_guards_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.4,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_guards_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.6,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_guards_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_guards_roll_04"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.99,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a3_guards_roll_05"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.25,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.45,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.65,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_go_home"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.2,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_guards_roll_01"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.4,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_guards_roll_02"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.6,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_guards_roll_03"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.8,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_guards_roll_04"
+  },
+  {
+    "gameLogicStartType": 1,
+    "startTime": 0.99,
+    "periodTime": 1.0,
+    "dayNumber": "",
+    "dayTime": 0.0,
+    "condition": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "execExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "execFlowscriptName": "",
+    "id": "npc_sim_town_a4_guards_roll_05"
+  }
+]

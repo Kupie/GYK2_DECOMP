@@ -1,0 +1,1942 @@
+[
+  {
+    "fishId": "fish_roach",
+    "reservoirId": "lake_village_forest_2",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      2.0,
+      3.0
+    ],
+    "resistTimeRange": [
+      2.0,
+      3.0
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 2.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 15,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 5,
+    "regenTime": 100.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.2,
+    "wriggleCoef": 0.2,
+    "id": "fish_roach_test",
+    "IntervalTimeLeft": 2.0,
+    "IntervalTimeRight": 3.0,
+    "ResistTimeLeft": 2.0,
+    "ResistTimeRight": 3.0,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_carp",
+    "reservoirId": "lake_village_forest_2",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      1.5,
+      2.5
+    ],
+    "baitTime": 1.5,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 5,
+    "regenTime": 100.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.4,
+    "wriggleCoef": 0.4,
+    "id": "fish_carp_test",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 1.5,
+    "WaitTimeRight": 2.5
+  },
+  {
+    "fishId": "fish_tuna",
+    "reservoirId": "lake_village_forest_2",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.1,
+      1.5
+    ],
+    "resistTimeRange": [
+      1.0,
+      1.4
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 8,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 5,
+    "regenTime": 100.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 0.7,
+    "wriggleCoef": 0.7,
+    "id": "fish_tuna_test",
+    "IntervalTimeLeft": 1.1,
+    "IntervalTimeRight": 1.5,
+    "ResistTimeLeft": 1.0,
+    "ResistTimeRight": 1.4,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_kraken_jr",
+    "reservoirId": "lake_village_forest_2",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.4,
+      0.6
+    ],
+    "waitTimeRange": [
+      3.0,
+      5.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 6,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "ultimate_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "ultimate_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 5,
+    "regenTime": 100.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 4,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_kraken_jr_test",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.4,
+    "ResistTimeRight": 0.6,
+    "WaitTimeLeft": 3.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_roach",
+    "reservoirId": "fishing_ place_home",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.9,
+      1.2
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.1
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 2.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 1000,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.3,
+    "wriggleCoef": 0.3,
+    "id": "fish_roach_home",
+    "IntervalTimeLeft": 0.9,
+    "IntervalTimeRight": 1.2,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.1,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_gudgeon",
+    "reservoirId": "fishing_ place_home",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      1.5,
+      2.5
+    ],
+    "baitTime": 1.5,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.5,
+    "wriggleCoef": 0.5,
+    "id": "fish_gudgeon_home",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 1.5,
+    "WaitTimeRight": 2.5
+  },
+  {
+    "fishId": "fish_crucian",
+    "reservoirId": "fishing_ place_home",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 5,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.8,
+    "wriggleCoef": 0.8,
+    "id": "fish_crucian_home",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_pike",
+    "reservoirId": "fishing_ place_home",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.8,
+      1.1
+    ],
+    "resistTimeRange": [
+      0.6,
+      0.9
+    ],
+    "waitTimeRange": [
+      2.0,
+      5.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_pike_home",
+    "IntervalTimeLeft": 0.8,
+    "IntervalTimeRight": 1.1,
+    "ResistTimeLeft": 0.6,
+    "ResistTimeRight": 0.9,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_roach",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.9,
+      1.2
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.1
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 2.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 1000,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.3,
+    "wriggleCoef": 0.3,
+    "id": "fish_carp_village",
+    "IntervalTimeLeft": 0.9,
+    "IntervalTimeRight": 1.2,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.1,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_gudgeon",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      1.5,
+      2.5
+    ],
+    "baitTime": 1.5,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.5,
+    "wriggleCoef": 0.5,
+    "id": "fish_gudgeon_village",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 1.5,
+    "WaitTimeRight": 2.5
+  },
+  {
+    "fishId": "fish_crucian",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "no_bait"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.8,
+    "wriggleCoef": 0.8,
+    "id": "fish_crucian_village",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_dace",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.0,
+      1.5
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.2
+    ],
+    "waitTimeRange": [
+      1.0,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 5,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 2.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.6,
+    "wriggleCoef": 0.6,
+    "id": "fish_dace_village",
+    "IntervalTimeLeft": 1.0,
+    "IntervalTimeRight": 1.5,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.2,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_bream",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.8,
+      1.0
+    ],
+    "resistTimeRange": [
+      0.6,
+      1.0
+    ],
+    "waitTimeRange": [
+      1.0,
+      4.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.7,
+    "wriggleCoef": 0.7,
+    "id": "fish_bream_village",
+    "IntervalTimeLeft": 0.8,
+    "IntervalTimeRight": 1.0,
+    "ResistTimeLeft": 0.6,
+    "ResistTimeRight": 1.0,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 4.0
+  },
+  {
+    "fishId": "fish_mythic_carp",
+    "reservoirId": "fishing_ place_village",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.9,
+      1.2
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.1
+    ],
+    "waitTimeRange": [
+      3.0,
+      5.0
+    ],
+    "baitTime": 0.8,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "ultimate_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "ultimate_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 30.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_mythic_carp_forest",
+    "IntervalTimeLeft": 0.9,
+    "IntervalTimeRight": 1.2,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.1,
+    "WaitTimeLeft": 3.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_anchovy",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      1.5,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.5,
+    "wriggleCoef": 0.5,
+    "id": "fish_anchovy_docks",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 1.5,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_mackerel",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.9,
+      1.2
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.1
+    ],
+    "waitTimeRange": [
+      1.0,
+      4.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.7,
+    "wriggleCoef": 0.7,
+    "id": "fish_mackerel_docks",
+    "IntervalTimeLeft": 0.9,
+    "IntervalTimeRight": 1.2,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.1,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 4.0
+  },
+  {
+    "fishId": "fish_goldfish",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      1.0,
+      3.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 5,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.3,
+    "wriggleCoef": 0.3,
+    "id": "fish_goldfish_sewers",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_tuna",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.0,
+      1.4
+    ],
+    "resistTimeRange": [
+      0.9,
+      1.2
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.1,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_tuna_docks",
+    "IntervalTimeLeft": 1.0,
+    "IntervalTimeRight": 1.4,
+    "ResistTimeLeft": 0.9,
+    "ResistTimeRight": 1.2,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_salmon",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_salmon_docks",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_kraken_jr",
+    "reservoirId": "fishing_ place_port",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.0,
+      1.3
+    ],
+    "resistTimeRange": [
+      0.9,
+      1.2
+    ],
+    "waitTimeRange": [
+      3.0,
+      5.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "ultimate_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "ultimate_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 30.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 4,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_kraken_jr_docks",
+    "IntervalTimeLeft": 1.0,
+    "IntervalTimeRight": 1.3,
+    "ResistTimeLeft": 0.9,
+    "ResistTimeRight": 1.2,
+    "WaitTimeLeft": 3.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_carp",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.6,
+      0.8
+    ],
+    "resistTimeRange": [
+      0.4,
+      0.6
+    ],
+    "waitTimeRange": [
+      1.0,
+      4.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.8,
+    "wriggleCoef": 0.8,
+    "id": "fish_carp_forest",
+    "IntervalTimeLeft": 0.6,
+    "IntervalTimeRight": 0.8,
+    "ResistTimeLeft": 0.4,
+    "ResistTimeRight": 0.6,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 4.0
+  },
+  {
+    "fishId": "fish_pike",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.8,
+      1.1
+    ],
+    "resistTimeRange": [
+      0.6,
+      0.9
+    ],
+    "waitTimeRange": [
+      2.0,
+      5.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_pike_forest",
+    "IntervalTimeLeft": 0.8,
+    "IntervalTimeRight": 1.1,
+    "ResistTimeLeft": 0.6,
+    "ResistTimeRight": 0.9,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_goldfish",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      1.0,
+      3.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 5,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.3,
+    "wriggleCoef": 0.3,
+    "id": "fish_goldfish_forest",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_salmon",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_salmon_sewers",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_trout",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.1,
+      1.5
+    ],
+    "resistTimeRange": [
+      1.0,
+      1.4
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 1.1,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.5,
+    "wriggleCoef": 0.5,
+    "id": "fish_trout_forest",
+    "IntervalTimeLeft": 1.1,
+    "IntervalTimeRight": 1.5,
+    "ResistTimeLeft": 1.0,
+    "ResistTimeRight": 1.4,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_celestial_salmon",
+    "reservoirId": "fishing_place_forest",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.7,
+      0.9
+    ],
+    "resistTimeRange": [
+      0.5,
+      0.7
+    ],
+    "waitTimeRange": [
+      4.0,
+      8.0
+    ],
+    "baitTime": 0.7,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "ultimate_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "ultimate_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 30.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_celestial_salmon_sewers",
+    "IntervalTimeLeft": 0.7,
+    "IntervalTimeRight": 0.9,
+    "ResistTimeLeft": 0.5,
+    "ResistTimeRight": 0.7,
+    "WaitTimeLeft": 4.0,
+    "WaitTimeRight": 8.0
+  },
+  {
+    "fishId": "fish_frog",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.4,
+      0.6
+    ],
+    "resistTimeRange": [
+      0.3,
+      0.5
+    ],
+    "waitTimeRange": [
+      1.0,
+      2.0
+    ],
+    "baitTime": 0.8,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "no_bait",
+          "value": 1.0
+        },
+        {
+          "type": "breadcrumb_bite",
+          "value": 0.25
+        },
+        {
+          "type": "insect_bite",
+          "value": 0.25
+        }
+      ],
+      "TypesList": [
+        "no_bait",
+        "breadcrumb_bite",
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 5,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 5,
+    "splashCoef": 0.2,
+    "wriggleCoef": 0.2,
+    "id": "fish_frog_swamp",
+    "IntervalTimeLeft": 0.4,
+    "IntervalTimeRight": 0.6,
+    "ResistTimeLeft": 0.3,
+    "ResistTimeRight": 0.5,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 2.0
+  },
+  {
+    "fishId": "fish_catfish",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.1,
+      1.5
+    ],
+    "resistTimeRange": [
+      1.0,
+      1.4
+    ],
+    "waitTimeRange": [
+      2.0,
+      5.0
+    ],
+    "baitTime": 1.2,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_catfish_swamp",
+    "IntervalTimeLeft": 1.1,
+    "IntervalTimeRight": 1.5,
+    "ResistTimeLeft": 1.0,
+    "ResistTimeRight": 1.4,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_silverfin",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.9,
+      1.2
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.1
+    ],
+    "waitTimeRange": [
+      1.0,
+      3.0
+    ],
+    "baitTime": 1.3,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "breadcrumb_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "breadcrumb_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.5,
+    "wriggleCoef": 0.5,
+    "id": "fish_silverfin_sewers",
+    "IntervalTimeLeft": 0.9,
+    "IntervalTimeRight": 1.2,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.1,
+    "WaitTimeLeft": 1.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_swamp_ghost",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.6,
+      0.8
+    ],
+    "resistTimeRange": [
+      0.4,
+      0.6
+    ],
+    "waitTimeRange": [
+      3.0,
+      5.0
+    ],
+    "baitTime": 0.7,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      0.5,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 6.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 1,
+    "splashCoef": 0.9,
+    "wriggleCoef": 0.9,
+    "id": "fish_swamp_ghost_swamp",
+    "IntervalTimeLeft": 0.6,
+    "IntervalTimeRight": 0.8,
+    "ResistTimeLeft": 0.4,
+    "ResistTimeRight": 0.6,
+    "WaitTimeLeft": 3.0,
+    "WaitTimeRight": 5.0
+  },
+  {
+    "fishId": "fish_eel",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.0,
+      1.4
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.2
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 1,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 3,
+    "splashCoef": 0.7,
+    "wriggleCoef": 0.7,
+    "id": "fish_eel_swamp",
+    "IntervalTimeLeft": 1.0,
+    "IntervalTimeRight": 1.4,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.2,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  },
+  {
+    "fishId": "fish_elder_catfish",
+    "reservoirId": "fishing_place_swamp",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      0.5,
+      0.7
+    ],
+    "resistTimeRange": [
+      0.4,
+      0.6
+    ],
+    "waitTimeRange": [
+      3.0,
+      6.0
+    ],
+    "baitTime": 0.8,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "ultimate_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "ultimate_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      1.0
+    ],
+    "baseCount": 1,
+    "regenTime": 30.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 2,
+    "splashCoef": 1.0,
+    "wriggleCoef": 1.0,
+    "id": "fish_elder_catfish_swamp",
+    "IntervalTimeLeft": 0.5,
+    "IntervalTimeRight": 0.7,
+    "ResistTimeLeft": 0.4,
+    "ResistTimeRight": 0.6,
+    "WaitTimeLeft": 3.0,
+    "WaitTimeRight": 6.0
+  },
+  {
+    "fishId": "fish_eel",
+    "reservoirId": "fishing_ place_sewers",
+    "curvePresetId": "",
+    "intervalTimeRange": [
+      1.0,
+      1.4
+    ],
+    "resistTimeRange": [
+      0.8,
+      1.2
+    ],
+    "waitTimeRange": [
+      2.0,
+      3.0
+    ],
+    "baitTime": 1.0,
+    "speedChangeTime": 0.1,
+    "anger": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseWeight": 10,
+    "baitMod": {
+      "GameResSystems": {},
+      "List": [
+        {
+          "type": "insect_bite",
+          "value": 1.0
+        }
+      ],
+      "TypesList": [
+        "insect_bite"
+      ]
+    },
+    "daytimeMod": [
+      1.0,
+      0.5
+    ],
+    "baseCount": 2,
+    "regenTime": 3.0,
+    "expressionsOnEnd": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "underwaterGfxType": 3,
+    "splashCoef": 0.7,
+    "wriggleCoef": 0.7,
+    "id": "fish_eel_sewers",
+    "IntervalTimeLeft": 1.0,
+    "IntervalTimeRight": 1.4,
+    "ResistTimeLeft": 0.8,
+    "ResistTimeRight": 1.2,
+    "WaitTimeLeft": 2.0,
+    "WaitTimeRight": 3.0
+  }
+]

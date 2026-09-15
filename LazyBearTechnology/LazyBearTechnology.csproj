@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FC74077-9AB7-4100-9C25-57E6F8758B7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LazyBearTechnology</RootNamespace>
+    <AssemblyName>LazyBearTechnology</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween.Modules">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\DOTween.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="FlowCanvas">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\FlowCanvas.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqTools">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\LinqTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ParadoxNotion">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\ParadoxNotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Sirenix.Serialization.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\GraveyardKeeper2_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimationEventData.cs" />
+    <Compile Include="AnimationTriggerData.cs" />
+    <Compile Include="ApplicationSettings.cs" />
+    <Compile Include="AudioConfig.cs" />
+    <Compile Include="AudioConfigData.cs" />
+    <Compile Include="AudioSettings3DPreset.cs" />
+    <Compile Include="AudioSettings3DType.cs" />
+    <Compile Include="AutoParseAttribute.cs" />
+    <Compile Include="AutoParserResult.cs" />
+    <Compile Include="AutoValidateAttribute.cs" />
+    <Compile Include="AutoValidate_GameResInCollectionAttribute.cs" />
+    <Compile Include="AutoValidate_IdInCollection.cs" />
+    <Compile Include="AutoValidate_StrListInCollectionAttribute.cs" />
+    <Compile Include="AutoValidate_WithMethod.cs" />
+    <Compile Include="AutoValidatorObjectData.cs" />
+    <Compile Include="BalanceBaseObject.cs" />
+    <Compile Include="BalanceTabAttribute.cs" />
+    <Compile Include="BaseBinding.cs" />
+    <Compile Include="BaseInputController.cs" />
+    <Compile Include="BaseReplacementRuleSet.cs" />
+    <Compile Include="BaseSerializer.cs" />
+    <Compile Include="BaseVirtualCursor.cs" />
+    <Compile Include="BaseVirtualCursorEventHandler.cs" />
+    <Compile Include="BinaryFileSerializer.cs" />
+    <Compile Include="BindingAlias.cs" />
+    <Compile Include="BoolExtensions.cs" />
+    <Compile Include="CenteredGridLayoutGroup.cs" />
+    <Compile Include="CjkWrapper.cs" />
+    <Compile Include="CloudSync\ILazyCloudSync.cs" />
+    <Compile Include="CloudSync\ILazyCloudSyncSettings.cs" />
+    <Compile Include="CloudSync\LazyCloudSync.cs" />
+    <Compile Include="CloudSync\LazyCloudSyncSaveData.cs" />
+    <Compile Include="CloudSync\LazyCloudSyncServerReply.cs" />
+    <Compile Include="CloudSync\LazyCloudSyncSettingsPlayerPrefs.cs" />
+    <Compile Include="ColorExtensions.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="ComparisonExtensions.cs" />
+    <Compile Include="ConditionalChecker.cs" />
+    <Compile Include="ControllerIconData.cs" />
+    <Compile Include="ControllerIconDataTyped.cs" />
+    <Compile Include="ControllerIconLibrary.cs" />
+    <Compile Include="ControllerIconViewType.cs" />
+    <Compile Include="CoroutineManager.cs" />
+    <Compile Include="CustomFlowNode.cs" />
+    <Compile Include="CustomFontSettings.cs" />
+    <Compile Include="DebugDraw.cs" />
+    <Compile Include="DLCInfo.cs" />
+    <Compile Include="Dynamic2DArray.cs" />
+    <Compile Include="EasySpritesCollection.cs" />
+    <Compile Include="Enumeration.cs" />
+    <Compile Include="EpicGamesManager.cs" />
+    <Compile Include="Expressive\Context.cs" />
+    <Compile Include="Expressive\Exceptions\ExpressiveException.cs" />
+    <Compile Include="Expressive\Exceptions\FunctionNameAlreadyRegisteredException.cs" />
+    <Compile Include="Expressive\Exceptions\MissingParticipantException.cs" />
+    <Compile Include="Expressive\Exceptions\MissingTokenException.cs" />
+    <Compile Include="Expressive\Exceptions\OperatorNameAlreadyRegisteredException.cs" />
+    <Compile Include="Expressive\Exceptions\ParameterCountMismatchException.cs" />
+    <Compile Include="Expressive\Exceptions\UnrecognisedTokenException.cs" />
+    <Compile Include="Expressive\Expression.cs" />
+    <Compile Include="Expressive\ExpressionParser.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Additive\AddExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Additive\SubtractExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\BinaryExpressionBase.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Bitwise\BitwiseAndExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Bitwise\BitwiseExclusiveOrExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Bitwise\BitwiseOrExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Bitwise\LeftShiftExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Bitwise\RightShiftExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Conditional\NullCoalescingExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Logical\AndExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Logical\OrExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Multiplicative\DivideExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Multiplicative\ExponentExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Multiplicative\ModulusExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Multiplicative\MultiplyExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\EqualExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\GreaterThanExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\GreaterThanOrEqualExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\LessThanExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\LessThanOrEqualExpression.cs" />
+    <Compile Include="Expressive\Expressions\Binary\Relational\NotEqualExpression.cs" />
+    <Compile Include="Expressive\Expressions\ConstantValueExpression.cs" />
+    <Compile Include="Expressive\Expressions\EvaluateAs.cs" />
+    <Compile Include="Expressive\Expressions\FunctionExpression.cs" />
+    <Compile Include="Expressive\Expressions\IExpression.cs" />
+    <Compile Include="Expressive\Expressions\ParenthesisedExpression.cs" />
+    <Compile Include="Expressive\Expressions\Unary\Additive\MinusExpression.cs" />
+    <Compile Include="Expressive\Expressions\Unary\Additive\PlusExpression.cs" />
+    <Compile Include="Expressive\Expressions\Unary\Logical\NotExpression.cs" />
+    <Compile Include="Expressive\Expressions\Unary\UnaryExpressionBase.cs" />
+    <Compile Include="Expressive\Expressions\VariableExpression.cs" />
+    <Compile Include="Expressive\ExpressiveOptions.cs" />
+    <Compile Include="Expressive\ExtensionMethods.cs" />
+    <Compile Include="Expressive\Functions\Conversion\DateFunction.cs" />
+    <Compile Include="Expressive\Functions\Conversion\DecimalFunction.cs" />
+    <Compile Include="Expressive\Functions\Conversion\DoubleFunction.cs" />
+    <Compile Include="Expressive\Functions\Conversion\IntegerFunction.cs" />
+    <Compile Include="Expressive\Functions\Conversion\LongFunction.cs" />
+    <Compile Include="Expressive\Functions\Conversion\StringFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddDaysFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddHoursFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddMillisecondsFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddMinutesFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddMonthsFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddSecondsFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\AddYearsFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\DayOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\DaysBetweenFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\HourOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\HoursBetweenFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\MillisecondOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\MillisecondsBetweenFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\MinuteOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\MinutesBetweenFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\MonthOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\SecondOfFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\SecondsBetweenFunction.cs" />
+    <Compile Include="Expressive\Functions\Date\YearOfFunction.cs" />
+    <Compile Include="Expressive\Functions\FunctionBase.cs" />
+    <Compile Include="Expressive\Functions\IFunction.cs" />
+    <Compile Include="Expressive\Functions\Logical\IfFunction.cs" />
+    <Compile Include="Expressive\Functions\Logical\InFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\AbsFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\AcosFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\AsinFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\AtanFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\CeilingFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\CosFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\CountFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\EFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\ExpFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\FloorFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\IEEERemainderFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\Log10Function.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\LogFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\PIFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\PowFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\RandomFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\RoundFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\SignFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\SinFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\SqrtFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\SumFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\TanFunction.cs" />
+    <Compile Include="Expressive\Functions\Mathematical\TruncateFunction.cs" />
+    <Compile Include="Expressive\Functions\Relational\MaxFunction.cs" />
+    <Compile Include="Expressive\Functions\Relational\MinFunction.cs" />
+    <Compile Include="Expressive\Functions\Statistical\AverageFunction.cs" />
+    <Compile Include="Expressive\Functions\Statistical\MeanFunction.cs" />
+    <Compile Include="Expressive\Functions\Statistical\MedianFunction.cs" />
+    <Compile Include="Expressive\Functions\Statistical\ModeFunction.cs" />
+    <Compile Include="Expressive\Functions\String\ConcatFunction.cs" />
+    <Compile Include="Expressive\Functions\String\ContainsFunction.cs" />
+    <Compile Include="Expressive\Functions\String\EndsWithFunction.cs" />
+    <Compile Include="Expressive\Functions\String\IndexOfFunction.cs" />
+    <Compile Include="Expressive\Functions\String\LengthFunction.cs" />
+    <Compile Include="Expressive\Functions\String\PadLeftFunction.cs" />
+    <Compile Include="Expressive\Functions\String\PadRightFunction.cs" />
+    <Compile Include="Expressive\Functions\String\RegexFunction.cs" />
+    <Compile Include="Expressive\Functions\String\StartsWithFunction.cs" />
+    <Compile Include="Expressive\Functions\String\SubstringFunction.cs" />
+    <Compile Include="Expressive\Helpers\Comparison.cs" />
+    <Compile Include="Expressive\Helpers\Numbers.cs" />
+    <Compile Include="Expressive\Helpers\TypeHelper.cs" />
+    <Compile Include="Expressive\IVariableProvider.cs" />
+    <Compile Include="Expressive\Operators\Additive\PlusOperator.cs" />
+    <Compile Include="Expressive\Operators\Additive\SubtractOperator.cs" />
+    <Compile Include="Expressive\Operators\Bitwise\BitwiseAndOperator.cs" />
+    <Compile Include="Expressive\Operators\Bitwise\BitwiseExclusiveOrOperator.cs" />
+    <Compile Include="Expressive\Operators\Bitwise\BitwiseOrOperator.cs" />
+    <Compile Include="Expressive\Operators\Bitwise\LeftShiftOperator.cs" />
+    <Compile Include="Expressive\Operators\Bitwise\RightShiftOperator.cs" />
+    <Compile Include="Expressive\Operators\Conditional\NullCoalescingOperator.cs" />
+    <Compile Include="Expressive\Operators\Grouping\ParenthesisCloseOperator.cs" />
+    <Compile Include="Expressive\Operators\Grouping\ParenthesisOpenOperator.cs" />
+    <Compile Include="Expressive\Operators\IOperator.cs" />
+    <Compile Include="Expressive\Operators\Logical\AndOperator.cs" />
+    <Compile Include="Expressive\Operators\Logical\NotOperator.cs" />
+    <Compile Include="Expressive\Operators\Logical\OrOperator.cs" />
+    <Compile Include="Expressive\Operators\Multiplicative\DivideOperator.cs" />
+    <Compile Include="Expressive\Operators\Multiplicative\ExponentOperator.cs" />
+    <Compile Include="Expressive\Operators\Multiplicative\ModulusOperator.cs" />
+    <Compile Include="Expressive\Operators\Multiplicative\MultiplyOperator.cs" />
+    <Compile Include="Expressive\Operators\OperatorBase.cs" />
+    <Compile Include="Expressive\Operators\OperatorPrecedence.cs" />
+    <Compile Include="Expressive\Operators\Relational\EqualOperator.cs" />
+    <Compile Include="Expressive\Operators\Relational\GreaterThanOperator.cs" />
+    <Compile Include="Expressive\Operators\Relational\GreaterThanOrEqualOperator.cs" />
+    <Compile Include="Expressive\Operators\Relational\LessThanOperator.cs" />
+    <Compile Include="Expressive\Operators\Relational\LessThanOrEqualOperator.cs" />
+    <Compile Include="Expressive\Operators\Relational\NotEqualOperator.cs" />
+    <Compile Include="Expressive\Token.cs" />
+    <Compile Include="Expressive\Tokenisation\ITokenExtractor.cs" />
+    <Compile Include="Expressive\Tokenisation\KeywordTokenExtractor.cs" />
+    <Compile Include="Expressive\Tokenisation\NumericTokenExtractor.cs" />
+    <Compile Include="Expressive\Tokenisation\ParenthesisedTokenExtractor.cs" />
+    <Compile Include="Expressive\Tokenisation\Tokeniser.cs" />
+    <Compile Include="Expressive\Tokenisation\ValueTokenExtractor.cs" />
+    <Compile Include="Expressive\VariableProviderDictionary.cs" />
+    <Compile Include="FastPixelsArray.cs" />
+    <Compile Include="FloatExtensions.cs" />
+    <Compile Include="GameBalanceBase.cs" />
+    <Compile Include="GameBindings.cs" />
+    <Compile Include="GameKey.cs" />
+    <Compile Include="GameKeyIconType.cs" />
+    <Compile Include="GamepadBinding.cs" />
+    <Compile Include="GamepadButton.cs" />
+    <Compile Include="GamepadController.cs" />
+    <Compile Include="GamepadDynamicSelector.cs" />
+    <Compile Include="GamepadNavigationController.cs" />
+    <Compile Include="GamepadNavigationItem.cs" />
+    <Compile Include="GamepadType.cs" />
+    <Compile Include="GamepadTypeConfiguration.cs" />
+    <Compile Include="GamepadTypeData.cs" />
+    <Compile Include="GameRes.cs" />
+    <Compile Include="GameResAtom.cs" />
+    <Compile Include="GameResCondition.cs" />
+    <Compile Include="GameResConditionAtom.cs" />
+    <Compile Include="GameResInt.cs" />
+    <Compile Include="GameResSystemBase.cs" />
+    <Compile Include="GarbagelessStrings.cs" />
+    <Compile Include="GitTools.cs" />
+    <Compile Include="GogGalaxyManager.cs" />
+    <Compile Include="GUIDirection.cs" />
+    <Compile Include="GUIVirtualCursor.cs" />
+    <Compile Include="HoldableElement.cs" />
+    <Compile Include="HoldedGroup.cs" />
+    <Compile Include="HoldedGroupType.cs" />
+    <Compile Include="IAutoParsable.cs" />
+    <Compile Include="IBalance.cs" />
+    <Compile Include="IconButtonAttribute.cs" />
+    <Compile Include="IconTransition.cs" />
+    <Compile Include="IDataSerializer.cs" />
+    <Compile Include="ILazyCustomSerialize.cs" />
+    <Compile Include="ILazyGUIElement.cs" />
+    <Compile Include="ILazyPlatform.cs" />
+    <Compile Include="ILazyUIElementWithId.cs" />
+    <Compile Include="ImageCollidable.cs" />
+    <Compile Include="IntVector2.cs" />
+    <Compile Include="IntVector3.cs" />
+    <Compile Include="IPoolable.cs" />
+    <Compile Include="ISerializableData.cs" />
+    <Compile Include="IStringIntSet.cs" />
+    <Compile Include="JsonDataController.cs" />
+    <Compile Include="JsonFileSerializer.cs" />
+    <Compile Include="JSONObject.cs" />
+    <Compile Include="JSONTemplates.cs" />
+    <Compile Include="KeyBinding.cs" />
+    <Compile Include="KeyboardController.cs" />
+    <Compile Include="KeyboardScrollRect.cs" />
+    <Compile Include="KeyCodeReadableReplacement.cs" />
+    <Compile Include="LabelSizeCalculator.cs" />
+    <Compile Include="LanguageModHooks.cs" />
+    <Compile Include="LazyAnimationController.cs" />
+    <Compile Include="LazyAPI.cs" />
+    <Compile Include="LazyApplicationSettings.cs" />
+    <Compile Include="LazyAtlas.cs" />
+    <Compile Include="LazyAtlasCommonSprites.cs" />
+    <Compile Include="LazyAtlasItem.cs" />
+    <Compile Include="LazyAtlasItemIconAttribute.cs" />
+    <Compile Include="LazyAtlasItemParams.cs" />
+    <Compile Include="LazyAtlasItemReference.cs" />
+    <Compile Include="LazyAtlasTableCellAttribute.cs" />
+    <Compile Include="LazyAudio.cs" />
+    <Compile Include="LazyAutoScrollLabel.cs" />
+    <Compile Include="LazyBuildType.cs" />
+    <Compile Include="LazyButton.cs" />
+    <Compile Include="LazyButtonTipsStr.cs" />
+    <Compile Include="LazyButtonTipStrTester.cs" />
+    <Compile Include="LazyCondition.cs" />
+    <Compile Include="LazyConsolesManagerExample.cs" />
+    <Compile Include="LazyDontSerialize.cs" />
+    <Compile Include="LazyExpressionBase.cs" />
+    <Compile Include="LazyExpressionPureValueTypeAttribute.cs" />
+    <Compile Include="LazyFile.cs" />
+    <Compile Include="LazyFontData.cs" />
+    <Compile Include="LazyGameKeyTip.cs" />
+    <Compile Include="LazyGamepadDependentElement.cs" />
+    <Compile Include="LazyInput.cs" />
+    <Compile Include="LazyLogType.cs" />
+    <Compile Include="LazyMesh.cs" />
+    <Compile Include="LazyPlatform.cs" />
+    <Compile Include="LazyPlatformDefault.cs" />
+    <Compile Include="LazyPlatformDependentElement.cs" />
+    <Compile Include="LazyPlatformUpdater.cs" />
+    <Compile Include="LazyPlayerPrefs.cs" />
+    <Compile Include="LazyPooler.cs" />
+    <Compile Include="LazyRandom.cs" />
+    <Compile Include="LazyReflection.cs" />
+    <Compile Include="LazySaveSystem.cs" />
+    <Compile Include="LazyScrollableElement.cs" />
+    <Compile Include="LazyScrollRect.cs" />
+    <Compile Include="LazySerialize.cs" />
+    <Compile Include="LazySerializer.cs" />
+    <Compile Include="LazySingleton.cs" />
+    <Compile Include="LazySingletonSerializedSO.cs" />
+    <Compile Include="LazySingletonSO.cs" />
+    <Compile Include="LazySkinPreset.cs" />
+    <Compile Include="LazySpeechEngine.cs" />
+    <Compile Include="LazyTextMeshProUtils.cs" />
+    <Compile Include="LazyTime.cs" />
+    <Compile Include="LazyTimer.cs" />
+    <Compile Include="LazyUI.cs" />
+    <Compile Include="LazyUIElementManager.cs" />
+    <Compile Include="LazyUIEvent.cs" />
+    <Compile Include="LazyUITestAttribute.cs" />
+    <Compile Include="LazyUITester.cs" />
+    <Compile Include="LazyUITesterMethodData.cs" />
+    <Compile Include="LazyWidget.cs" />
+    <Compile Include="LazyWidgetBase.cs" />
+    <Compile Include="LazyWidgetContainer.cs" />
+    <Compile Include="LazyWidgetDataBase.cs" />
+    <Compile Include="LazyWidgetPrefabContainer.cs" />
+    <Compile Include="LazyWindow.cs" />
+    <Compile Include="LazyWindowInputController.cs" />
+    <Compile Include="LazyWindowsStackController.cs" />
+    <Compile Include="LightFlicker.cs" />
+    <Compile Include="LightFlickerStep.cs" />
+    <Compile Include="ListExtensions.cs" />
+    <Compile Include="LL.cs" />
+    <Compile Include="LLBase.cs" />
+    <Compile Include="LoadedSpriteAtlasData.cs" />
+    <Compile Include="LocalizedAssetReferenceImage.cs" />
+    <Compile Include="LocalizedLabel.cs" />
+    <Compile Include="LocalizedRtlAlign.cs" />
+    <Compile Include="LocalizedSize.cs" />
+    <Compile Include="LocalizedTextMargins.cs" />
+    <Compile Include="LocalizedVerticalOffset.cs" />
+    <Compile Include="LoudInterval.cs" />
+    <Compile Include="MathUtilities.cs" />
+    <Compile Include="ModdedVoiceOverPlayer.cs" />
+    <Compile Include="MonoBehaviourExtensions.cs" />
+    <Compile Include="MultiFlagAND.cs" />
+    <Compile Include="MultiFlagBase.cs" />
+    <Compile Include="MultiFlagOR.cs" />
+    <Compile Include="NavigationStick.cs" />
+    <Compile Include="NestedLocalesMetaInfo.cs" />
+    <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="ObjectLinkedToDefinition.cs" />
+    <Compile Include="OdinBinaryFileSerializer.cs" />
+    <Compile Include="OverrideTextStyleData.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="PlatformType.cs" />
+    <Compile Include="PlayerInfo.cs" />
+    <Compile Include="PlayerPrefsSerializer.cs" />
+    <Compile Include="Playlist.cs" />
+    <Compile Include="PlaylistController.cs" />
+    <Compile Include="PlaylistData.cs" />
+    <Compile Include="PlaylistWeight.cs" />
+    <Compile Include="PlaySoundOnEnable.cs" />
+    <Compile Include="PlayStationStoreProductInfo.cs" />
+    <Compile Include="PlayStationStoreService.cs" />
+    <Compile Include="Pool.cs" />
+    <Compile Include="PredefinedGUIStyle.cs" />
+    <Compile Include="Preloader\LazyAssetPreloader.cs" />
+    <Compile Include="Preloader\LazyLogoData.cs" />
+    <Compile Include="Preloader\LazyPreloader.cs" />
+    <Compile Include="Preloader\LazyPreloaderController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PureValueType.cs" />
+    <Compile Include="RandomCoordinate.cs" />
+    <Compile Include="RectExtension.cs" />
+    <Compile Include="RectTransformExtension.cs" />
+    <Compile Include="ReplacementKeysMetadata.cs" />
+    <Compile Include="RuntimeAudioEditor.cs" />
+    <Compile Include="Sample.cs" />
+    <Compile Include="SampleData.cs" />
+    <Compile Include="ScrollType.cs" />
+    <Compile Include="SerializableDictionary.cs" />
+    <Compile Include="SkinChanger.cs" />
+    <Compile Include="SkinPresetBase.cs" />
+    <Compile Include="SkinPresetPart.cs" />
+    <Compile Include="SmallKanaKinsoku.cs" />
+    <Compile Include="SmoothMouseWheelScroll.cs" />
+    <Compile Include="SonyNPAgeRestriction.cs" />
+    <Compile Include="Sound.cs" />
+    <Compile Include="SoundController.cs" />
+    <Compile Include="SoundData.cs" />
+    <Compile Include="SoundHandler.cs" />
+    <Compile Include="SpatialType.cs" />
+    <Compile Include="SpeechBubblePreset.cs" />
+    <Compile Include="SpeechBubbleSettings.cs" />
+    <Compile Include="SpriteAtlasInfo.cs" />
+    <Compile Include="StaticFontLabel.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="Stick.cs" />
+    <Compile Include="StoreProductInfo.cs" />
+    <Compile Include="StringExtensions.cs" />
+    <Compile Include="TextAnimator.cs" />
+    <Compile Include="TextStyle.cs" />
+    <Compile Include="TextStyleComponent.cs" />
+    <Compile Include="TextStyleData.cs" />
+    <Compile Include="TextTransition.cs" />
+    <Compile Include="TextureBorders.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="TMPShaderSetup.cs" />
+    <Compile Include="Track.cs" />
+    <Compile Include="TrackData.cs" />
+    <Compile Include="Triangulator.cs" />
+    <Compile Include="UIBasicBubble.cs" />
+    <Compile Include="UIBubbleCorner.cs" />
+    <Compile Include="UIButtonCollider.cs" />
+    <Compile Include="UISpeechBubble.cs" />
+    <Compile Include="UnityEngine\UI\Extensions\AutoScroll.cs" />
+    <Compile Include="UnityEngine\UI\Extensions\AutoScrollTargetType.cs" />
+    <Compile Include="UnityEngine\UI\UIExtensions.cs" />
+    <Compile Include="UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs" />
+    <Compile Include="UserEnvironment.cs" />
+    <Compile Include="VectorExtensions.cs" />
+    <Compile Include="VirtualCursorState.cs" />
+    <Compile Include="VirtualCursorVisualPair.cs" />
+    <Compile Include="VoiceClipData.cs" />
+    <Compile Include="VoiceClipProcessorSettings.cs" />
+    <Compile Include="VoiceID.cs" />
+    <Compile Include="VoiceOverModLoader.cs" />
+    <Compile Include="VoiceOverPlayer.cs" />
+    <Compile Include="VoiceOverSettings.cs" />
+    <Compile Include="WorldVirtualCursor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,5470 @@
+[
+  {
+    "items": [
+      {
+        "id": "1h_stone",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 5,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_1h_stone",
+          "bagSize": 0,
+          "sortOrder": 34,
+          "talentIds": [],
+          "id": "1h_stone",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "1h_stone",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "1h_marble",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 50,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_1h_marble",
+          "bagSize": 0,
+          "sortOrder": 38,
+          "talentIds": [],
+          "id": "1h_marble",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "1h_marble",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "stone_container_conveyor",
+      "marble_container_conveyor"
+    ],
+    "id": "porter_station_carrier"
+  },
+  {
+    "items": [
+      {
+        "id": "wood",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_wood",
+          "bagSize": 0,
+          "sortOrder": 15,
+          "talentIds": [],
+          "id": "wood",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "wood",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "wood_container_conveyor"
+    ],
+    "id": "porter_station_sawmill"
+  },
+  {
+    "items": [
+      {
+        "id": "wood",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_wood",
+          "bagSize": 0,
+          "sortOrder": 15,
+          "talentIds": [],
+          "id": "wood",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "wood",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "wood_container_conveyor"
+    ],
+    "id": "porter_station_sawmill_2"
+  },
+  {
+    "items": [
+      {
+        "id": "coal",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_coal",
+          "bagSize": 0,
+          "sortOrder": 195,
+          "talentIds": [],
+          "id": "coal",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "coal",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "iron_ore",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_1h_ore_metal",
+          "bagSize": 0,
+          "sortOrder": 177,
+          "talentIds": [],
+          "id": "iron_ore",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "iron_ore",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "iron_ore_container_conveyor",
+      "coal_container_conveyor"
+    ],
+    "id": "porter_station_mine"
+  },
+  {
+    "items": [
+      {
+        "id": "clay",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_clay",
+          "bagSize": 0,
+          "sortOrder": 42,
+          "talentIds": [],
+          "id": "clay",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "clay",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "sand",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "buil_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_sand_river",
+          "bagSize": 0,
+          "sortOrder": 49,
+          "talentIds": [],
+          "id": "sand",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "sand",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "clay_container_conveyor",
+      "sand_container_conveyor"
+    ],
+    "id": "porter_station_clay_sand"
+  },
+  {
+    "items": [
+      {
+        "id": "wheat",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 3,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_wheat_crop",
+          "bagSize": 0,
+          "sortOrder": 267,
+          "talentIds": [],
+          "id": "wheat",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "wheat",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "carrot",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 4,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_carrot_crop",
+          "bagSize": 0,
+          "sortOrder": 269,
+          "talentIds": [],
+          "id": "carrot",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "carrot",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "beet",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 5,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_beet_crop",
+          "bagSize": 0,
+          "sortOrder": 271,
+          "talentIds": [],
+          "id": "beet",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "beet",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "cabbage:1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_cabbage"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 1,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 7,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_cabbage_crop",
+          "bagSize": 0,
+          "sortOrder": 275,
+          "talentIds": [],
+          "id": "cabbage:1",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "cabbage:1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "cabbage:2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_cabbage"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 2,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 10,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_cabbage_crop",
+          "bagSize": 0,
+          "sortOrder": 276,
+          "talentIds": [],
+          "id": "cabbage:2",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "cabbage:2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "cabbage:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_cabbage"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 13,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_cabbage_crop",
+          "bagSize": 0,
+          "sortOrder": 277,
+          "talentIds": [],
+          "id": "cabbage:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "cabbage:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "onion:1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_onions",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 1,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 10,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_onion_crop",
+          "bagSize": 0,
+          "sortOrder": 281,
+          "talentIds": [],
+          "id": "onion:1",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "onion:1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "onion:2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_onions",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 2,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 14,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_onion_crop",
+          "bagSize": 0,
+          "sortOrder": 282,
+          "talentIds": [],
+          "id": "onion:2",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "onion:2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "onion:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "gr_onions",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 18,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_onion_crop",
+          "bagSize": 0,
+          "sortOrder": 283,
+          "talentIds": [],
+          "id": "onion:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "onion:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "pumpkin:1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "alch_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 1,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 20,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_pumpkin_crop",
+          "bagSize": 0,
+          "sortOrder": 287,
+          "talentIds": [],
+          "id": "pumpkin:1",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "pumpkin:1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "pumpkin:2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "alch_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 2,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 30,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_pumpkin_crop",
+          "bagSize": 0,
+          "sortOrder": 288,
+          "talentIds": [],
+          "id": "pumpkin:2",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "pumpkin:2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "pumpkin:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "alch_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 40,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_pumpkin_crop",
+          "bagSize": 0,
+          "sortOrder": 289,
+          "talentIds": [],
+          "id": "pumpkin:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "pumpkin:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "flax",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 7,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_flax_crop",
+          "bagSize": 0,
+          "sortOrder": 299,
+          "talentIds": [],
+          "id": "flax",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "flax",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "",
+    "customTargets": [
+      "garden_bags_storage_1",
+      "garden_bags_storage_2",
+      "garden_bags_storage_3"
+    ],
+    "id": "lifting_crane"
+  },
+  {
+    "items": [
+      {
+        "id": "box_building_kit_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_building_kit_1",
+          "bagSize": 0,
+          "sortOrder": 71,
+          "talentIds": [],
+          "id": "box_building_kit_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_building_kit_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_building_kit_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_building_kit_2",
+          "bagSize": 0,
+          "sortOrder": 72,
+          "talentIds": [],
+          "id": "box_building_kit_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_building_kit_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_furniture_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_furniture_1",
+          "bagSize": 0,
+          "sortOrder": 73,
+          "talentIds": [],
+          "id": "box_furniture_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_furniture_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_furniture_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_furniture_2",
+          "bagSize": 0,
+          "sortOrder": 74,
+          "talentIds": [],
+          "id": "box_furniture_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_furniture_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_cutlery_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_cutlery_1",
+          "bagSize": 0,
+          "sortOrder": 75,
+          "talentIds": [],
+          "id": "box_cutlery_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_cutlery_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_cutlery_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_cutlery_2",
+          "bagSize": 0,
+          "sortOrder": 76,
+          "talentIds": [],
+          "id": "box_cutlery_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_cutlery_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_tools_iron",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_tools_iron",
+          "bagSize": 0,
+          "sortOrder": 77,
+          "talentIds": [],
+          "id": "box_tools_iron",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_tools_iron",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_tools_steel",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_tools_steel",
+          "bagSize": 0,
+          "sortOrder": 78,
+          "talentIds": [],
+          "id": "box_tools_steel",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_tools_steel",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_kitchen_utensils",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_kitchen_utensils",
+          "bagSize": 0,
+          "sortOrder": 79,
+          "talentIds": [],
+          "id": "box_kitchen_utensils",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_kitchen_utensils",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_clothes_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_clothes_1",
+          "bagSize": 0,
+          "sortOrder": 80,
+          "talentIds": [],
+          "id": "box_clothes_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_clothes_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_clothes_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_clothes_2",
+          "bagSize": 0,
+          "sortOrder": 81,
+          "talentIds": [],
+          "id": "box_clothes_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_clothes_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_fabric",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_fabric",
+          "bagSize": 0,
+          "sortOrder": 82,
+          "talentIds": [],
+          "id": "box_fabric",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_fabric",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_vegetables",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_vegetables",
+          "bagSize": 0,
+          "sortOrder": 83,
+          "talentIds": [],
+          "id": "box_vegetables",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_vegetables",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_preserves_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_preserves_1",
+          "bagSize": 0,
+          "sortOrder": 84,
+          "talentIds": [],
+          "id": "box_preserves_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_preserves_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_preserves_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_preserves_2",
+          "bagSize": 0,
+          "sortOrder": 85,
+          "talentIds": [],
+          "id": "box_preserves_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_preserves_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_flour",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_flour",
+          "bagSize": 0,
+          "sortOrder": 86,
+          "talentIds": [],
+          "id": "box_flour",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_flour",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_appliances_1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_appliances_1",
+          "bagSize": 0,
+          "sortOrder": 87,
+          "talentIds": [],
+          "id": "box_appliances_1",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_appliances_1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_appliances_2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_appliances_2",
+          "bagSize": 0,
+          "sortOrder": 88,
+          "talentIds": [],
+          "id": "box_appliances_2",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_appliances_2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_engineering_mechanism",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_engineering_mechanism",
+          "bagSize": 0,
+          "sortOrder": 89,
+          "talentIds": [],
+          "id": "box_engineering_mechanism",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_engineering_mechanism",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_beer",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_beer",
+          "bagSize": 0,
+          "sortOrder": 90,
+          "talentIds": [],
+          "id": "box_beer",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_beer",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_vine",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 200,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_vine",
+          "bagSize": 0,
+          "sortOrder": 91,
+          "talentIds": [],
+          "id": "box_vine",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_vine",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "box_iron_ingot",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "town_box",
+            "overhead"
+          ],
+          "stackCount": 1,
+          "type": 0,
+          "itemSize": 2,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 50,
+          "isStaticCost": true,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_box_iron",
+          "bagSize": 0,
+          "sortOrder": 92,
+          "talentIds": [],
+          "id": "box_iron_ingot",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "box_iron_ingot",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "",
+    "customTargets": [
+      "crates_small"
+    ],
+    "id": "porter_station_conveyor_storage"
+  },
+  {
+    "items": [
+      {
+        "id": "honey",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "food_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 8,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_honey",
+          "bagSize": 0,
+          "sortOrder": 725,
+          "talentIds": [],
+          "id": "honey",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "honey",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "hop",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 11,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_hop_crop",
+          "bagSize": 0,
+          "sortOrder": 291,
+          "talentIds": [],
+          "id": "hop",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "hop",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape:1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 1,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 50,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_grapes_crop",
+          "bagSize": 0,
+          "sortOrder": 295,
+          "talentIds": [],
+          "id": "grape:1",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape:1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape:2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 2,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 75,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_grapes_crop",
+          "bagSize": 0,
+          "sortOrder": 296,
+          "talentIds": [],
+          "id": "grape:2",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape:2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "seedable",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [],
+          "onUseSound": "item_use_food",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 100,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_grapes_crop",
+          "bagSize": 0,
+          "sortOrder": 297,
+          "talentIds": [],
+          "id": "grape:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "vineyard_basement",
+    "customTargets": [],
+    "id": "porter_station_vineyard"
+  },
+  {
+    "items": [
+      {
+        "id": "beer",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "gr_beer",
+            "u_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>",
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>",
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_drink",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 36,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_cup_beer",
+          "bagSize": 0,
+          "sortOrder": 168,
+          "talentIds": [],
+          "id": "beer",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "beer",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape_wine:1",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "gr_wine",
+            "u_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 1,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_drink",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 75,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_bottle_red_vine_2",
+          "bagSize": 0,
+          "sortOrder": 169,
+          "talentIds": [],
+          "id": "grape_wine:1",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape_wine:1",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape_wine:2",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "gr_wine",
+            "u_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 2,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_drink",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 90,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_bottle_red_vine_2",
+          "bagSize": 0,
+          "sortOrder": 170,
+          "talentIds": [],
+          "id": "grape_wine:2",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape_wine:2",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "grape_wine:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "gr_wine",
+            "u_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_drink",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 105,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_bottle_red_vine_2",
+          "bagSize": 0,
+          "sortOrder": 171,
+          "talentIds": [],
+          "id": "grape_wine:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape_wine:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "targetWorldZone": "conveyor",
+    "customTargets": [
+      "conveyor_wine_beer_pallet"
+    ],
+    "id": "porter_station_vineyard_basement"
+  }
+]

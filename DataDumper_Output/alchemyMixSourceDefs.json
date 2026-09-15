@@ -1,0 +1,3503 @@
+[
+  {
+    "mixId": "mix:seed_oil:stick",
+    "formulaId": "powder_dreams",
+    "ingredient1": "stick",
+    "ingredient2": "seed_oil",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:stick",
+    "formulaId": "powder_dreams",
+    "ingredient1": "stick",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b:stick",
+    "formulaId": "powder_dreams",
+    "ingredient1": "stick",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:stick",
+    "formulaId": "powder_dreams",
+    "ingredient1": "stick",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:seed_oil:water",
+    "formulaId": "powder_dreams",
+    "ingredient1": "water",
+    "ingredient2": "seed_oil",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:water",
+    "formulaId": "powder_dreams",
+    "ingredient1": "water",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b:water",
+    "formulaId": "powder_dreams",
+    "ingredient1": "water",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:water",
+    "formulaId": "powder_dreams",
+    "ingredient1": "water",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:seed_oil",
+    "formulaId": "powder_dreams",
+    "ingredient1": "seed_oil",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:seed_oil",
+    "formulaId": "powder_dreams",
+    "ingredient1": "seed_oil",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:seed_oil",
+    "formulaId": "powder_dreams",
+    "ingredient1": "seed_oil",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:leaf",
+    "formulaId": "powder_dreams",
+    "ingredient1": "leaf",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:powder_b",
+    "formulaId": "powder_dreams",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:leaf",
+    "formulaId": "powder_dreams",
+    "ingredient1": "leaf",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:fertilizer:peat",
+    "formulaId": "powder_dreams",
+    "ingredient1": "fertilizer:peat",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:berry_blue",
+    "formulaId": "powder_dreams",
+    "ingredient1": "berry",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:powder_b",
+    "formulaId": "powder_dreams",
+    "ingredient1": "berry",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:blood",
+    "formulaId": "powder_dreams",
+    "ingredient1": "berry",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:powder_g",
+    "formulaId": "powder_dreams",
+    "ingredient1": "berry_blue",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b:powder_g",
+    "formulaId": "powder_dreams",
+    "ingredient1": "powder_g",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:powder_g",
+    "formulaId": "powder_dreams",
+    "ingredient1": "powder_g",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g_b",
+    "formulaId": "powder_dreams",
+    "ingredient1": "powder_g_b",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:ash",
+    "formulaId": "powder_dreams",
+    "ingredient1": "ash",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:stick:stick",
+    "formulaId": "quest_paint",
+    "ingredient1": "stick",
+    "ingredient2": "stick",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:stick:water",
+    "formulaId": "quest_paint",
+    "ingredient1": "stick",
+    "ingredient2": "water",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:stick",
+    "formulaId": "quest_paint",
+    "ingredient1": "stick",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:stick",
+    "formulaId": "quest_paint",
+    "ingredient1": "stick",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:stick",
+    "formulaId": "quest_paint",
+    "ingredient1": "stick",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:water:water",
+    "formulaId": "quest_paint",
+    "ingredient1": "water",
+    "ingredient2": "water",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:water",
+    "formulaId": "quest_paint",
+    "ingredient1": "water",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:water",
+    "formulaId": "quest_paint",
+    "ingredient1": "water",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:water",
+    "formulaId": "quest_paint",
+    "ingredient1": "water",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flour",
+    "formulaId": "quest_paint",
+    "ingredient1": "flour",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:leaf",
+    "formulaId": "quest_paint",
+    "ingredient1": "leaf",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:leaf",
+    "formulaId": "quest_paint",
+    "ingredient1": "leaf",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:powder_g",
+    "formulaId": "quest_paint",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:1",
+    "formulaId": "quest_paint",
+    "ingredient1": "onion:1",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:2",
+    "formulaId": "quest_paint",
+    "ingredient1": "onion:2",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:3",
+    "formulaId": "quest_paint",
+    "ingredient1": "onion:3",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:berry",
+    "formulaId": "quest_paint",
+    "ingredient1": "berry",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:powder_g",
+    "formulaId": "quest_paint",
+    "ingredient1": "berry",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_green",
+    "formulaId": "quest_paint",
+    "ingredient1": "mushroom_green",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:powder_g",
+    "formulaId": "quest_paint",
+    "ingredient1": "powder_g",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g_g",
+    "formulaId": "quest_paint",
+    "ingredient1": "powder_g_g",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:seed_oil:seed_oil",
+    "formulaId": "lacquer",
+    "ingredient1": "seed_oil",
+    "ingredient2": "seed_oil",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:seed_oil",
+    "formulaId": "lacquer",
+    "ingredient1": "seed_oil",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b:seed_oil",
+    "formulaId": "lacquer",
+    "ingredient1": "seed_oil",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:seed_oil",
+    "formulaId": "lacquer",
+    "ingredient1": "seed_oil",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:minced_meat",
+    "formulaId": "lacquer",
+    "ingredient1": "minced_meat",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:berry_blue",
+    "formulaId": "lacquer",
+    "ingredient1": "berry_blue",
+    "ingredient2": "berry_blue",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:powder_b",
+    "formulaId": "lacquer",
+    "ingredient1": "berry_blue",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry_blue:blood",
+    "formulaId": "lacquer",
+    "ingredient1": "berry_blue",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flower_night",
+    "formulaId": "lacquer",
+    "ingredient1": "flower_night",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:zombie_goo",
+    "formulaId": "lacquer",
+    "ingredient1": "zombie_goo",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b:powder_b",
+    "formulaId": "lacquer",
+    "ingredient1": "powder_b",
+    "ingredient2": "powder_b",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:powder_b",
+    "formulaId": "lacquer",
+    "ingredient1": "powder_b",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_b_b",
+    "formulaId": "lacquer",
+    "ingredient1": "powder_b_b",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:blood:blood",
+    "formulaId": "lacquer",
+    "ingredient1": "blood",
+    "ingredient2": "blood",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone",
+    "formulaId": "heal_potion",
+    "ingredient1": "1h_stone",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:clay",
+    "formulaId": "heal_potion",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:sand",
+    "formulaId": "heal_potion",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:powder_r",
+    "formulaId": "heal_potion",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:flesh",
+    "formulaId": "heal_potion",
+    "ingredient1": "clay",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:sand:sand",
+    "formulaId": "heal_potion",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r:sand",
+    "formulaId": "heal_potion",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:sand",
+    "formulaId": "heal_potion",
+    "ingredient1": "sand",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red",
+    "formulaId": "heal_potion",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r:powder_r",
+    "formulaId": "heal_potion",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:powder_r",
+    "formulaId": "heal_potion",
+    "ingredient1": "powder_r",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r_r",
+    "formulaId": "heal_potion",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh",
+    "formulaId": "heal_potion",
+    "ingredient1": "flesh",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:1h_stone",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_stone",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:clay:clay",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "clay"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "sand"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:flesh",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_stone:sand:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "sand"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_stone:flesh:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_stone:mushroom_red",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_stone:flesh:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:flesh:flesh",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_marble:clay",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_marble",
+    "ingredient2": "clay",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_marble",
+    "ingredient2": "sand",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_marble",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:flesh",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "1h_marble",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:clay:mushroom_red",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:clay:clay:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:clay:mushroom_red:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:clay:powder_r_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:clay:iron_ore",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "iron_ore",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:mushroom_red:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:mushroom_red",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:powder_r:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:powder_r_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:melted_fat",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:sand:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:powder_r_r:sand:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:iron_ore:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "iron_ore",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_red:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_r_r:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:melted_fat:sand",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:iron_ore:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "iron_ore",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:iron_ore",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "iron_ore",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:mushroom_red",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_red:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:mushroom_red",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flesh:powder_r:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:melted_fat:powder_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r_r:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:powder_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_r_r",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "powder_r_r_r",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:melted_fat",
+    "formulaId": "heal_potion_2",
+    "ingredient1": "melted_fat",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:1h_stone:clay",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_stone",
+    "ingredient3": "clay"
+  },
+  {
+    "mixId": "mix:1h_stone:1h_stone:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_stone",
+    "ingredient3": "sand"
+  },
+  {
+    "mixId": "mix:1h_stone:1h_stone:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_stone",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_stone:1h_stone:flesh",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_stone",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_marble:1h_stone",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "1h_marble",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:clay:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:1h_stone:mushroom_red:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:1h_stone:iron_ore",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "iron_ore",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:mushroom_red:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_stone:flesh:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:1h_stone:flesh:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:melted_fat",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:clay:clay",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "clay",
+    "ingredient3": "clay"
+  },
+  {
+    "mixId": "mix:1h_marble:clay:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "clay",
+    "ingredient3": "sand"
+  },
+  {
+    "mixId": "mix:1h_marble:clay:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_marble:clay:flesh",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "clay",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_marble:sand:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "sand",
+    "ingredient3": "sand"
+  },
+  {
+    "mixId": "mix:1h_marble:powder_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_marble:flesh:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "sand",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_marble:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:powder_r:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:1h_marble:flesh:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:1h_marble:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_marble:flesh:flesh",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "1h_marble",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:clay:iron_ore",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "iron_ore"
+  },
+  {
+    "mixId": "mix:clay:clay:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:clay:clay:melted_fat",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:clay:iron_ore:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "iron_ore"
+  },
+  {
+    "mixId": "mix:clay:powder_r_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:clay:melted_fat:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:clay:iron_ore:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "iron_ore",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:iron_ore",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "iron_ore",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:mushroom_red:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:clay:mushroom_red:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:clay:powder_r:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:clay:melted_fat:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:clay:powder_r_r:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:flesh:melted_fat",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "clay",
+    "ingredient2": "melted_fat",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:iron_ore:sand:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "iron_ore"
+  },
+  {
+    "mixId": "mix:powder_r_r_r:sand:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:sand:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:iron_ore:powder_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "iron_ore",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:iron_ore:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "iron_ore",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:mushroom_red:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:powder_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:powder_r_r:powder_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_r_r:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flesh:melted_fat:sand",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "sand",
+    "ingredient2": "melted_fat",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:iron_ore:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "iron_ore",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:iron_ore:powder_r:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "iron_ore",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:iron_ore:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "iron_ore",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:iron_ore:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "iron_ore",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:iron_ore",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "iron_ore",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:mushroom_red:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_red:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_red:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:melted_fat:mushroom_red",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r:powder_r:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:powder_r:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_r:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flesh:powder_r:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flesh:melted_fat:powder_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r",
+    "ingredient2": "melted_fat",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_r:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_r:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:melted_fat:powder_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "melted_fat",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:powder_r_r_r",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "powder_r_r_r",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flesh:flesh:melted_fat",
+    "formulaId": "heal_potion_3",
+    "ingredient1": "melted_fat",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:stick",
+    "formulaId": "damage_potion",
+    "ingredient1": "stick",
+    "ingredient2": "clay",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:sand:stick",
+    "formulaId": "damage_potion",
+    "ingredient1": "stick",
+    "ingredient2": "sand",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r:stick",
+    "formulaId": "damage_potion",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:stick",
+    "formulaId": "damage_potion",
+    "ingredient1": "stick",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:water",
+    "formulaId": "damage_potion",
+    "ingredient1": "clay",
+    "ingredient2": "water",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:leaf",
+    "formulaId": "damage_potion",
+    "ingredient1": "clay",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:clay",
+    "formulaId": "damage_potion",
+    "ingredient1": "clay",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:powder_g",
+    "formulaId": "damage_potion",
+    "ingredient1": "clay",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:sand:water",
+    "formulaId": "damage_potion",
+    "ingredient1": "sand",
+    "ingredient2": "water",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:sand",
+    "formulaId": "damage_potion",
+    "ingredient1": "sand",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:sand",
+    "formulaId": "damage_potion",
+    "ingredient1": "sand",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:sand",
+    "formulaId": "damage_potion",
+    "ingredient1": "sand",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r:water",
+    "formulaId": "damage_potion",
+    "ingredient1": "water",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:water",
+    "formulaId": "damage_potion",
+    "ingredient1": "water",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:powder_r",
+    "formulaId": "damage_potion",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:leaf",
+    "formulaId": "damage_potion",
+    "ingredient1": "leaf",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flax",
+    "formulaId": "damage_potion",
+    "ingredient1": "flax",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:powder_r",
+    "formulaId": "damage_potion",
+    "ingredient1": "berry",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:flesh",
+    "formulaId": "damage_potion",
+    "ingredient1": "berry",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:tooth",
+    "formulaId": "damage_potion",
+    "ingredient1": "tooth",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:powder_r",
+    "formulaId": "damage_potion",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:powder_g",
+    "formulaId": "damage_potion",
+    "ingredient1": "powder_g",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_r_g",
+    "formulaId": "damage_potion",
+    "ingredient1": "powder_r_g",
+    "ingredient2": "",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:stick:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "stick",
+    "ingredient3": "1h_stone"
+  },
+  {
+    "mixId": "mix:mushroom_red:stick:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "stick",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:powder_r_r:stick:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "stick",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:1h_stone:stick:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "water"
+  },
+  {
+    "mixId": "mix:1h_stone:leaf:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "leaf"
+  },
+  {
+    "mixId": "mix:1h_stone:berry:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:clay:flax:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "clay",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:clay:stick:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "clay",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:clay:powder_r_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "clay",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:flax:sand:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "sand",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:sand:stick:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "sand",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:powder_r_g:sand:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "sand",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:mushroom_red:stick:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "water",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:powder_r_r:stick:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "water",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:nugget_copper:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "nugget_copper",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:mushroom_red:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "leaf",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:leaf:powder_r_r:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flax:powder_r:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "flax",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flax:flesh:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "flax",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:mushroom_red:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "berry",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:berry:powder_r_r:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:powder_r:stick:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:stick:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "tooth",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:powder_g:powder_r_r:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_r_g:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:gold_nugget:stick",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "stick",
+    "ingredient2": "gold_nugget",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:water:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "water"
+  },
+  {
+    "mixId": "mix:1h_stone:leaf:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "leaf"
+  },
+  {
+    "mixId": "mix:1h_stone:berry:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:1h_stone:flour",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "flour",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:leaf:leaf",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "leaf",
+    "ingredient3": "leaf"
+  },
+  {
+    "mixId": "mix:1h_stone:berry:leaf",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "leaf",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:1h_stone:leaf:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:1h_stone:onion:1",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "onion:1",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:onion:2",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "onion:2",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:onion:3",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "onion:3",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:berry:berry",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "berry",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:1h_stone:berry:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "berry",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:1h_stone:mushroom_green",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "mushroom_green",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:powder_g:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "1h_stone",
+    "ingredient2": "powder_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:clay:flour",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "flour"
+  },
+  {
+    "mixId": "mix:clay:clay:onion:1",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "onion:1"
+  },
+  {
+    "mixId": "mix:clay:clay:onion:2",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "onion:2"
+  },
+  {
+    "mixId": "mix:clay:clay:onion:3",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "onion:3"
+  },
+  {
+    "mixId": "mix:clay:clay:mushroom_green",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "mushroom_green"
+  },
+  {
+    "mixId": "mix:clay:clay:powder_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "clay",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:clay:flour:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "flour"
+  },
+  {
+    "mixId": "mix:clay:onion:1:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "onion:1"
+  },
+  {
+    "mixId": "mix:clay:onion:2:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "onion:2"
+  },
+  {
+    "mixId": "mix:clay:onion:3:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "onion:3"
+  },
+  {
+    "mixId": "mix:clay:mushroom_green:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "mushroom_green"
+  },
+  {
+    "mixId": "mix:clay:powder_g_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "sand",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:clay:flax:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "water",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:clay:tooth:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "water",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:clay:powder_r_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "water",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:clay:flour:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "flour",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:flour",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "flour",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:coal",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "coal",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:clay:flax:leaf",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "leaf",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:clay:leaf:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "leaf",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:clay:leaf:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:clay:onion:1:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:1",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:onion:1",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:1",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:onion:2:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:2",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:onion:2",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:2",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:onion:3:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:3",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:onion:3",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "onion:3",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:clay:flax",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "flax",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:clay:flax:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "flax",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:berry:clay:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "berry",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:berry:clay:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:clay:mushroom_green:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:clay:flesh:mushroom_green",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:powder_g:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:clay:powder_g_g:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:clay:powder_g:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:clay:flesh:powder_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_g_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:clay:powder_r_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "powder_r_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:beeswax:clay",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "clay",
+    "ingredient2": "beeswax",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flour:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "flour"
+  },
+  {
+    "mixId": "mix:onion:1:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "onion:1"
+  },
+  {
+    "mixId": "mix:onion:2:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "onion:2"
+  },
+  {
+    "mixId": "mix:onion:3:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "onion:3"
+  },
+  {
+    "mixId": "mix:mushroom_green:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "mushroom_green"
+  },
+  {
+    "mixId": "mix:powder_g_g:sand:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "sand",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:flax:sand:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "water",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:sand:tooth:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "water",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:powder_r_g:sand:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "water",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:flour:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "flour",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:flour:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "flour",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:coal:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "coal",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flax:leaf:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "leaf",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:leaf:sand:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "leaf",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:leaf:powder_r_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:onion:1:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:1",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:1:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:1",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:onion:2:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:2",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:2:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:2",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:onion:3:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:3",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:3:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "onion:3",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:flax:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "flax",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:flax:powder_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "flax",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:berry:sand:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "berry",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:berry:powder_r_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:mushroom_green:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_green:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_g:sand:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:powder_g_g:powder_r:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:powder_g:powder_r_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:flesh:powder_g_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_g_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_g_g:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "powder_r_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:beeswax:sand",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "sand",
+    "ingredient2": "beeswax",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:water:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "water",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:powder_r_r:water:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "water",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:nugget_copper:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "nugget_copper",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:mushroom_red:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "leaf",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:leaf:powder_r_r:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flax:powder_r:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "flax",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flax:flesh:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "flax",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:mushroom_red:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "berry",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:berry:powder_r_r:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:powder_r:tooth:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:tooth:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "tooth",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:powder_g:powder_r_r:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:flesh:powder_r_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_r_g:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "powder_r_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:gold_nugget:water",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "water",
+    "ingredient2": "gold_nugget",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flour:mushroom_red",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flour",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flour:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flour",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:flour:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flour",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flour:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flour",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:flour",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flour",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:leaf:nugget_copper",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "nugget_copper",
+    "ingredient2": "leaf",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:nugget_copper",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "nugget_copper",
+    "ingredient2": "berry",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:nugget_copper:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "nugget_copper",
+    "ingredient2": "powder_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:coal:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "coal",
+    "ingredient2": "powder_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:coal:flesh",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "coal",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:leaf:leaf:mushroom_red",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "leaf",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:leaf:leaf:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:flax:leaf:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "flax",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flax:flesh:leaf",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "flax",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:leaf:mushroom_red",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "berry",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:berry:leaf:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:leaf:mushroom_red:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:leaf:powder_r:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:leaf:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "tooth",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:leaf:powder_r:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:leaf:powder_g:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:flesh:leaf:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:leaf:powder_r_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "powder_r_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:gold_nugget:leaf",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "leaf",
+    "ingredient2": "gold_nugget",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:onion:1",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:1",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:1:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:1",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:1:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:1",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:onion:1:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:1",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:onion:1",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:1",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:onion:2",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:2",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:2:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:2",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:2:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:2",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:onion:2:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:2",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:onion:2",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:2",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_red:onion:3",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:3",
+    "ingredient2": "mushroom_red",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:onion:3:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:3",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:onion:3:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:3",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:onion:3:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:3",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:onion:3",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "onion:3",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flax:flax",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "flax",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:flax:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:berry:flax:flesh",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "berry",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flax:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "tooth",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flax:powder_g:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:flax:flesh:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "powder_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:flax:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flax",
+    "ingredient2": "powder_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:berry:mushroom_red",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "berry",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:berry:berry:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "berry",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:berry:mushroom_red:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:berry:powder_r:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:berry:flesh:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "tooth",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:powder_r:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:berry:powder_g:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:berry:flesh:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:berry:powder_r_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "powder_r_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:berry:gold_nugget",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "berry",
+    "ingredient2": "gold_nugget",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_green:mushroom_red",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "mushroom_green",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_g:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_red",
+    "ingredient2": "powder_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:mushroom_green:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_green",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_r"
+  },
+  {
+    "mixId": "mix:flesh:mushroom_green:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_green",
+    "ingredient2": "powder_r",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:mushroom_green:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_green",
+    "ingredient2": "powder_r_r",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:mushroom_green",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "mushroom_green",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:tooth:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "tooth",
+    "ingredient2": "tooth",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:powder_r:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "tooth",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:flesh:powder_g:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "tooth",
+    "ingredient2": "powder_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_g:tooth",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "tooth",
+    "ingredient2": "powder_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g_g:powder_r:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:powder_g:powder_r:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:flesh:powder_g_g:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_g_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r:powder_r_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "powder_r_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:beeswax:powder_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r",
+    "ingredient2": "beeswax",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:powder_g:powder_g:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "powder_g",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:powder_g_g:powder_r_r",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r_r",
+    "ingredient2": "powder_g_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:powder_g:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_g",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_g:powder_r_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_g",
+    "ingredient2": "powder_r_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:gold_nugget:powder_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_g",
+    "ingredient2": "gold_nugget",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:flesh:powder_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_g_g",
+    "ingredient2": "flesh",
+    "ingredient3": "flesh"
+  },
+  {
+    "mixId": "mix:powder_r_g:powder_r_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r_g",
+    "ingredient2": "powder_r_g",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:flesh:powder_r_g_g",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "powder_r_g_g",
+    "ingredient2": "flesh",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:beeswax:flesh",
+    "formulaId": "damage_potion_2",
+    "ingredient1": "flesh",
+    "ingredient2": "beeswax",
+    "ingredient3": ""
+  },
+  {
+    "mixId": "mix:1h_stone:coal:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "coal"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r_g_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "powder_r_g_g"
+  },
+  {
+    "mixId": "mix:1h_stone:beeswax:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_stone",
+    "ingredient3": "beeswax"
+  },
+  {
+    "mixId": "mix:1h_marble:flour:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "flour"
+  },
+  {
+    "mixId": "mix:1h_marble:onion:1:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "onion:1"
+  },
+  {
+    "mixId": "mix:1h_marble:onion:2:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "onion:2"
+  },
+  {
+    "mixId": "mix:1h_marble:onion:3:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "onion:3"
+  },
+  {
+    "mixId": "mix:1h_marble:mushroom_green:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "mushroom_green"
+  },
+  {
+    "mixId": "mix:1h_marble:powder_g_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "1h_marble",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:flour:iron_ore:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "flour",
+    "ingredient3": "iron_ore"
+  },
+  {
+    "mixId": "mix:flour:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "flour",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:flour:melted_fat:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "flour",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:flax:nugget_copper:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "nugget_copper",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:nugget_copper:stick:tooth",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "nugget_copper",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:nugget_copper:powder_r_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "nugget_copper",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:iron_ore:onion:1:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "iron_ore",
+    "ingredient3": "onion:1"
+  },
+  {
+    "mixId": "mix:iron_ore:onion:2:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "iron_ore",
+    "ingredient3": "onion:2"
+  },
+  {
+    "mixId": "mix:iron_ore:onion:3:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "iron_ore",
+    "ingredient3": "onion:3"
+  },
+  {
+    "mixId": "mix:iron_ore:mushroom_green:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "iron_ore",
+    "ingredient3": "mushroom_green"
+  },
+  {
+    "mixId": "mix:iron_ore:powder_g_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "iron_ore",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:coal:mushroom_red:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "coal",
+    "ingredient3": "mushroom_red"
+  },
+  {
+    "mixId": "mix:coal:powder_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "coal",
+    "ingredient3": "powder_r_r"
+  },
+  {
+    "mixId": "mix:onion:1:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:1",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:onion:1:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:1",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:onion:2:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:2",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:onion:2:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:2",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:onion:3:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:3",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:onion:3:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "onion:3",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:flax:powder_r_r_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "flax",
+    "ingredient3": "powder_r_r_g"
+  },
+  {
+    "mixId": "mix:flax:gold_nugget:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "flax",
+    "ingredient3": "gold_nugget"
+  },
+  {
+    "mixId": "mix:mushroom_red:powder_r_g_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "powder_r_g_g"
+  },
+  {
+    "mixId": "mix:beeswax:mushroom_red:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "mushroom_red",
+    "ingredient3": "beeswax"
+  },
+  {
+    "mixId": "mix:mushroom_green:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "powder_r_r_r"
+  },
+  {
+    "mixId": "mix:melted_fat:mushroom_green:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "mushroom_green",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:powder_r_r_g:stick:tooth",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "tooth",
+    "ingredient3": "powder_r_r_g"
+  },
+  {
+    "mixId": "mix:gold_nugget:stick:tooth",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "tooth",
+    "ingredient3": "gold_nugget"
+  },
+  {
+    "mixId": "mix:powder_r_g_g:powder_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "powder_r_g_g"
+  },
+  {
+    "mixId": "mix:beeswax:powder_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_r",
+    "ingredient3": "beeswax"
+  },
+  {
+    "mixId": "mix:powder_g_g:powder_r_r_r:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_r_r",
+    "ingredient3": "powder_g_g"
+  },
+  {
+    "mixId": "mix:melted_fat:powder_g_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_g_g",
+    "ingredient3": "melted_fat"
+  },
+  {
+    "mixId": "mix:powder_r_g:powder_r_r_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "powder_r_r_g"
+  },
+  {
+    "mixId": "mix:gold_nugget:powder_r_g:stick",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "stick",
+    "ingredient2": "powder_r_g",
+    "ingredient3": "gold_nugget"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:pumpkin:1",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "pumpkin:1"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:pumpkin:2",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "pumpkin:2"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:pumpkin:3",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "pumpkin:3"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:powder_g_g_g",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "powder_g_g_g"
+  },
+  {
+    "mixId": "mix:1h_stone:clay:fragrance",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "clay",
+    "ingredient3": "fragrance"
+  },
+  {
+    "mixId": "mix:1h_stone:pumpkin:1:sand",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "pumpkin:1"
+  },
+  {
+    "mixId": "mix:1h_stone:pumpkin:2:sand",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "pumpkin:2"
+  },
+  {
+    "mixId": "mix:1h_stone:pumpkin:3:sand",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "pumpkin:3"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_g_g_g:sand",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "powder_g_g_g"
+  },
+  {
+    "mixId": "mix:1h_stone:fragrance:sand",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "sand",
+    "ingredient3": "fragrance"
+  },
+  {
+    "mixId": "mix:1h_stone:coal:water",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "coal"
+  },
+  {
+    "mixId": "mix:1h_stone:powder_r_g_g:water",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "powder_r_g_g"
+  },
+  {
+    "mixId": "mix:1h_stone:beeswax:water",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "water",
+    "ingredient3": "beeswax"
+  },
+  {
+    "mixId": "mix:1h_stone:flax:flour",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "flour",
+    "ingredient3": "flax"
+  },
+  {
+    "mixId": "mix:1h_stone:flour:tooth",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "flour",
+    "ingredient3": "tooth"
+  },
+  {
+    "mixId": "mix:1h_stone:flour:powder_r_g",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "flour",
+    "ingredient3": "powder_r_g"
+  },
+  {
+    "mixId": "mix:1h_stone:coal:leaf",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "coal",
+    "ingredient3": "leaf"
+  },
+  {
+    "mixId": "mix:1h_stone:berry:coal",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "coal",
+    "ingredient3": "berry"
+  },
+  {
+    "mixId": "mix:1h_stone:coal:powder_g",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "coal",
+    "ingredient3": "powder_g"
+  },
+  {
+    "mixId": "mix:1h_stone:leaf:powder_r_g_g",
+    "formulaId": "damage_potion_3",
+    "ingredient1": "1h_stone",
+    "ingredient2": "leaf",
+    "ingredient3": "powder_r_g_g"
+  },
+  "<truncated>"
+]

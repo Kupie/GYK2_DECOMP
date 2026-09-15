@@ -1,0 +1,1329 @@
+{
+  "test_item_2": [],
+  "sinful_idol": [],
+  "scary_idol": [],
+  "test_flitch": [
+    "test_workbench_manual"
+  ],
+  "wood": [
+    "test_workbench_manual",
+    "sawmill_wood_crafter"
+  ],
+  "test_wooden_plank": [
+    "test_workbench_manual"
+  ],
+  "test_cross": [
+    "test_workbench_manual"
+  ],
+  "test_firewood": [
+    "test_workbench"
+  ],
+  "fire": [
+    "test_firewood_shed_1",
+    "test_firewood_shed_2",
+    "firewood_shed_1",
+    "firewood_shed_2",
+    "firewood_shed_kitchen_1",
+    "firewood_shed_kitchen_2"
+  ],
+  "test_ingot": [
+    "test_oven"
+  ],
+  "wooden_detail:1": [
+    "test_workbench"
+  ],
+  "wooden_detail:2": [
+    "test_workbench"
+  ],
+  "wooden_detail:3": [
+    "test_workbench"
+  ],
+  "box_iron_ingot": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "wooden_kit_1": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "stone_kit_1": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "mf_hammer_0"
+  ],
+  "box_empty": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "building_kit_1": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "box_building_kit_1": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "fabric_flax": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "weaving_loom"
+  ],
+  "box_fabric": [
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "box_tools_iron": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "box_cutlery_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "box_kitchen_utensils": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "furniture_kit_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "woodworking_workbench_2"
+  ],
+  "box_furniture_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "box_appliances_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "marble_kit": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "sculpture_kit_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "box_clothes_1": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3",
+    "sewing_table"
+  ],
+  "box_clothes_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "wooden_kit_2": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "zombie_mechanism": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "box_engineering_mechanism": [
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t3"
+  ],
+  "furniture_kit_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "box_furniture_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "building_kit_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "box_building_kit_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "box_appliances_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "sculpture_kit_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "box_cutlery_2": [
+    "conveyor_assemblybench_t3"
+  ],
+  "ingot_iron": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2",
+    "furnace_2"
+  ],
+  "iron_kit_1": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "brick": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2",
+    "brick_kiln_1"
+  ],
+  "glass": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2",
+    "furnace_1",
+    "furnace_2"
+  ],
+  "tableware": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2"
+  ],
+  "glass_containers": [
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t2"
+  ],
+  "clay_molds": [
+    "conveyor_furnace_t2"
+  ],
+  "iron_kit_2": [
+    "conveyor_furnace_t2"
+  ],
+  "engineering_kit": [
+    "conveyor_furnace_t2"
+  ],
+  "box_tools_steel": [
+    "conveyor_furnace_t2"
+  ],
+  "lence": [
+    "conveyor_furnace_t2",
+    "furnace_1",
+    "furnace_2"
+  ],
+  "box_vegetables": [
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t2"
+  ],
+  "box_beer": [
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t2"
+  ],
+  "box_vine": [
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t2"
+  ],
+  "box_flour": [
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t2"
+  ],
+  "box_preserves_1": [
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t2"
+  ],
+  "box_preserves_2": [
+    "conveyor_kitchen_t2"
+  ],
+  "zombie_power": [
+    "conveyor_bioreactor"
+  ],
+  "flitch": [
+    "sawhorse",
+    "circular_saw"
+  ],
+  "wood1": [
+    "sawhorse",
+    "circular_saw"
+  ],
+  "firewood": [
+    "chopping_spot"
+  ],
+  "wood_wedge": [
+    "chopping_spot"
+  ],
+  "wooden_plank": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2",
+    "circular_saw"
+  ],
+  "oiled_plank": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "trinkets_wood": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "wooden_beam": [
+    "circular_saw"
+  ],
+  "oiled_beam": [
+    "woodworking_workbench_2"
+  ],
+  "wooden_joint": [
+    "woodworking_workbench_2"
+  ],
+  "carved_wood": [
+    "woodworking_workbench_2"
+  ],
+  "chisel_basic": [
+    "woodworking_workbench_2"
+  ],
+  "chisel_iron": [
+    "woodworking_workbench_2"
+  ],
+  "stone_plate_1": [
+    "mf_hammer_0"
+  ],
+  "stone_plate_2": [
+    "mf_hammer_0"
+  ],
+  "stone_plate_3": [
+    "mf_hammer_0"
+  ],
+  "marble_plate_1": [
+    "mf_hammer_0"
+  ],
+  "marble_plate_2": [
+    "mf_hammer_0"
+  ],
+  "marble_plate_3": [
+    "mf_hammer_0"
+  ],
+  "trinkets_stone": [
+    "mf_hammer_0"
+  ],
+  "ceramic_1": [
+    "potter_wheel_1"
+  ],
+  "ceramic_2": [
+    "potter_wheel_1"
+  ],
+  "ceramic_fired_1": [
+    "brick_kiln_1"
+  ],
+  "ceramic_fired_2": [
+    "brick_kiln_1"
+  ],
+  "thread_flax": [
+    "spinning_wheel"
+  ],
+  "frill": [
+    "sewing_table"
+  ],
+  "lead": [
+    "sluice_box"
+  ],
+  "gold_nugget": [
+    "sluice_box",
+    "formulation_bench"
+  ],
+  "bottle_empty": [
+    "furnace_1",
+    "furnace_2"
+  ],
+  "ingot_bronze": [
+    "furnace_1",
+    "furnace_2"
+  ],
+  "ingot_gold": [
+    "furnace_2",
+    "formulation_bench"
+  ],
+  "nails_bronze": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "details_1_bronze": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "reinforced_plank": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "polished_bronze": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "trinkets_bronze": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "bronze_gear": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "nails_iron": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "detail_1_iron": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "reinforced_beam": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "detail_2_iron": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "detail_1_steel": [
+    "steel_anvil"
+  ],
+  "screw_steel": [
+    "steel_anvil"
+  ],
+  "detail_2_steel": [
+    "furnace_2"
+  ],
+  "small_instruments_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "small_instruments_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "small_instruments_3": [
+    "steel_anvil"
+  ],
+  "axe_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "axe_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "axe_3": [
+    "steel_anvil"
+  ],
+  "pickaxe_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "pickaxe_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "pickaxe_3": [
+    "steel_anvil"
+  ],
+  "hammer_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "hammer_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "hammer_3": [
+    "steel_anvil"
+  ],
+  "shovel_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "shovel_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "shovel_3": [
+    "steel_anvil"
+  ],
+  "sword_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "sword_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "sword_3": [
+    "steel_anvil"
+  ],
+  "sword_4": [
+    "steel_anvil"
+  ],
+  "armor_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "armor_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "armor_3": [
+    "steel_anvil"
+  ],
+  "armor_4": [
+    "steel_anvil"
+  ],
+  "pike_0": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "pike_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "pike_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "pike_3": [
+    "steel_anvil"
+  ],
+  "bow_0": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "bow_1": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "bow_2": [
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "bow_3": [
+    "steel_anvil"
+  ],
+  "1h_stone": [
+    "stone_zombie_source_1",
+    "stone_zombie_source_2"
+  ],
+  "1h_marble": [
+    "marble_zombie_source_1",
+    "marble_zombie_source_2"
+  ],
+  "stick": [
+    "sawmill_wood_crafter"
+  ],
+  "iron_ore": [
+    "mine_ore_coal_crafter"
+  ],
+  "coal": [
+    "mine_ore_coal_crafter"
+  ],
+  "gem": [
+    "mine_ore_coal_crafter"
+  ],
+  "clay": [
+    "clay_zombie_crafter"
+  ],
+  "sand": [
+    "sand_zombie_crafter"
+  ],
+  "flour": [
+    "millstone"
+  ],
+  "seed_oil": [
+    "millstone"
+  ],
+  "minced_meat": [
+    "millstone"
+  ],
+  "dough": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "bread": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_smothie": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_yogurt": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_baked_apple": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_baked_mushroom": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "berry_pie": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_muffin": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_croissant": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_carrot_cutlet": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_carrot_soup": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_beet_grated": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_beet_sliced": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_cabbage_bowl:1": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_cabbage_bowl:2": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_cabbage_bowl:3": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_cabbage_soup": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_onion_rings": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_onion_toast": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_pumpkin_soup": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_pumpkin_baked": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_vegetabe_soup": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_vegetable_salad:1": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_vegetable_salad:2": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_vegetable_salad:3": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_baked_meat": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_sandwich": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_burger": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_lasagna": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_soldier_ale": [
+    "brewing_stand"
+  ],
+  "cook_soldier_stew": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "fillet_fish_river": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_fish_nuggets": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_baked_fish": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "fillet_fish_sea": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_fish_soup": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_baked_salmon": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "fillet_fish_myst": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "cook_fisherman_pie": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_kraken_jr": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_golden_carp": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_heavenly_salmon": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "cook_elder_catfish": [
+    "kitchen_oven",
+    "kitchen_oven_t2"
+  ],
+  "apple_juice": [
+    "vine_press"
+  ],
+  "berry_juice": [
+    "vine_press"
+  ],
+  "blue_berry_juice": [
+    "vine_press"
+  ],
+  "grape_juice:1": [
+    "vine_press"
+  ],
+  "grape_juice:2": [
+    "vine_press",
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "grape_juice:3": [
+    "vine_press",
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "apple_cider": [
+    "fermentation_barrel"
+  ],
+  "berry_cider": [
+    "fermentation_barrel"
+  ],
+  "blueberry_cider": [
+    "fermentation_barrel"
+  ],
+  "mead": [
+    "brewing_stand"
+  ],
+  "beer": [
+    "brewing_stand"
+  ],
+  "grape_wine:1": [
+    "wine_barrel"
+  ],
+  "grape_wine:2": [
+    "wine_barrel",
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "grape_wine:3": [
+    "wine_barrel",
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "fertilizer:peat": [
+    "compost_pile_1",
+    "compost_pile_2"
+  ],
+  "fertilizer:start_bonus_1": [
+    "formulation_bench"
+  ],
+  "fertilizer:start_bonus_2": [
+    "formulation_bench"
+  ],
+  "fertilizer:add_cells_2": [
+    "formulation_bench"
+  ],
+  "fertilizer:farming_2": [
+    "formulation_bench"
+  ],
+  "fertilizer:farming_3": [
+    "formulation_bench"
+  ],
+  "fertilizer:farming_5": [
+    "formulation_bench"
+  ],
+  "grave_top_wd_0": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "grave_top_wd_1": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "grave_top_wd_2": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "grave_top_stn_1": [
+    "mf_hammer_0"
+  ],
+  "grave_top_stn_2": [
+    "mf_hammer_0"
+  ],
+  "grave_top_mrb_1": [
+    "mf_hammer_0"
+  ],
+  "grave_top_mrb_2": [
+    "mf_hammer_0"
+  ],
+  "grave_bot_wd_1": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "grave_bot_wd_2": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "grave_bot_stn_1": [
+    "mf_hammer_0"
+  ],
+  "grave_bot_stn_2": [
+    "mf_hammer_0"
+  ],
+  "grave_bot_mrb_1": [
+    "mf_hammer_0"
+  ],
+  "grave_bot_mrb_2": [
+    "mf_hammer_0"
+  ],
+  "prayer_protection:1": [],
+  "prayer_protection:2": [],
+  "prayer_protection:3": [],
+  "prayer_imagination:1": [],
+  "prayer_imagination:2": [],
+  "prayer_imagination:3": [],
+  "prayer_insanity:1": [],
+  "prayer_insanity:2": [],
+  "prayer_insanity:3": [],
+  "prayer_prosperity:1": [],
+  "prayer_prosperity:2": [],
+  "prayer_prosperity:3": [],
+  "prayer_purity:1": [],
+  "prayer_purity:2": [],
+  "prayer_purity:3": [],
+  "prayer_consumption:1": [],
+  "prayer_consumption:2": [],
+  "prayer_consumption:3": [],
+  "prayer_demand:1": [],
+  "prayer_demand:2": [],
+  "prayer_demand:3": [],
+  "prayer_speed": [],
+  "prayer_obedience:1": [],
+  "prayer_obedience:2": [],
+  "prayer_obedience:3": [],
+  "prayer_repentance:1": [],
+  "prayer_repentance:2": [],
+  "prayer_repentance:3": [],
+  "prayer_music": [],
+  "prayer_base:1": [
+    "writing_desk_1"
+  ],
+  "prayer_base:2": [
+    "writing_desk_1"
+  ],
+  "prayer_base:3": [
+    "writing_desk_1"
+  ],
+  "prayer_faith:1": [
+    "writing_desk_1"
+  ],
+  "prayer_faith:2": [
+    "writing_desk_1"
+  ],
+  "prayer_faith:3": [
+    "writing_desk_1"
+  ],
+  "prayer_money:1": [
+    "writing_desk_1"
+  ],
+  "prayer_money:2": [
+    "writing_desk_1"
+  ],
+  "prayer_money:3": [
+    "writing_desk_1"
+  ],
+  "prayer_combo:1": [
+    "writing_desk_1"
+  ],
+  "prayer_combo:2": [
+    "writing_desk_1"
+  ],
+  "prayer_combo:3": [
+    "writing_desk_1"
+  ],
+  "prayer_combat:1": [
+    "writing_desk_1"
+  ],
+  "prayer_combat:2": [
+    "writing_desk_1"
+  ],
+  "prayer_combat:3": [
+    "writing_desk_1"
+  ],
+  "prayer_harvest:1": [
+    "writing_desk_1"
+  ],
+  "prayer_harvest:2": [
+    "writing_desk_1"
+  ],
+  "prayer_harvest:3": [
+    "writing_desk_1"
+  ],
+  "prayer_repose:1": [
+    "writing_desk_1"
+  ],
+  "prayer_repose:2": [
+    "writing_desk_1"
+  ],
+  "prayer_repose:3": [
+    "writing_desk_1"
+  ],
+  "prayer_excellence:1": [
+    "writing_desk_1"
+  ],
+  "prayer_excellence:2": [
+    "writing_desk_1"
+  ],
+  "prayer_excellence:3": [
+    "writing_desk_1"
+  ],
+  "prayer_storms": [
+    "writing_desk_1"
+  ],
+  "prayer_likes:1": [
+    "writing_desk_1"
+  ],
+  "prayer_likes:2": [
+    "writing_desk_1"
+  ],
+  "prayer_likes:3": [
+    "writing_desk_1"
+  ],
+  "prayer_hypno:1": [
+    "writing_desk_1"
+  ],
+  "prayer_hypno:2": [
+    "writing_desk_1"
+  ],
+  "prayer_hypno:3": [
+    "writing_desk_1"
+  ],
+  "prayer_old_god": [
+    "writing_desk_1"
+  ],
+  "candle_basic": [
+    "formulation_bench"
+  ],
+  "candle_advanced": [
+    "formulation_bench"
+  ],
+  "candle_master": [
+    "formulation_bench"
+  ],
+  "incense_basic": [
+    "formulation_bench"
+  ],
+  "incense_advanced": [
+    "formulation_bench"
+  ],
+  "carpet": [
+    "sewing_table"
+  ],
+  "music_notes": [
+    "writing_desk_1"
+  ],
+  "book": [],
+  "book_hard:1": [],
+  "book_hard:2": [],
+  "book_hard:3": [],
+  "newspaper:1": [
+    "newspaper_press"
+  ],
+  "newspaper:2": [
+    "newspaper_press"
+  ],
+  "newspaper:3": [
+    "newspaper_press"
+  ],
+  "skroll_skin_pig": [
+    "writing_desk_1"
+  ],
+  "clean_paper": [
+    "writing_desk_1",
+    "paper_press"
+  ],
+  "paper_liquid": [
+    "formulation_bench"
+  ],
+  "ink": [
+    "writing_desk_1"
+  ],
+  "story:1": [
+    "writing_desk_1"
+  ],
+  "story:2": [
+    "writing_desk_1"
+  ],
+  "story:3": [
+    "writing_desk_1"
+  ],
+  "notebook": [
+    "writing_desk_1"
+  ],
+  "notebook_hard": [
+    "newspaper_press"
+  ],
+  "tool_book_1": [
+    "writing_desk_1"
+  ],
+  "tool_book_2": [
+    "writing_desk_1"
+  ],
+  "tool_book_3": [
+    "newspaper_press"
+  ],
+  "science_kit_1": [
+    "writing_desk_1"
+  ],
+  "science_kit_2": [
+    "writing_desk_1"
+  ],
+  "printed_money": [
+    "newspaper_press"
+  ],
+  "book_poetry": [
+    "newspaper_press"
+  ],
+  "tool_talisman_1": [
+    "jeweler_table"
+  ],
+  "tool_talisman_2": [
+    "jeweler_table"
+  ],
+  "tool_talisman_3": [
+    "jeweler_table"
+  ],
+  "trinkets_gold": [
+    "jeweler_table"
+  ],
+  "jewelry": [
+    "jeweler_table"
+  ],
+  "techbook_r_1": [
+    "newspaper_press"
+  ],
+  "techbook_g_1": [
+    "newspaper_press"
+  ],
+  "techbook_b_1": [
+    "newspaper_press"
+  ],
+  "techbook_r_2": [
+    "newspaper_press"
+  ],
+  "techbook_g_2": [
+    "newspaper_press"
+  ],
+  "techbook_b_2": [
+    "newspaper_press"
+  ],
+  "melted_fat": [
+    "distillation_cube"
+  ],
+  "alcohol": [
+    "distillation_cube"
+  ],
+  "fragrance": [
+    "distillation_cube"
+  ],
+  "urn_ashes_1": [
+    "formulation_bench"
+  ],
+  "urn_ashes_2": [
+    "formulation_bench"
+  ],
+  "tooth": [
+    "formulation_bench"
+  ],
+  "collar_bronze": [
+    "jeweler_table"
+  ],
+  "collar_gold": [
+    "jeweler_table"
+  ],
+  "collar_steel": [
+    "jeweler_table"
+  ],
+  "surgical_kit_1": [
+    "jeweler_table"
+  ],
+  "surgical_kit_2": [
+    "jeweler_table"
+  ],
+  "surgical_kit_3": [
+    "jeweler_table"
+  ],
+  "alchemy_kit_1": [
+    "jeweler_table"
+  ],
+  "alchemy_kit_2": [
+    "jeweler_table"
+  ],
+  "alchemy_kit_3": [
+    "jeweler_table"
+  ],
+  "alchemy_bottle_1": [
+    "furnace_1",
+    "furnace_2"
+  ],
+  "alchemy_bottle_2": [
+    "furnace_1",
+    "furnace_2"
+  ],
+  "alchemy_flask": [
+    "alchemy_flask_1_shed"
+  ],
+  "embalm_white:1": [
+    "formulation_bench"
+  ],
+  "embalm_white:2": [
+    "formulation_bench"
+  ],
+  "embalm_white:3": [
+    "formulation_bench"
+  ],
+  "embalm_red:1": [
+    "formulation_bench"
+  ],
+  "embalm_red:2": [
+    "formulation_bench"
+  ],
+  "embalm_red:3": [
+    "formulation_bench"
+  ],
+  "embalm_white_red:1": [
+    "formulation_bench"
+  ],
+  "embalm_white_red:2": [
+    "formulation_bench"
+  ],
+  "embalm_white_red:3": [
+    "formulation_bench"
+  ],
+  "embalm_red_white:1": [
+    "formulation_bench"
+  ],
+  "embalm_red_white:2": [
+    "formulation_bench"
+  ],
+  "embalm_red_white:3": [
+    "formulation_bench"
+  ],
+  "skin_3_0:3": [
+    "formulation_bench"
+  ],
+  "bones_3_1:3": [
+    "formulation_bench"
+  ],
+  "skull_3_2:3": [
+    "formulation_bench"
+  ],
+  "heart_3_1:3": [
+    "formulation_bench"
+  ],
+  "brain_3_1:3": [
+    "formulation_bench"
+  ],
+  "guts_3_0:3": [
+    "formulation_bench"
+  ],
+  "skin_1_3:3": [
+    "formulation_bench"
+  ],
+  "bones_1_3:3": [
+    "formulation_bench"
+  ],
+  "skull_0_3:3": [
+    "formulation_bench"
+  ],
+  "heart_0_3:3": [
+    "formulation_bench"
+  ],
+  "brain_0_3:3": [
+    "formulation_bench"
+  ],
+  "guts_1_3:3": [
+    "formulation_bench"
+  ],
+  "dynamite": [
+    "formulation_bench"
+  ],
+  "liquid_harden": [],
+  "alkali": [],
+  "lacquer": [],
+  "quest_paint": [],
+  "heal_potion": [],
+  "heal_potion_2": [],
+  "energy_potion": [],
+  "energy_potion_2": [],
+  "energy_potion_3": [],
+  "resurrection_liquid": [],
+  "exp_red_potion_2": [],
+  "exp_green_potion_2": [],
+  "exp_blue_potion_2": [],
+  "exp_orange_potion_2": [],
+  "exp_yellow_potion_2": [],
+  "organ_improver_red": [],
+  "organ_improver_white": [],
+  "quality_items_gold": [],
+  "quality_food_gold": [],
+  "miracle_growing_elixir": [],
+  "ash": [
+    "crematorium_1",
+    "crematorium_2"
+  ],
+  "salt": [
+    "crematorium_1",
+    "crematorium_2"
+  ],
+  "skin_0_0:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "bones_0_0:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "skull_0_0:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "guts_0_0:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "brain_1_0:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "heart_0_1:1": [
+    "autopsy_table_1",
+    "autopsy_table_2"
+  ],
+  "breadcrumb_bite": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "insect_bite": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "ultimate_bite": [
+    "kitchen_table",
+    "kitchen_table_t2"
+  ],
+  "basic_rod": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "amateur_rod": [
+    "woodworking_workbench_1",
+    "woodworking_workbench_2"
+  ],
+  "advanced_rod": [
+    "woodworking_workbench_2"
+  ],
+  "pro_rod": [
+    "woodworking_workbench_2"
+  ],
+  "armor_0": [
+    "conveyor_woodworkbench"
+  ],
+  "intro_prison_medallion": [
+    "base_locked_door_tower"
+  ],
+  "quest_bell": [
+    "wooden_anvil",
+    "iron_anvil",
+    "steel_anvil"
+  ],
+  "hypno_device_charged": [
+    "formulation_bench"
+  ],
+  "hand_prothesis": [
+    "steel_anvil"
+  ],
+  "small_printing_press": [
+    "steel_anvil"
+  ],
+  "hand_prothesis_elegant": [
+    "steel_anvil"
+  ],
+  "trilogy": [
+    "newspaper_press"
+  ],
+  "speech_writing_device": [
+    "steel_anvil"
+  ],
+  "chair_comfortable": [
+    "woodworking_workbench_2"
+  ],
+  "chocolate": [
+    "kitchen_table_t2"
+  ],
+  "drape_luxury": [
+    "sewing_table"
+  ],
+  "powder_dreams": [
+    "alchemy_workbench"
+  ]
+}

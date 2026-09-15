@@ -1,0 +1,189 @@
+[
+  {
+    "money": 500,
+    "afterPayExpr": [],
+    "afterWinExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "needItems": [],
+    "id": "money_price_1"
+  },
+  {
+    "money": 750,
+    "afterPayExpr": [],
+    "afterWinExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "needItems": [],
+    "id": "money_price_2"
+  },
+  {
+    "money": 1000,
+    "afterPayExpr": [],
+    "afterWinExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "needItems": [],
+    "id": "money_price_3"
+  },
+  {
+    "money": 1500,
+    "afterPayExpr": [],
+    "afterWinExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "needItems": [],
+    "id": "money_price_4"
+  },
+  {
+    "money": 2000,
+    "afterPayExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "afterWinExpr": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "needItems": [],
+    "id": "money_price_5"
+  },
+  {
+    "money": 10000,
+    "afterPayExpr": [],
+    "afterWinExpr": [],
+    "needItems": [],
+    "id": "money_price_6"
+  },
+  {
+    "money": 0,
+    "afterPayExpr": [],
+    "afterWinExpr": [],
+    "needItems": [
+      {
+        "id": "grape_wine:3",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "gr_wine",
+            "u_bag",
+            "food_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 3,
+          "qualityType": 1,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [
+            "<max depth reached: ExpressionGameRes>"
+          ],
+          "onUseExpressions": [
+            "<max depth reached: LazyExpression>"
+          ],
+          "onUseSound": "item_use_drink",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": true,
+          "basePrice": 105,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_bottle_red_vine_2",
+          "bagSize": 0,
+          "sortOrder": 171,
+          "talentIds": [],
+          "id": "grape_wine:3",
+          "CanBeUsed": true,
+          "CanBePinnedToHotBar": true,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "grape_wine:3",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "id": "item_price_1"
+  }
+]

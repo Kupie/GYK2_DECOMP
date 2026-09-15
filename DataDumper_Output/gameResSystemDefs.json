@@ -1,0 +1,202 @@
+[
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "energy",
+    "ResId": "energy"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "energy_nedosyp",
+    "ResId": "energy_nedosyp"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnIncrease": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "expressionsOnDecrease": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "id": "insanity",
+    "ResId": "insanity"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "tech_red",
+    "ResId": "tech_red"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "tech_green",
+    "ResId": "tech_green"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "tech_blue",
+    "ResId": "tech_blue"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "happiness",
+    "ResId": "happiness"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "stamina",
+    "ResId": "stamina"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "donkey_body_drop_chance",
+    "ResId": "donkey_body_drop_chance"
+  },
+  {
+    "overrodeResName": "",
+    "start": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "min": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "max": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnIncrease": [],
+    "expressionsOnDecrease": [],
+    "id": "money",
+    "ResId": "money"
+  }
+]

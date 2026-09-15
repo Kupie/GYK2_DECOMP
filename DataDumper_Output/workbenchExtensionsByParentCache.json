@@ -1,0 +1,170 @@
+{
+  "conveyor_assemblybench_t1": [
+    "conveyor_assemblybench_hammer",
+    "conveyor_assemblybench_machine",
+    "conveyor_assemblybench_press",
+    "conveyor_assemblybench_wheel",
+    "conveyor_assemblybench_turning"
+  ],
+  "conveyor_assemblybench_t2": [
+    "conveyor_assemblybench_hammer",
+    "conveyor_assemblybench_machine",
+    "conveyor_assemblybench_press",
+    "conveyor_assemblybench_wheel",
+    "conveyor_assemblybench_turning"
+  ],
+  "conveyor_assemblybench_t3": [
+    "conveyor_assemblybench_hammer",
+    "conveyor_assemblybench_machine",
+    "conveyor_assemblybench_press",
+    "conveyor_assemblybench_wheel",
+    "conveyor_assemblybench_turning"
+  ],
+  "conveyor_furnace_t1": [
+    "conveyor_furnace_bellows",
+    "conveyor_furnace_hammer",
+    "conveyor_furnace_press",
+    "conveyor_furnace_stone"
+  ],
+  "conveyor_furnace_t2": [
+    "conveyor_furnace_bellows",
+    "conveyor_furnace_hammer",
+    "conveyor_furnace_press",
+    "conveyor_furnace_stone"
+  ],
+  "conveyor_kitchen_t1": [
+    "conveyor_kitchen_stove",
+    "conveyor_kitchen_conservat",
+    "conveyor_kitchen_millstone"
+  ],
+  "conveyor_kitchen_t2": [
+    "conveyor_kitchen_stove",
+    "conveyor_kitchen_conservat",
+    "conveyor_kitchen_millstone"
+  ],
+  "woodworking_workbench_1": [
+    "tool_rack",
+    "tool_rack_fine"
+  ],
+  "woodworking_workbench_2": [
+    "tool_rack",
+    "tool_rack_fine"
+  ],
+  "furnace_1": [
+    "furnace_bellows_1",
+    "furnace_casting_table_1"
+  ],
+  "furnace_2": [
+    "furnace_bellows_1",
+    "furnace_casting_table_1"
+  ],
+  "wooden_anvil": [
+    "bucket_anvil"
+  ],
+  "iron_anvil": [
+    "bucket_anvil"
+  ],
+  "steel_anvil": [
+    "bucket_anvil"
+  ],
+  "mf_hammer_0": [
+    "tool_rack",
+    "tool_rack_fine"
+  ],
+  "garden_empty_place": [
+    "garden_tablet_beet",
+    "garden_tablet_wheat",
+    "garden_tablet_cabbage",
+    "garden_tablet_carrot",
+    "garden_tablet_pumpkin",
+    "garden_tablet_onion",
+    "garden_tablet_flax"
+  ],
+  "garden_empty": [
+    "garden_tablet_beet",
+    "garden_tablet_wheat",
+    "garden_tablet_cabbage",
+    "garden_tablet_carrot",
+    "garden_tablet_pumpkin",
+    "garden_tablet_onion",
+    "garden_tablet_flax"
+  ],
+  "vineyard_empty_place": [
+    "garden_tablet_grape",
+    "garden_tablet_hop"
+  ],
+  "vineyard_empty": [
+    "garden_tablet_grape",
+    "garden_tablet_hop"
+  ],
+  "garden_wheat": [
+    "garden_tablet_wheat"
+  ],
+  "garden_wheat_ready": [
+    "garden_tablet_wheat"
+  ],
+  "garden_carrot": [
+    "garden_tablet_carrot"
+  ],
+  "garden_carrot_ready": [
+    "garden_tablet_carrot"
+  ],
+  "garden_linum": [
+    "garden_tablet_flax"
+  ],
+  "garden_linum_ready": [
+    "garden_tablet_flax"
+  ],
+  "garden_beet": [
+    "garden_tablet_beet"
+  ],
+  "garden_beet_ready": [
+    "garden_tablet_beet"
+  ],
+  "garden_cabbage": [
+    "garden_tablet_cabbage"
+  ],
+  "garden_cabbage_ready": [
+    "garden_tablet_cabbage"
+  ],
+  "garden_onion": [
+    "garden_tablet_onion"
+  ],
+  "garden_onion_ready": [
+    "garden_tablet_onion"
+  ],
+  "garden_pumpkin": [
+    "garden_tablet_pumpkin"
+  ],
+  "garden_pumpkin_ready": [
+    "garden_tablet_pumpkin"
+  ],
+  "garden_hop": [
+    "garden_tablet_hop"
+  ],
+  "garden_hop_ready": [
+    "garden_tablet_hop"
+  ],
+  "garden_grapes": [
+    "garden_tablet_grape"
+  ],
+  "garden_grapes_ready": [
+    "garden_tablet_grape"
+  ],
+  "alchemy_mix": [
+    "tool_grind",
+    "tool_mix"
+  ],
+  "alchemy_mix_2": [
+    "tool_grind",
+    "tool_mix"
+  ],
+  "alchemy_mix_3": [
+    "tool_grind",
+    "tool_mix"
+  ],
+  "alchemy_workbench": [
+    "tool_grind",
+    "tool_mix"
+  ]
+}

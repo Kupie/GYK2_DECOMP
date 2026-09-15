@@ -1,0 +1,1362 @@
+[
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "knockbackForce": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 1.0,
+    "mvtAcceleration": 1.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "soldier_le_test",
+    "HasKnockback": true
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "retDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "knockbackForce": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "mvtSpeed": 1.0,
+    "mvtAcceleration": 2.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "soldier_pure_test",
+    "HasKnockback": true
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.4,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_town_barracks_mercenary_1",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.4,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_town_barracks_mercenary_2",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.4,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_town_barracks_mercenary_3",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.4,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_town_barracks_mercenary_4",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.4,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_wild_mob_allie",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_wild_mob",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_wild_mob_door",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_bucket",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_barrel",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 1.5,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_stump",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_stinker",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_spitter",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.8,
+    "mvtAcceleration": 5.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "zmb_mob_barreltorso",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "tower_1_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "tower_2_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "tower_3_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_1_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_2_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_3_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_spike_1_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_spike_2_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_spike_3_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_wall_1_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_wall_2_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_wall_3_fight",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_01",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_02",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_03",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_04",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_05",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkRange": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 2.0,
+    "mvtAcceleration": 10.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "npc_city_guards_fight_06",
+    "HasKnockback": false
+  },
+  {
+    "hp": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "atkDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkRange": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "atkPause": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "armor": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "retDamage": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "knockbackForce": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "mvtSpeed": 0.0,
+    "mvtAcceleration": 0.0,
+    "killXp": 0,
+    "targetFilterDockPointTag": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "expressionsOnCombatDeath": [],
+    "id": "barricade_ev_3_2",
+    "HasKnockback": false
+  }
+]

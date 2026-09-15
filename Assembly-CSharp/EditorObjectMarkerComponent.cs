@@ -1,0 +1,8 @@
+﻿using System;
+using UnityEngine;
+
+// Token: 0x02000AB8 RID: 2744
+[ExecuteInEditMode]
+public class EditorObjectMarkerComponent : MonoBehaviour
+{
+}

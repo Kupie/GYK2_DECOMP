@@ -1,0 +1,344 @@
+[
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 1,
+    "playStation4Id": 1,
+    "playStation5Id": 1,
+    "id": "ach_new_beginning",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 2,
+    "playStation4Id": 2,
+    "playStation5Id": 2,
+    "id": "ach_two_faces",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 3,
+    "playStation4Id": 3,
+    "playStation5Id": 3,
+    "id": "ach_jack_in_town",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 4,
+    "playStation4Id": 4,
+    "playStation5Id": 4,
+    "id": "ach_call_fairy",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 5,
+    "playStation4Id": 5,
+    "playStation5Id": 5,
+    "id": "ach_win_battle",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 6,
+    "playStation4Id": 6,
+    "playStation5Id": 6,
+    "id": "ach_sermon",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 7,
+    "playStation4Id": 7,
+    "playStation5Id": 7,
+    "id": "ach_gunter",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 8,
+    "playStation4Id": 8,
+    "playStation5Id": 8,
+    "id": "ach_recover_house",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 9,
+    "playStation4Id": 9,
+    "playStation5Id": 9,
+    "id": "ach_first_town_order",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 10,
+    "playStation4Id": 10,
+    "playStation5Id": 10,
+    "id": "ach_clear_town_a",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 11,
+    "playStation4Id": 11,
+    "playStation5Id": 11,
+    "id": "ach_met_bandits",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 12,
+    "playStation4Id": 12,
+    "playStation5Id": 12,
+    "id": "ach_linda_concert",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 13,
+    "playStation4Id": 13,
+    "playStation5Id": 13,
+    "id": "ach_necronomicon",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 14,
+    "playStation4Id": 14,
+    "playStation5Id": 14,
+    "id": "ach_election",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 15,
+    "playStation4Id": 15,
+    "playStation5Id": 15,
+    "id": "ach_agatha_herbert",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 16,
+    "playStation4Id": 16,
+    "playStation5Id": 16,
+    "id": "ach_jack_gunter",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 17,
+    "playStation4Id": 17,
+    "playStation5Id": 17,
+    "id": "ach_linda_albert",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 18,
+    "playStation4Id": 18,
+    "playStation5Id": 18,
+    "id": "ach_old_god",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 19,
+    "playStation4Id": 19,
+    "playStation5Id": 19,
+    "id": "ach_alt_keeper",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 20,
+    "playStation4Id": 20,
+    "playStation5Id": 20,
+    "id": "ach_the_end",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "tree_cut",
+    "counter": 100,
+    "xboxId": 21,
+    "playStation4Id": 21,
+    "playStation5Id": 21,
+    "id": "ach_cut_trees",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "corpse_buried",
+    "counter": 50,
+    "xboxId": 22,
+    "playStation4Id": 22,
+    "playStation5Id": 22,
+    "id": "ach_bury_bodies",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "market_stall_built",
+    "counter": 11,
+    "xboxId": 23,
+    "playStation4Id": 23,
+    "playStation5Id": 23,
+    "id": "ach_build_market_stalls",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "house_built",
+    "counter": 15,
+    "xboxId": 24,
+    "playStation4Id": 24,
+    "playStation5Id": 24,
+    "id": "ach_biuld_houses",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "",
+    "counter": 1,
+    "xboxId": 25,
+    "playStation4Id": 25,
+    "playStation5Id": 25,
+    "id": "ach_graveyard_quality_200",
+    "AchievementType": 0
+  },
+  {
+    "countTrigger": "bronze_ingot_done",
+    "counter": 100,
+    "xboxId": 26,
+    "playStation4Id": 26,
+    "playStation5Id": 26,
+    "id": "ach_bronze_ingots_100",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "iron_ingot_done",
+    "counter": 100,
+    "xboxId": 27,
+    "playStation4Id": 27,
+    "playStation5Id": 27,
+    "id": "ach_iron_ingots_100",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "supply_done",
+    "counter": 50,
+    "xboxId": 28,
+    "playStation4Id": 28,
+    "playStation5Id": 28,
+    "id": "ach_supplies_50",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "order_done",
+    "counter": 25,
+    "xboxId": 29,
+    "playStation4Id": 29,
+    "playStation5Id": 29,
+    "id": "ach_orders_25",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "war_equipment_done",
+    "counter": 50,
+    "xboxId": 30,
+    "playStation4Id": 30,
+    "playStation5Id": 30,
+    "id": "ach_war_equipment_50",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "food_done",
+    "counter": 100,
+    "xboxId": 31,
+    "playStation4Id": 31,
+    "playStation5Id": 31,
+    "id": "ach_cook_100",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "resurrection_done",
+    "counter": 50,
+    "xboxId": 32,
+    "playStation4Id": 32,
+    "playStation5Id": 32,
+    "id": "ach_resurrect_50",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "harvested",
+    "counter": 100,
+    "xboxId": 33,
+    "playStation4Id": 33,
+    "playStation5Id": 33,
+    "id": "ach_harvest_100",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "alcohol_done",
+    "counter": 100,
+    "xboxId": 34,
+    "playStation4Id": 34,
+    "playStation5Id": 34,
+    "id": "ach_alcohol_100",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "sermon_done",
+    "counter": 50,
+    "xboxId": 35,
+    "playStation4Id": 35,
+    "playStation5Id": 35,
+    "id": "ach_sermon_50",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "inspiration_unlocked",
+    "counter": 150,
+    "xboxId": 36,
+    "playStation4Id": 36,
+    "playStation5Id": 36,
+    "id": "ach_inspirations_150",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "pot_done",
+    "counter": 25,
+    "xboxId": 37,
+    "playStation4Id": 37,
+    "playStation5Id": 37,
+    "id": "ach_alchemist_25",
+    "AchievementType": 1
+  },
+  {
+    "countTrigger": "fish_caught",
+    "counter": 50,
+    "xboxId": 38,
+    "playStation4Id": 38,
+    "playStation5Id": 38,
+    "id": "ach_catch_fish_50",
+    "AchievementType": 1
+  }
+]

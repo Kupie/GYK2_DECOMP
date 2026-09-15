@@ -1,0 +1,483 @@
+{
+  "mix:blood:leaf": {
+    "skipQueue": false,
+    "isAddToQueueDisabled": false,
+    "bronzeLevel": 0,
+    "silverLevel": 0,
+    "goldLevel": 0,
+    "isNeedsUnlock": true,
+    "isOneTimeCraft": false,
+    "isForcedDifficultCraft": false,
+    "isObjDestroyCraft": false,
+    "isMulticraftDisabled": false,
+    "doNotShowInTooltips": false,
+    "isConveyorCraft": false,
+    "tabId": "powder_dreams",
+    "customItemTypeAction": 10,
+    "transferDestinationStart": 0,
+    "destinationItemStart": "",
+    "transferDestinationEnd": 0,
+    "destinationItemEnd": "",
+    "transferNeedsToDestinationOnStart": false,
+    "transferNeedsToDestinationOnFinish": false,
+    "needItemsDurabilityUse": 0.0,
+    "needItemsDurabilityUseIndex": -1,
+    "durabilityUseItem": {
+      "id": "",
+      "count": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "groupType": 0,
+      "ItemDef": null,
+      "Id": "",
+      "IsEmpty": true,
+      "IsGroup": false
+    },
+    "hasDurabilityUseItem": false,
+    "dropFromWgoItemsStart": [],
+    "dropFromWgoItemsEnd": [],
+    "autopsyTypeCraft": 0,
+    "autopsyItemId": "",
+    "removeItemsFromWgo": [],
+    "techRed": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "techGreen": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "techBlue": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "replaceWgoId": "",
+    "transferDataOnReplace": false,
+    "executeOnReplace": [],
+    "worldFxOnReplace": "",
+    "globalScriptOnCraftEnd": "",
+    "customCraftResultIcon": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "iconId": "i_scroll_white_3",
+    "onCraftAddQueueExpressions": [],
+    "onCraftStartExpressions": [],
+    "onCraftEndExpressions": [],
+    "gameresPerSuccessfulProgress": [],
+    "zombieSpeedItemModificators": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "craftsIn": [
+      "alchemy_workbench"
+    ],
+    "extensionNeedId": null,
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [
+      {
+        "id": "leaf",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "u_bag",
+            "crop",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_crop_waste",
+          "bagSize": 0,
+          "sortOrder": 255,
+          "talentIds": [],
+          "id": "leaf",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "leaf",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "blood",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "bodypart",
+            "gr_blood",
+            "u_bag",
+            "alch_bag"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": true,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 1,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": false,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_blood",
+          "bagSize": 0,
+          "sortOrder": 605,
+          "talentIds": [],
+          "id": "blood",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "blood",
+        "IsEmpty": false,
+        "IsGroup": false
+      },
+      {
+        "id": "alchemy_flask",
+        "count": {
+          "HasExpression": true,
+          "HasPureValue": true
+        },
+        "groupType": 0,
+        "ItemDef": {
+          "itemGroupIds": [
+            "fuel"
+          ],
+          "stackCount": 999,
+          "type": 0,
+          "itemSize": 1,
+          "inventorySize": 0,
+          "quality": 0,
+          "qualityType": 0,
+          "qualityIcon": "",
+          "talentBonus": 0,
+          "talentType": "",
+          "talentValue": 0,
+          "canBeUsed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "stayOnUse": false,
+          "gameResOnUse": [],
+          "onUseExpressions": [],
+          "onUseSound": "",
+          "canNotBeDestroyed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "hasDurability": false,
+          "durDecreaseOnUse": 0.0,
+          "canBeUsedInAlchemy": false,
+          "runesRed": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesGreen": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "runesBlue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "onDropCollected": [],
+          "isLinkedToWgo": false,
+          "redSkulls": 0,
+          "whiteSkulls": 0,
+          "bodyLinkedPerk": "",
+          "redSkullsMinCollar": -2147483648,
+          "redSkullsMaxCollar": -2147483648,
+          "whiteSkullsMinCollar": -2147483648,
+          "whiteSkullsMaxCollar": -2147483648,
+          "isProduct": false,
+          "basePrice": 0,
+          "isStaticCost": false,
+          "bagItemGroups": [],
+          "bagSizeX": 0,
+          "bagSizeY": 0,
+          "staminaCost": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "damage": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "atkRange": 0.0,
+          "atkPause": 0.0,
+          "knockbackForce": 0.0,
+          "dockPointTag": 0,
+          "expressionsOnSell": [],
+          "expressionsOnBuy": [],
+          "isBag": false,
+          "isSeed": false,
+          "isFertilizer": false,
+          "isBattlePotion": false,
+          "isTechPoint": false,
+          "isTool": false,
+          "isWeapon": false,
+          "isFuel": true,
+          "isMainOrgan": false,
+          "isOrganMistake": false,
+          "iconId": "i_flask_acid",
+          "bagSize": 0,
+          "sortOrder": 3,
+          "talentIds": [],
+          "id": "alchemy_flask",
+          "CanBeUsed": false,
+          "CanBePinnedToHotBar": false,
+          "CanNotBeDestroyed": false,
+          "IsAnimationDrivenTool": true
+        },
+        "Id": "alchemy_flask",
+        "IsEmpty": false,
+        "IsGroup": false
+      }
+    ],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": true,
+      "HasPureValue": true
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 0,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [
+        {
+          "id": "powder_dreams",
+          "outputGroupId": null,
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "mix:blood:leaf",
+    "IsMultipleCraftsDisabled": false,
+    "AutopsyType": 0,
+    "Description": "default_alchemy_craft_d",
+    "FuelItemDef": null
+  }
+}

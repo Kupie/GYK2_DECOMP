@@ -1,0 +1,307 @@
+{
+  "build_area_cows_place": [
+    "cow_test"
+  ],
+  "morgue_place": [
+    "test_chest",
+    "autopsy_table_1",
+    "autopsy_table_1_place",
+    "autopsy_table_2",
+    "autopsy_table_2_place",
+    "tool_drainage",
+    "tool_surgeon",
+    "pallet_corpse_1_place",
+    "pallet_corpse_2_place",
+    "embalm_table_1",
+    "embalm_table_1_place",
+    "embalm_table_2",
+    "embalm_table_2_place",
+    "tool_embalm"
+  ],
+  "yard_place": [
+    "wood_container",
+    "sawhorse",
+    "sawhorse_place",
+    "chopping_spot",
+    "chopping_spot_place",
+    "woodworking_workbench_1",
+    "woodworking_workbench_1_place",
+    "woodworking_workbench_2",
+    "woodworking_workbench_2_place",
+    "circular_saw",
+    "circular_saw_place",
+    "wooden_anvil_place",
+    "iron_anvil",
+    "iron_anvil_place",
+    "steel_anvil",
+    "steel_anvil_place",
+    "firewood_shed_1_place",
+    "firewood_shed_2_place",
+    "furnace_1",
+    "furnace_1_place",
+    "furnace_2",
+    "furnace_2_place",
+    "mf_hammer_0",
+    "mf_hammer_0_place",
+    "potter_wheel_1",
+    "potter_wheel_1_place",
+    "brick_kiln_1",
+    "brick_kiln_1_place",
+    "sluice_box",
+    "sluice_box_place",
+    "tool_rack",
+    "tool_rack_fine",
+    "bucket_anvil",
+    "spinning_wheel_place",
+    "weaving_loom_place",
+    "sewing_table_place"
+  ],
+  "furnace_bellows_area": [
+    "furnace_bellows_1"
+  ],
+  "furnace_casting_table_area": [
+    "furnace_casting_table_1"
+  ],
+  "writing_basement_area": [
+    "jeweler_table_place",
+    "writing_desk_1",
+    "writing_desk_1_place",
+    "bookshelf_1",
+    "bookshelf_1",
+    "paper_press",
+    "paper_press_place",
+    "newspaper_press",
+    "newspaper_press_place"
+  ],
+  "conveyor_place": [
+    "conveyor_cell",
+    "conveyor_splitter",
+    "conveyor_cell_underground",
+    "conveyor_cell_station",
+    "conveyor_chest",
+    "conveyor_chest_t1",
+    "conveyor_chest_t1_place",
+    "conveyor_chest_t2",
+    "conveyor_chest_t2_place",
+    "conveyor_assemblybench_t1",
+    "conveyor_assemblybench_t1_place",
+    "conveyor_assemblybench_t2",
+    "conveyor_assemblybench_t2_place",
+    "conveyor_assemblybench_t3",
+    "conveyor_assemblybench_t3_place",
+    "conveyor_furnace_t1",
+    "conveyor_furnace_t1_place",
+    "conveyor_furnace_t2",
+    "conveyor_furnace_t2_place",
+    "conveyor_bioreactor",
+    "conveyor_bioreactor_place",
+    "conveyor_kitchen_t1",
+    "conveyor_kitchen_t1_place",
+    "conveyor_kitchen_t2",
+    "conveyor_kitchen_t2_place",
+    "zombie_conveyor_transporter_station"
+  ],
+  "zombie_carousel_place": [
+    "zombie_carousel",
+    "zombie_carousel_place"
+  ],
+  "assemblybench_small": [
+    "conveyor_assemblybench_hammer",
+    "conveyor_assemblybench_wheel"
+  ],
+  "assemblybench_big": [
+    "conveyor_assemblybench_press",
+    "conveyor_assemblybench_machine",
+    "conveyor_assemblybench_turning"
+  ],
+  "furnace_big": [
+    "conveyor_furnace_hammer",
+    "conveyor_furnace_press",
+    "conveyor_furnace_stone"
+  ],
+  "furnace_small": [
+    "conveyor_furnace_bellows"
+  ],
+  "kitchen_small": [
+    "conveyor_kitchen_millstone",
+    "conveyor_kitchen_conservat"
+  ],
+  "kitchen_big": [
+    "conveyor_kitchen_stove"
+  ],
+  "conveyor_storage_place": [
+    "conveyor_storage_t1",
+    "conveyor_storage_t1_place"
+  ],
+  "conveyor_starge_upgrade": [
+    "conveyor_storage_upgrade"
+  ],
+  "bench_place": [
+    "bench_1_place",
+    "bench_2_place",
+    "bench_3_place"
+  ],
+  "church_place": [
+    "candle_1",
+    "candle_2",
+    "candle_3",
+    "candle_stand_1",
+    "candle_stand_2"
+  ],
+  "confession_place": [
+    "confession_1_place",
+    "confession_2_place",
+    "confession_3_place"
+  ],
+  "incense_place": [
+    "incense_1",
+    "incense_2",
+    "incense_3"
+  ],
+  "altar_place": [
+    "altar_1_place",
+    "altar_2_place",
+    "altar_3_place"
+  ],
+  "temple_graveyard_module_place_area": [
+    "graveyard_module_grave_1",
+    "graveyard_module_grave_2",
+    "graveyard_module_grave_3",
+    "graveyard_module_grave_4",
+    "graveyard_module_alley_1",
+    "graveyard_module_alley_2",
+    "graveyard_module_columbarium_1",
+    "graveyard_module_columbarium_2",
+    "graveyard_module_mixed_1",
+    "graveyard_module_mixed_2",
+    "graveyard_module_mixed_3"
+  ],
+  "temple_graveyard_module_area_grave": [
+    "grave_empty_place"
+  ],
+  "temple_graveyard_module_area_bench": [
+    "graveyard_bench_1_place",
+    "graveyard_bench_2_place",
+    "graveyard_bench_3_place"
+  ],
+  "temple_graveyard_module_area_monument": [
+    "graveyard_monument_0_place",
+    "graveyard_monument_1_place",
+    "graveyard_monument_2_place"
+  ],
+  "temple_graveyard_module_area_flowerbed": [
+    "graveyard_flowerbed_1_place",
+    "graveyard_flowerbed_2_place",
+    "graveyard_flowerbed_3_place"
+  ],
+  "temple_graveyard_module_area_lantern": [
+    "graveyard_lantern_1",
+    "graveyard_lantern_2"
+  ],
+  "temple_graveyard_module_area_columbarium": [
+    "graveyard_columbarium_1_place",
+    "graveyard_columbarium_2_place",
+    "graveyard_crypt_place"
+  ],
+  "alchemy_lab_place": [
+    "survey_wgo",
+    "survey_table",
+    "alchemy_recipe_book",
+    "alchemy_mix",
+    "alchemy_mix_place",
+    "alchemy_mix_2",
+    "alchemy_mix_2_place",
+    "alchemy_mix_3",
+    "tool_mix",
+    "tool_grind",
+    "alchemy_workbench",
+    "alchemy_scroll_closet",
+    "alchemy_flask_1_shed",
+    "alchemy_flask_1_shed_place",
+    "distillation_cube",
+    "distillation_cube_place"
+  ],
+  "resurrection_table_place": [
+    "resurrection_table_1",
+    "resurrection_table_1_place"
+  ],
+  "garden_beds_place": [
+    "garden_empty_place"
+  ],
+  "garden_garden_crafter_place": [
+    "garden_crafter"
+  ],
+  "garden_tablet_place": [
+    "garden_tablet_beet",
+    "garden_tablet_wheat",
+    "garden_tablet_cabbage",
+    "garden_tablet_carrot",
+    "garden_tablet_pumpkin",
+    "garden_tablet_onion",
+    "garden_tablet_flax"
+  ],
+  "garden_extension_trees_bushes_place_area": [
+    "garden_extension_trees_bushes"
+  ],
+  "garden_tree_bush": [
+    "tree_apple_clr1_xxs",
+    "bush_ashberry_clr1_xxs",
+    "bush_rhodod_clr1_xxs",
+    "bush_blueberry_clr1_xxs"
+  ],
+  "vineyard_beds_place": [
+    "vineyard_empty_place"
+  ],
+  "vineyard_hives_place": [
+    "honey_home_empty_place"
+  ],
+  "vineyard_crafter_place": [
+    "vineyard_crafter"
+  ],
+  "vineyard_tablet_place": [
+    "garden_tablet_hop",
+    "garden_tablet_grape"
+  ],
+  "town_guard_barracks_module_area": [
+    "barricade_1_pre",
+    "barricade_2_pre",
+    "barricade_3_pre",
+    "barricade_spike_1_pre",
+    "barricade_spike_2_pre",
+    "barricade_spike_3_pre",
+    "barricade_wall_1_pre",
+    "barricade_wall_2_pre",
+    "barricade_wall_3_pre",
+    "tower_1_pre",
+    "tower_2_pre",
+    "tower_3_pre"
+  ],
+  "fighting_barricade_place": [
+    "barricade_1_fight",
+    "barricade_2_fight",
+    "barricade_3_fight",
+    "barricade_spike_1_fight",
+    "barricade_spike_2_fight",
+    "barricade_spike_3_fight",
+    "barricade_wall_1_fight",
+    "barricade_wall_2_fight",
+    "barricade_wall_3_fight"
+  ],
+  "fighting_tower_place": [
+    "tower_1_fight",
+    "tower_2_fight",
+    "tower_3_fight"
+  ],
+  "sawmill_place_1": [
+    "sawmill_wood_crafter"
+  ],
+  "sawmill_place_2": [
+    "sawmill_wood_container_place"
+  ],
+  "sawmill_place_3": [
+    "sawmill_chest"
+  ],
+  "mine_bench_place": [
+    "mine_ore_coal_crafter"
+  ]
+}

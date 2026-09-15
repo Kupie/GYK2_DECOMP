@@ -1,0 +1,373 @@
+[
+  {
+    "id": "town_buy_k",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.5,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_1",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 1.0,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_2",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.8,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_3",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.5,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_happiness_1",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.6,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_happiness_2",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.3,
+    "StringValue": ""
+  },
+  {
+    "id": "product_group_happiness_3",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.1,
+    "StringValue": ""
+  },
+  {
+    "id": "new_game_start_quest",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.0,
+    "StringValue": "new_game"
+  },
+  {
+    "id": "zombie_craft_sub_ticks_count",
+    "BoolValue": false,
+    "IntValue": 10,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "zombie_caretaker_picking_up_time",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.0,
+    "StringValue": "2"
+  },
+  {
+    "id": "conveyor_system_update_interval",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 2.0,
+    "StringValue": ""
+  },
+  {
+    "id": "base_parishioner_crit_power",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.5,
+    "StringValue": ""
+  },
+  {
+    "id": "player_hp",
+    "BoolValue": false,
+    "IntValue": 100,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "max_cells_per_one_hit",
+    "BoolValue": false,
+    "IntValue": 3,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "energy_craft_border_1",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 2.0,
+    "StringValue": ""
+  },
+  {
+    "id": "energy_craft_border_2",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 3.0,
+    "StringValue": ""
+  },
+  {
+    "id": "insanity_craft_border_1",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.5,
+    "StringValue": ""
+  },
+  {
+    "id": "insanity_craft_border_2",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.75,
+    "StringValue": ""
+  },
+  {
+    "id": "stamina_regeneration",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 40.0,
+    "StringValue": ""
+  },
+  {
+    "id": "stamina_regeneration_stance",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 70.0,
+    "StringValue": ""
+  },
+  {
+    "id": "stamina_regeneration_delay",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.65,
+    "StringValue": ""
+  },
+  {
+    "id": "start_citizens_count",
+    "BoolValue": false,
+    "IntValue": 20,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "start_orders_count",
+    "BoolValue": false,
+    "IntValue": 2,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "corpse_auto_destroy_timer",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 4500.0,
+    "StringValue": ""
+  },
+  {
+    "id": "donkey_drop_chance_reduce_after_success",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 15.0,
+    "StringValue": ""
+  },
+  {
+    "id": "donkey_drop_chance_increase_after_fail",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 50.0,
+    "StringValue": ""
+  },
+  {
+    "id": "donkey_drop_chance_increase_after_skip",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 5.0,
+    "StringValue": ""
+  },
+  {
+    "id": "donkey_drop_additional",
+    "BoolValue": false,
+    "IntValue": 1,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "nun_many_drop_chance_reduce_after_success",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 5.0,
+    "StringValue": ""
+  },
+  {
+    "id": "nun_many_drop_chance_increase_after_fail",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 85.0,
+    "StringValue": ""
+  },
+  {
+    "id": "nun_many_drop_chance_increase_after_skip",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 15.0,
+    "StringValue": ""
+  },
+  {
+    "id": "spawn_distance",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 5.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_gluttony",
+    "BoolValue": false,
+    "IntValue": 1,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_sloth",
+    "BoolValue": false,
+    "IntValue": 2,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_lust",
+    "BoolValue": false,
+    "IntValue": 3,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_envy",
+    "BoolValue": false,
+    "IntValue": 4,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_pride",
+    "BoolValue": false,
+    "IntValue": 5,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "day_wrath",
+    "BoolValue": false,
+    "IntValue": 6,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "g_garden_autocraft_dec",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "g_garden_farming_base",
+    "BoolValue": false,
+    "IntValue": 2,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "g_garden_fertilizer_slots",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "g_vineyard_farming_base",
+    "BoolValue": false,
+    "IntValue": 6,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "g_vineyard_autocraft_dec",
+    "BoolValue": false,
+    "IntValue": 0,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "special_wood_cost_x1",
+    "BoolValue": false,
+    "IntValue": 100,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "special_wood_cost_x10",
+    "BoolValue": false,
+    "IntValue": 1000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "special_wood_cost_x50",
+    "BoolValue": false,
+    "IntValue": 5000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "special_wood_cost_x100",
+    "BoolValue": false,
+    "IntValue": 10000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "steel_cost_x1",
+    "BoolValue": false,
+    "IntValue": 100,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "steel_cost_x10",
+    "BoolValue": false,
+    "IntValue": 1000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "steel_cost_x50",
+    "BoolValue": false,
+    "IntValue": 5000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "steel_cost_x100",
+    "BoolValue": false,
+    "IntValue": 10000,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "church_choir_default_quality",
+    "BoolValue": false,
+    "IntValue": 1,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  },
+  {
+    "id": "church_organ_default_quality",
+    "BoolValue": false,
+    "IntValue": 5,
+    "FloatValue": 0.0,
+    "StringValue": ""
+  }
+]

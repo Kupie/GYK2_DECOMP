@@ -1,0 +1,542 @@
+{
+  "ItemDef": [
+    {
+      "skipQueue": false,
+      "isAddToQueueDisabled": false,
+      "bronzeLevel": 0,
+      "silverLevel": 0,
+      "goldLevel": 0,
+      "isNeedsUnlock": true,
+      "isOneTimeCraft": false,
+      "isForcedDifficultCraft": false,
+      "isObjDestroyCraft": false,
+      "isMulticraftDisabled": false,
+      "doNotShowInTooltips": false,
+      "isConveyorCraft": false,
+      "tabId": "",
+      "customItemTypeAction": 0,
+      "transferDestinationStart": 0,
+      "destinationItemStart": "",
+      "transferDestinationEnd": 0,
+      "destinationItemEnd": "",
+      "transferNeedsToDestinationOnStart": false,
+      "transferNeedsToDestinationOnFinish": false,
+      "needItemsDurabilityUse": 0.0,
+      "needItemsDurabilityUseIndex": -1,
+      "durabilityUseItem": {
+        "id": "",
+        "count": {
+          "HasExpression": false,
+          "HasPureValue": false
+        },
+        "groupType": 0,
+        "ItemDef": null,
+        "Id": "",
+        "IsEmpty": true,
+        "IsGroup": false
+      },
+      "hasDurabilityUseItem": false,
+      "dropFromWgoItemsStart": [],
+      "dropFromWgoItemsEnd": [],
+      "autopsyTypeCraft": 0,
+      "autopsyItemId": "",
+      "removeItemsFromWgo": [],
+      "techRed": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "techGreen": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "techBlue": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "replaceWgoId": "",
+      "transferDataOnReplace": false,
+      "executeOnReplace": [],
+      "worldFxOnReplace": "",
+      "globalScriptOnCraftEnd": "",
+      "customCraftResultIcon": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "iconId": "",
+      "onCraftAddQueueExpressions": [],
+      "onCraftStartExpressions": [],
+      "onCraftEndExpressions": [],
+      "gameresPerSuccessfulProgress": [],
+      "zombieSpeedItemModificators": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "craftsIn": [
+        "millstone"
+      ],
+      "extensionNeedId": "",
+      "isAuto": false,
+      "isHidden": false,
+      "needItems": [
+        {
+          "id": "flax_seed",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "groupType": 0,
+          "ItemDef": {
+            "itemGroupIds": "<max depth reached: List`1>",
+            "stackCount": 999,
+            "type": 0,
+            "itemSize": 1,
+            "inventorySize": 0,
+            "quality": 0,
+            "qualityType": 0,
+            "qualityIcon": "",
+            "talentBonus": 0,
+            "talentType": "talent_green",
+            "talentValue": 5,
+            "canBeUsed": "<max depth reached: LazyExpression>",
+            "stayOnUse": false,
+            "gameResOnUse": "<max depth reached: List`1>",
+            "onUseExpressions": "<max depth reached: List`1>",
+            "onUseSound": "",
+            "canNotBeDestroyed": "<max depth reached: LazyExpression>",
+            "hasDurability": false,
+            "durDecreaseOnUse": 0.0,
+            "canBeUsedInAlchemy": false,
+            "runesRed": "<max depth reached: LazyExpression>",
+            "runesGreen": "<max depth reached: LazyExpression>",
+            "runesBlue": "<max depth reached: LazyExpression>",
+            "onDropCollected": "<max depth reached: List`1>",
+            "isLinkedToWgo": false,
+            "redSkulls": 0,
+            "whiteSkulls": 0,
+            "bodyLinkedPerk": "",
+            "redSkullsMinCollar": -2147483648,
+            "redSkullsMaxCollar": -2147483648,
+            "whiteSkullsMinCollar": -2147483648,
+            "whiteSkullsMaxCollar": -2147483648,
+            "isProduct": true,
+            "basePrice": 4,
+            "isStaticCost": false,
+            "bagItemGroups": "<max depth reached: List`1>",
+            "bagSizeX": 0,
+            "bagSizeY": 0,
+            "staminaCost": "<max depth reached: LazyExpression>",
+            "damage": "<max depth reached: LazyExpression>",
+            "atkRange": 0.0,
+            "atkPause": 0.0,
+            "knockbackForce": 0.0,
+            "dockPointTag": 0,
+            "expressionsOnSell": "<max depth reached: List`1>",
+            "expressionsOnBuy": "<max depth reached: List`1>",
+            "isBag": false,
+            "isSeed": true,
+            "isFertilizer": false,
+            "isBattlePotion": false,
+            "isTechPoint": false,
+            "isTool": false,
+            "isWeapon": false,
+            "isFuel": false,
+            "isMainOrgan": false,
+            "isOrganMistake": false,
+            "iconId": "i_flax_seed",
+            "bagSize": 0,
+            "sortOrder": 298,
+            "talentIds": "<max depth reached: List`1>",
+            "id": "flax_seed",
+            "CanBeUsed": false,
+            "CanBePinnedToHotBar": true,
+            "CanNotBeDestroyed": false,
+            "IsAnimationDrivenTool": true
+          },
+          "Id": "flax_seed",
+          "IsEmpty": false,
+          "IsGroup": false
+        }
+      ],
+      "needItemsFromWgo": [],
+      "haveStarCraftOutput": false,
+      "isStarCraft": false,
+      "isFuelCraft": false,
+      "isAutopsyCraft": false,
+      "isPocketExtractCraft": false,
+      "duration": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "energyPerTick": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "insanityPerTick": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "insanityLock": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "talentLock": 2,
+      "isAutoFinish": false,
+      "linkedPerks": [],
+      "outputItems": {
+        "chanceOutputItems": [
+          {
+            "id": "seed_oil",
+            "outputGroupId": "",
+            "count": "<max depth reached: LazyExpression>",
+            "minValue": "<max depth reached: LazyExpression>",
+            "maxValue": "<max depth reached: LazyExpression>",
+            "chance": "<max depth reached: LazyExpression>",
+            "isStarGroup": false,
+            "HasMinValueExpression": false
+          }
+        ],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": true,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "setWgoParamsOnStart": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "setWgoParamsOnFinish": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "addWgoParamsOnStart": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "addWgoParamsOnFinish": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "addItemsToWgoOnStart": {
+        "chanceOutputItems": [],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": false,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "addItemsToWgoOnFinish": {
+        "chanceOutputItems": [],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": false,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "autoFinishAutoCraft": false,
+      "id": "seed_oil",
+      "IsMultipleCraftsDisabled": false,
+      "AutopsyType": 0,
+      "Description": "seed_oil_d",
+      "FuelItemDef": null
+    },
+    {
+      "skipQueue": false,
+      "isAddToQueueDisabled": false,
+      "bronzeLevel": 0,
+      "silverLevel": 0,
+      "goldLevel": 0,
+      "isNeedsUnlock": false,
+      "isOneTimeCraft": false,
+      "isForcedDifficultCraft": true,
+      "isObjDestroyCraft": false,
+      "isMulticraftDisabled": false,
+      "doNotShowInTooltips": false,
+      "isConveyorCraft": false,
+      "tabId": "",
+      "customItemTypeAction": 0,
+      "transferDestinationStart": 0,
+      "destinationItemStart": "",
+      "transferDestinationEnd": 0,
+      "destinationItemEnd": "",
+      "transferNeedsToDestinationOnStart": false,
+      "transferNeedsToDestinationOnFinish": false,
+      "needItemsDurabilityUse": 0.0,
+      "needItemsDurabilityUseIndex": -1,
+      "durabilityUseItem": {
+        "id": "",
+        "count": {
+          "HasExpression": false,
+          "HasPureValue": false
+        },
+        "groupType": 0,
+        "ItemDef": null,
+        "Id": "",
+        "IsEmpty": true,
+        "IsGroup": false
+      },
+      "hasDurabilityUseItem": false,
+      "dropFromWgoItemsStart": [],
+      "dropFromWgoItemsEnd": [],
+      "autopsyTypeCraft": 0,
+      "autopsyItemId": "",
+      "removeItemsFromWgo": [],
+      "techRed": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "techGreen": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "techBlue": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "replaceWgoId": "garden_linum",
+      "transferDataOnReplace": true,
+      "executeOnReplace": [
+        {
+          "HasExpression": true,
+          "HasPureValue": false
+        }
+      ],
+      "worldFxOnReplace": "",
+      "globalScriptOnCraftEnd": "",
+      "customCraftResultIcon": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "iconId": "",
+      "onCraftAddQueueExpressions": [],
+      "onCraftStartExpressions": [
+        {
+          "HasExpression": true,
+          "HasPureValue": false
+        }
+      ],
+      "onCraftEndExpressions": [
+        {
+          "HasExpression": true,
+          "HasPureValue": false
+        }
+      ],
+      "gameresPerSuccessfulProgress": [
+        {
+          "sucessfulProgressTick": 1,
+          "gameRes": {
+            "GameResSystems": "<max depth reached: Dictionary`2>",
+            "List": "<max depth reached: List`1>",
+            "TypesList": "<max depth reached: List`1>"
+          }
+        },
+        {
+          "sucessfulProgressTick": 2,
+          "gameRes": {
+            "GameResSystems": "<max depth reached: Dictionary`2>",
+            "List": "<max depth reached: List`1>",
+            "TypesList": "<max depth reached: List`1>"
+          }
+        },
+        {
+          "sucessfulProgressTick": 3,
+          "gameRes": {
+            "GameResSystems": "<max depth reached: Dictionary`2>",
+            "List": "<max depth reached: List`1>",
+            "TypesList": "<max depth reached: List`1>"
+          }
+        },
+        {
+          "sucessfulProgressTick": 4,
+          "gameRes": {
+            "GameResSystems": "<max depth reached: Dictionary`2>",
+            "List": "<max depth reached: List`1>",
+            "TypesList": "<max depth reached: List`1>"
+          }
+        }
+      ],
+      "zombieSpeedItemModificators": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "craftsIn": [
+        "garden_empty"
+      ],
+      "extensionNeedId": "",
+      "isAuto": false,
+      "isHidden": false,
+      "needItems": [
+        {
+          "id": "flax_seed",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "groupType": 0,
+          "ItemDef": {
+            "itemGroupIds": "<max depth reached: List`1>",
+            "stackCount": 999,
+            "type": 0,
+            "itemSize": 1,
+            "inventorySize": 0,
+            "quality": 0,
+            "qualityType": 0,
+            "qualityIcon": "",
+            "talentBonus": 0,
+            "talentType": "talent_green",
+            "talentValue": 5,
+            "canBeUsed": "<max depth reached: LazyExpression>",
+            "stayOnUse": false,
+            "gameResOnUse": "<max depth reached: List`1>",
+            "onUseExpressions": "<max depth reached: List`1>",
+            "onUseSound": "",
+            "canNotBeDestroyed": "<max depth reached: LazyExpression>",
+            "hasDurability": false,
+            "durDecreaseOnUse": 0.0,
+            "canBeUsedInAlchemy": false,
+            "runesRed": "<max depth reached: LazyExpression>",
+            "runesGreen": "<max depth reached: LazyExpression>",
+            "runesBlue": "<max depth reached: LazyExpression>",
+            "onDropCollected": "<max depth reached: List`1>",
+            "isLinkedToWgo": false,
+            "redSkulls": 0,
+            "whiteSkulls": 0,
+            "bodyLinkedPerk": "",
+            "redSkullsMinCollar": -2147483648,
+            "redSkullsMaxCollar": -2147483648,
+            "whiteSkullsMinCollar": -2147483648,
+            "whiteSkullsMaxCollar": -2147483648,
+            "isProduct": true,
+            "basePrice": 4,
+            "isStaticCost": false,
+            "bagItemGroups": "<max depth reached: List`1>",
+            "bagSizeX": 0,
+            "bagSizeY": 0,
+            "staminaCost": "<max depth reached: LazyExpression>",
+            "damage": "<max depth reached: LazyExpression>",
+            "atkRange": 0.0,
+            "atkPause": 0.0,
+            "knockbackForce": 0.0,
+            "dockPointTag": 0,
+            "expressionsOnSell": "<max depth reached: List`1>",
+            "expressionsOnBuy": "<max depth reached: List`1>",
+            "isBag": false,
+            "isSeed": true,
+            "isFertilizer": false,
+            "isBattlePotion": false,
+            "isTechPoint": false,
+            "isTool": false,
+            "isWeapon": false,
+            "isFuel": false,
+            "isMainOrgan": false,
+            "isOrganMistake": false,
+            "iconId": "i_flax_seed",
+            "bagSize": 0,
+            "sortOrder": 298,
+            "talentIds": "<max depth reached: List`1>",
+            "id": "flax_seed",
+            "CanBeUsed": false,
+            "CanBePinnedToHotBar": true,
+            "CanNotBeDestroyed": false,
+            "IsAnimationDrivenTool": true
+          },
+          "Id": "flax_seed",
+          "IsEmpty": false,
+          "IsGroup": false
+        }
+      ],
+      "needItemsFromWgo": [],
+      "haveStarCraftOutput": false,
+      "isStarCraft": true,
+      "isFuelCraft": false,
+      "isAutopsyCraft": false,
+      "isPocketExtractCraft": false,
+      "duration": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "energyPerTick": {
+        "HasExpression": true,
+        "HasPureValue": true
+      },
+      "insanityPerTick": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "insanityLock": {
+        "HasExpression": false,
+        "HasPureValue": false
+      },
+      "talentLock": 5,
+      "isAutoFinish": false,
+      "linkedPerks": [
+        "zperk_farmer_1",
+        "zperk_farmer_2",
+        "perk_green_thumb"
+      ],
+      "outputItems": {
+        "chanceOutputItems": [],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": false,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "setWgoParamsOnStart": {
+        "GameResSystems": {},
+        "List": [
+          {
+            "type": "failed_cells",
+            "value": 4.0
+          }
+        ],
+        "TypesList": [
+          "failed_cells"
+        ]
+      },
+      "setWgoParamsOnFinish": {
+        "GameResSystems": {},
+        "List": [
+          {
+            "type": "crop",
+            "value": 0.0
+          },
+          {
+            "type": "seed",
+            "value": 0.0
+          }
+        ],
+        "TypesList": [
+          "crop",
+          "seed"
+        ]
+      },
+      "addWgoParamsOnStart": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "addWgoParamsOnFinish": {
+        "GameResSystems": {},
+        "List": [],
+        "TypesList": []
+      },
+      "addItemsToWgoOnStart": {
+        "chanceOutputItems": [],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": false,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "addItemsToWgoOnFinish": {
+        "chanceOutputItems": [],
+        "groupChanceOutputItems": [],
+        "HasOutputItems": false,
+        "HasFirstChanceItemWithMinValueExpression": false
+      },
+      "autoFinishAutoCraft": false,
+      "id": "garden_linum_planting",
+      "IsMultipleCraftsDisabled": false,
+      "AutopsyType": 0,
+      "Description": "garden_linum_planting_d",
+      "FuelItemDef": null
+    }
+  ]
+}

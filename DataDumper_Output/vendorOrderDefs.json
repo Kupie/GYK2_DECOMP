@@ -1,0 +1,849 @@
+[
+  {
+    "itemId": "box_iron_ingot",
+    "count": 1,
+    "isUrgent": false,
+    "isRenewable": false,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "quest_order_iron"
+  },
+  {
+    "itemId": "box_fabric",
+    "count": 5,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "foreman_order_fabric"
+  },
+  {
+    "itemId": "box_building_kit_1",
+    "count": 5,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "foreman_order_building_1"
+  },
+  {
+    "itemId": "box_iron_ingot",
+    "count": 5,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "foreman_order_iron"
+  },
+  {
+    "itemId": "box_cutlery_1",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_cutlery_1"
+  },
+  {
+    "itemId": "box_cutlery_1",
+    "count": 5,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_cutlery_1_easy"
+  },
+  {
+    "itemId": "box_cutlery_1",
+    "count": 5,
+    "isUrgent": false,
+    "isRenewable": false,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_cutlery_1_one_time"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_kitchen_utensils"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_kitchen_utensils_easy"
+  },
+  {
+    "itemId": "box_cutlery_2",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_cutlery_2"
+  },
+  {
+    "itemId": "box_cutlery_2",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "pharmacy_box_cutlery_2_easy"
+  },
+  {
+    "itemId": "box_vegetables",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_vegetables"
+  },
+  {
+    "itemId": "box_vegetables",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_vegetables_easy"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_preserves_1"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_preserves_1_easy"
+  },
+  {
+    "itemId": "box_preserves_2",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_preserves_2"
+  },
+  {
+    "itemId": "box_preserves_2",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "vegetable_box_preserves_2_easy"
+  },
+  {
+    "itemId": "box_fabric",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_fabric"
+  },
+  {
+    "itemId": "box_fabric",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_fabric_easy"
+  },
+  {
+    "itemId": "box_clothes_1",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_clothes_1"
+  },
+  {
+    "itemId": "box_clothes_1",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_clothes_1_easy"
+  },
+  {
+    "itemId": "box_clothes_2",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_clothes_2"
+  },
+  {
+    "itemId": "box_clothes_2",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "tailor_box_clothes_2_easy"
+  },
+  {
+    "itemId": "box_furniture_1",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_furniture_1"
+  },
+  {
+    "itemId": "box_furniture_2",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_furniture_2"
+  },
+  {
+    "itemId": "box_appliances_1",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_appliances_1"
+  },
+  {
+    "itemId": "box_furniture_1",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_furniture_1_easy"
+  },
+  {
+    "itemId": "box_furniture_2",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_furniture_2_easy"
+  },
+  {
+    "itemId": "box_appliances_1",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "furniture_box_appliances_1_easy"
+  },
+  {
+    "itemId": "box_flour",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_flour"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_tools_iron"
+  },
+  {
+    "itemId": "box_appliances_1",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_appliances_1"
+  },
+  {
+    "itemId": "box_flour",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_flour_easy"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_tools_iron_easy"
+  },
+  {
+    "itemId": "box_appliances_1",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "bakery_box_appliances_1_easy"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_preserves_1"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_tools_iron"
+  },
+  {
+    "itemId": "box_clothes_1",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_clothes_1"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_preserves_1_easy"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_tools_iron_easy"
+  },
+  {
+    "itemId": "box_clothes_1",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "fish_box_clothes_1_easy"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_kitchen_utensils"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_engineering_mechanism"
+  },
+  {
+    "itemId": "box_appliances_2",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_appliances_2"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_kitchen_utensils_easy"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_engineering_mechanism_easy"
+  },
+  {
+    "itemId": "box_appliances_2",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "alchemy_box_appliances_2_easy"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_tools_iron"
+  },
+  {
+    "itemId": "box_tools_steel",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_tools_steel"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_engineering_mechanism"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_tools_iron_easy"
+  },
+  {
+    "itemId": "box_tools_steel",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_tools_steel_easy"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "jeweler_box_engineering_mechanism_easy"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_tools_iron"
+  },
+  {
+    "itemId": "box_tools_steel",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_tools_steel"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_engineering_mechanism"
+  },
+  {
+    "itemId": "box_tools_iron",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_tools_iron_easy"
+  },
+  {
+    "itemId": "box_tools_steel",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_tools_steel_easy"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "builder_box_engineering_mechanism_easy"
+  },
+  {
+    "itemId": "box_building_kit_1",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_building_kit_1"
+  },
+  {
+    "itemId": "box_building_kit_2",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_building_kit_2"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_engineering_mechanism"
+  },
+  {
+    "itemId": "box_building_kit_1",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_building_kit_1_easy"
+  },
+  {
+    "itemId": "box_building_kit_2",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_building_kit_2_easy"
+  },
+  {
+    "itemId": "box_engineering_mechanism",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "blacksmith_box_engineering_mechanism_easy"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_preserves_1"
+  },
+  {
+    "itemId": "box_beer",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_beer"
+  },
+  {
+    "itemId": "box_vine",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_vine"
+  },
+  {
+    "itemId": "box_preserves_1",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_preserves_1_easy"
+  },
+  {
+    "itemId": "box_beer",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_beer_easy"
+  },
+  {
+    "itemId": "box_vine",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "shalman_box_vine_easy"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 10,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_kitchen_utensils"
+  },
+  {
+    "itemId": "box_cutlery_2",
+    "count": 20,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_cutlery_2"
+  },
+  {
+    "itemId": "box_appliances_2",
+    "count": 30,
+    "isUrgent": true,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_appliances_2"
+  },
+  {
+    "itemId": "box_kitchen_utensils",
+    "count": 10,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_kitchen_utensils_easy"
+  },
+  {
+    "itemId": "box_cutlery_2",
+    "count": 20,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_cutlery_2_easy"
+  },
+  {
+    "itemId": "box_appliances_2",
+    "count": 30,
+    "isUrgent": false,
+    "isRenewable": true,
+    "happinessReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "id": "brewery_box_appliances_2_easy"
+  }
+]

@@ -1,0 +1,7394 @@
+[
+  {
+    "minParishioners": 4,
+    "sermonDifficulty": 8,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_base_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_base:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 4,
+    "sermonDifficulty": 8,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_base_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_base:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 4,
+    "sermonDifficulty": 8,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_base_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_base:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 7,
+    "sermonDifficulty": 15,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_faith:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_faith:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 70,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_faith:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 7,
+    "sermonDifficulty": 15,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_money:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_money:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 70,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_money:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 30,
+    "sermonDifficulty": 60,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combo:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 60,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combo:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 120,
+    "sermonDifficulty": 160,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_faith_money_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combo:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 15,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_combat_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_sword_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combat:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_combat_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_sword_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combat:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_combat_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_sword_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_combat:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 15,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_farm_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_harvest_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_harvest:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_farm_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_harvest_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_harvest:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_farm_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_harvest_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_harvest:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_storm",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_storms_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_storms",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 50,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_corpses_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_skull_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_repose:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 100,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_corpses_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_skull_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_repose:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 100,
+    "sermonDifficulty": 150,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_corpses_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_skull_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_repose:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 90,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_excellence_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_star_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_excellence:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 90,
+    "sermonDifficulty": 140,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_excellence_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_star_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_excellence:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 140,
+    "sermonDifficulty": 200,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_excellence_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_star_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_excellence:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 90,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "town_gratitude",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_likes_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_likes:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 90,
+    "sermonDifficulty": 140,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "town_gratitude",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_likes_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_likes:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 140,
+    "sermonDifficulty": 200,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "town_gratitude",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_likes_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_likes:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 60,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_hypno_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_hypno_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_hypno:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 120,
+    "sermonDifficulty": 160,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_hypno_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_hypno_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_hypno:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 160,
+    "sermonDifficulty": 220,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_hypno_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_hypno_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_hypno:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 180,
+    "sermonDifficulty": 180,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_old_god_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      },
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_old_god",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 15,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_protection_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_shield_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_protection:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_protection_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_shield_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_protection:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_protection_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_shield_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_protection:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 15,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_imagination_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_pen_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_imagination:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_imagination_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_pen_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_imagination:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_imagination_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_pen_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_imagination:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 15,
+    "sermonDifficulty": 40,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_insanity_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_insanity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_insanity:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_insanity_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_insanity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_insanity:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_insanity_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_insanity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_insanity:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 50,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "prosperity_item",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_village_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_prosperity:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 100,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "prosperity_item",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_village_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_prosperity:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 100,
+    "sermonDifficulty": 150,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [
+        {
+          "id": "prosperity_item",
+          "outputGroupId": "",
+          "count": {
+            "HasExpression": true,
+            "HasPureValue": true
+          },
+          "minValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "maxValue": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "chance": {
+            "HasExpression": false,
+            "HasPureValue": false
+          },
+          "isStarGroup": false,
+          "HasMinValueExpression": false
+        }
+      ],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": true,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_village_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_prosperity:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 50,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_purity_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_purity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_purity:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 100,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_purity_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_purity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_purity:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 100,
+    "sermonDifficulty": 150,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_purity_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_purity_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_purity:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 20,
+    "sermonDifficulty": 50,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_consumption_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_consumption_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_consumption:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 50,
+    "sermonDifficulty": 100,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_consumption_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_consumption_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_consumption:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 100,
+    "sermonDifficulty": 150,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_consumption_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_consumption_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_consumption:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 40,
+    "sermonDifficulty": 90,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_demand_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_demand_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_demand:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 90,
+    "sermonDifficulty": 140,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_demand_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_demand_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_demand:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 140,
+    "sermonDifficulty": 200,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_demand_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_demand_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_demand:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 30,
+    "sermonDifficulty": 60,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_speed",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_speed_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_speed",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 60,
+    "sermonDifficulty": 120,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_obedience_1",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_obidience_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_obedience:1",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 120,
+    "sermonDifficulty": 160,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_obedience_2",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_obidience_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_obedience:2",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 160,
+    "sermonDifficulty": 220,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "buff_obedience_3",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_obidience_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_obedience:3",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  },
+  {
+    "minParishioners": 80,
+    "sermonDifficulty": 80,
+    "baseFaithReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "baseMoneyReward": {
+      "HasExpression": true,
+      "HasPureValue": false
+    },
+    "successRewardBuff": "",
+    "successRewardItem": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "successRewardCemeteryFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardCemeteryMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardChurchMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileFaith": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "successRewardSmileMoney": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "prayIcon": "i_b_music_act",
+    "prayOnEndExpressions": [
+      {
+        "HasExpression": true,
+        "HasPureValue": false
+      }
+    ],
+    "craftsIn": [
+      "church_tribune"
+    ],
+    "extensionNeedId": "",
+    "isAuto": false,
+    "isHidden": false,
+    "needItems": [],
+    "needItemsFromWgo": [],
+    "haveStarCraftOutput": false,
+    "isStarCraft": false,
+    "isFuelCraft": false,
+    "isAutopsyCraft": false,
+    "isPocketExtractCraft": false,
+    "duration": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "energyPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityPerTick": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "insanityLock": {
+      "HasExpression": false,
+      "HasPureValue": false
+    },
+    "talentLock": 1,
+    "isAutoFinish": false,
+    "linkedPerks": [],
+    "outputItems": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "setWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "setWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnStart": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addWgoParamsOnFinish": {
+      "GameResSystems": {},
+      "List": [],
+      "TypesList": []
+    },
+    "addItemsToWgoOnStart": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "addItemsToWgoOnFinish": {
+      "chanceOutputItems": [],
+      "groupChanceOutputItems": [],
+      "HasOutputItems": false,
+      "HasFirstChanceItemWithMinValueExpression": false
+    },
+    "autoFinishAutoCraft": false,
+    "id": "prayer_music",
+    "PrayIcon": "<UnityObject:Sprite>",
+    "FuelItemDef": null,
+    "AutopsyType": 0
+  }
+]
