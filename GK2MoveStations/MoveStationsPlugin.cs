@@ -11,7 +11,7 @@ using UnityEngine.UI;
 namespace GK2MoveStations
 {
 	// Token: 0x02000002 RID: 2
-	[BepInPlugin("com.example.gk2.movestations", "GK2 Move Stations", "2.0.0")]
+	[BepInPlugin("com.example.gk2.movestations", "GK2 Move Stations", "2.0.3")]
 	public class MoveStationsPlugin : BaseUnityPlugin
 	{
 		// Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
@@ -20,10 +20,11 @@ namespace GK2MoveStations
 			this.debugLogs = base.Config.Bind<bool>("General", "DebugLogs", false, "When true, extra diagnostic messages are written to the log and the on-screen panel shows technical state.");
 			this.debug = this.debugLogs.Value;
 			this.InitReflection();
+			this.SubscribeBuildMenuOpenEvent();
 			this.CreateUI();
 			this.CreateMarker();
 			Canvas.willRenderCanvases += this.OnCanvasWillRenderCanvases;
-			base.Logger.LogInfo("GK2 Move Stations v2.0.0 loaded.");
+			base.Logger.LogInfo("GK2 Move Stations v2.0.3 loaded.");
 			base.Logger.LogInfo("Open a Build menu, choose Move, then click a station. LMB = place, R = rotate, Esc or RMB = cancel.");
 			if (this.debug)
 			{
@@ -33,7 +34,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000002 RID: 2 RVA: 0x00002108 File Offset: 0x00000308
+		// Token: 0x06000002 RID: 2 RVA: 0x0000210C File Offset: 0x0000030C
 		private void OnDestroy()
 		{
 			try
@@ -43,9 +44,19 @@ namespace GK2MoveStations
 			catch
 			{
 			}
+			try
+			{
+				if (this.eLazyWindowOpened != null && this.dLazyWindowOpened != null)
+				{
+					this.eLazyWindowOpened.RemoveEventHandler(null, this.dLazyWindowOpened);
+				}
+			}
+			catch
+			{
+			}
 		}
 
-		// Token: 0x06000003 RID: 3 RVA: 0x0000213C File Offset: 0x0000033C
+		// Token: 0x06000003 RID: 3 RVA: 0x0000217C File Offset: 0x0000037C
 		private void Update()
 		{
 			this.UpdateVerify();
@@ -121,7 +132,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000004 RID: 4 RVA: 0x0000237C File Offset: 0x0000057C
+		// Token: 0x06000004 RID: 4 RVA: 0x000023BC File Offset: 0x000005BC
 		private void ScanTarget()
 		{
 			this.targetedWgo = null;
@@ -169,7 +180,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000005 RID: 5 RVA: 0x0000247C File Offset: 0x0000067C
+		// Token: 0x06000005 RID: 5 RVA: 0x000024BC File Offset: 0x000006BC
 		private void ScanTargetUnderCursor()
 		{
 			try
@@ -227,7 +238,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000006 RID: 6 RVA: 0x00002674 File Offset: 0x00000874
+		// Token: 0x06000006 RID: 6 RVA: 0x000026B4 File Offset: 0x000008B4
 		private bool IsSupportedWgoForMove(Component wgo)
 		{
 			bool flag;
@@ -257,7 +268,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x06000007 RID: 7 RVA: 0x000026DC File Offset: 0x000008DC
+		// Token: 0x06000007 RID: 7 RVA: 0x0000271C File Offset: 0x0000091C
 		private static bool IsMovableHandler(string name)
 		{
 			if (string.IsNullOrEmpty(name))
@@ -278,7 +289,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x06000008 RID: 8 RVA: 0x00002778 File Offset: 0x00000978
+		// Token: 0x06000008 RID: 8 RVA: 0x000027B8 File Offset: 0x000009B8
 		private void StartMoveMode()
 		{
 			try
@@ -360,7 +371,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000009 RID: 9 RVA: 0x00002ABC File Offset: 0x00000CBC
+		// Token: 0x06000009 RID: 9 RVA: 0x00002AFC File Offset: 0x00000CFC
 		private void DbgGrabDetails(object data)
 		{
 			if (!this.debug)
@@ -385,7 +396,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600000A RID: 10 RVA: 0x00002B68 File Offset: 0x00000D68
+		// Token: 0x0600000A RID: 10 RVA: 0x00002BA8 File Offset: 0x00000DA8
 		private void DumpGrabColliders()
 		{
 			if (!this.debug || this.movingGo == null)
@@ -425,7 +436,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600000B RID: 11 RVA: 0x00002C8C File Offset: 0x00000E8C
+		// Token: 0x0600000B RID: 11 RVA: 0x00002CCC File Offset: 0x00000ECC
 		private void UpdateMoveMode()
 		{
 			if (this.movingWgo == null || this.movingGo == null)
@@ -481,7 +492,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600000C RID: 12 RVA: 0x00002E10 File Offset: 0x00001010
+		// Token: 0x0600000C RID: 12 RVA: 0x00002E50 File Offset: 0x00001050
 		private bool TryStartNativeBuildPreview()
 		{
 			bool flag;
@@ -586,7 +597,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x0600000D RID: 13 RVA: 0x000030CC File Offset: 0x000012CC
+		// Token: 0x0600000D RID: 13 RVA: 0x0000310C File Offset: 0x0000130C
 		private void UpdateNativeBuildPreview()
 		{
 			try
@@ -648,7 +659,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600000E RID: 14 RVA: 0x000032F4 File Offset: 0x000014F4
+		// Token: 0x0600000E RID: 14 RVA: 0x00003334 File Offset: 0x00001534
 		private void PlaceNativePreviewStation()
 		{
 			try
@@ -674,6 +685,7 @@ namespace GK2MoveStations
 						this.movingGo.SetActive(this.movingGoWasActive);
 					}
 					this.RestoreOriginalTempFlag();
+					this.RefreshAttachedGdPoints();
 					this.ReRegisterInChunker();
 					base.Logger.LogInfo("Station placed with native build rules at " + MoveStationsPlugin.Fmt(this.previewPos));
 					this.ScheduleVerify(this.movingData, this.movingGo, this.previewPos, "native-place");
@@ -686,7 +698,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600000F RID: 15 RVA: 0x0000346C File Offset: 0x0000166C
+		// Token: 0x0600000F RID: 15 RVA: 0x000034B4 File Offset: 0x000016B4
 		private void CancelNativeBuildPreview()
 		{
 			this.previewPos = this.originalPos;
@@ -696,7 +708,7 @@ namespace GK2MoveStations
 			this.EndMoveMode();
 		}
 
-		// Token: 0x06000010 RID: 16 RVA: 0x000034D0 File Offset: 0x000016D0
+		// Token: 0x06000010 RID: 16 RVA: 0x00003518 File Offset: 0x00001718
 		private void StopNativeBuildPreview()
 		{
 			if (!this.nativeBuildModeEnabled)
@@ -728,7 +740,7 @@ namespace GK2MoveStations
 			this.nativeGridOnlyMode = false;
 		}
 
-		// Token: 0x06000011 RID: 17 RVA: 0x0000359C File Offset: 0x0000179C
+		// Token: 0x06000011 RID: 17 RVA: 0x000035E4 File Offset: 0x000017E4
 		private void RestoreOriginalAfterNativePreview()
 		{
 			this.RestoreOriginalTempFlag();
@@ -743,7 +755,7 @@ namespace GK2MoveStations
 			this.nativeBuildPreview = false;
 		}
 
-		// Token: 0x06000012 RID: 18 RVA: 0x000035F4 File Offset: 0x000017F4
+		// Token: 0x06000012 RID: 18 RVA: 0x0000363C File Offset: 0x0000183C
 		private void RestoreOriginalTempFlag()
 		{
 			try
@@ -758,7 +770,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000013 RID: 19 RVA: 0x00003648 File Offset: 0x00001848
+		// Token: 0x06000013 RID: 19 RVA: 0x00003690 File Offset: 0x00001890
 		private bool TryStartNativeGridOnlyMode()
 		{
 			bool flag;
@@ -835,7 +847,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x06000014 RID: 20 RVA: 0x000037FC File Offset: 0x000019FC
+		// Token: 0x06000014 RID: 20 RVA: 0x00003844 File Offset: 0x00001A44
 		private object FindBuildMenuWorldZone()
 		{
 			if (this.buildManagerType == null || this.pBmWorldZone == null)
@@ -863,7 +875,7 @@ namespace GK2MoveStations
 			return obj;
 		}
 
-		// Token: 0x06000015 RID: 21 RVA: 0x00003880 File Offset: 0x00001A80
+		// Token: 0x06000015 RID: 21 RVA: 0x000038C8 File Offset: 0x00001AC8
 		private void SetPlayerBuildControlTaken(bool taken)
 		{
 			try
@@ -892,7 +904,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000016 RID: 22 RVA: 0x00003944 File Offset: 0x00001B44
+		// Token: 0x06000016 RID: 22 RVA: 0x0000398C File Offset: 0x00001B8C
 		private void LockNativeBuildInput(global::UnityEngine.Object controller)
 		{
 			try
@@ -907,7 +919,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000017 RID: 23 RVA: 0x00003990 File Offset: 0x00001B90
+		// Token: 0x06000017 RID: 23 RVA: 0x000039D8 File Offset: 0x00001BD8
 		private object FindWorldZoneForMovingWgo()
 		{
 			if (this.worldZoneType == null || this.movingWgo == null)
@@ -954,7 +966,7 @@ namespace GK2MoveStations
 			return obj2;
 		}
 
-		// Token: 0x06000018 RID: 24 RVA: 0x00003ACC File Offset: 0x00001CCC
+		// Token: 0x06000018 RID: 24 RVA: 0x00003B14 File Offset: 0x00001D14
 		private static bool ReadBoolField(FieldInfo field, object instance)
 		{
 			bool flag;
@@ -969,7 +981,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x06000019 RID: 25 RVA: 0x00003B1C File Offset: 0x00001D1C
+		// Token: 0x06000019 RID: 25 RVA: 0x00003B64 File Offset: 0x00001D64
 		private Vector3 SnapToGrid(Vector3 p)
 		{
 			if (this.mSnapToBounds != null && this.buildControllerType != null)
@@ -1059,7 +1071,7 @@ namespace GK2MoveStations
 			return p;
 		}
 
-		// Token: 0x0600001A RID: 26 RVA: 0x00003E0C File Offset: 0x0000200C
+		// Token: 0x0600001A RID: 26 RVA: 0x00003E54 File Offset: 0x00002054
 		private static global::UnityEngine.Object FindAnyUnityObject(Type t)
 		{
 			if (t == null)
@@ -1115,7 +1127,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600001B RID: 27 RVA: 0x00003EF4 File Offset: 0x000020F4
+		// Token: 0x0600001B RID: 27 RVA: 0x00003F3C File Offset: 0x0000213C
 		private void ApplyPreviewPosition()
 		{
 			if (this.nativeBuildPreview)
@@ -1144,7 +1156,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600001C RID: 28 RVA: 0x00003F88 File Offset: 0x00002188
+		// Token: 0x0600001C RID: 28 RVA: 0x00003FD0 File Offset: 0x000021D0
 		private void PlaceStation()
 		{
 			if (this.nativeBuildPreview)
@@ -1153,6 +1165,7 @@ namespace GK2MoveStations
 				return;
 			}
 			this.ApplyPreviewPosition();
+			this.RefreshAttachedGdPoints();
 			this.ReRegisterInChunker();
 			this.UpdateSnapshotAfterPlace();
 			base.Logger.LogInfo("Station placed at " + MoveStationsPlugin.Fmt(this.previewPos));
@@ -1160,7 +1173,7 @@ namespace GK2MoveStations
 			this.EndMoveMode();
 		}
 
-		// Token: 0x0600001D RID: 29 RVA: 0x00003FFC File Offset: 0x000021FC
+		// Token: 0x0600001D RID: 29 RVA: 0x00004048 File Offset: 0x00002248
 		private void UpdateSnapshotAfterPlace()
 		{
 			if (!this.snapValid || this.ownOffsets == null)
@@ -1195,7 +1208,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600001E RID: 30 RVA: 0x000041BC File Offset: 0x000023BC
+		// Token: 0x0600001E RID: 30 RVA: 0x00004208 File Offset: 0x00002408
 		private void CancelMove()
 		{
 			if (this.nativeBuildPreview)
@@ -1211,7 +1224,7 @@ namespace GK2MoveStations
 			this.EndMoveMode();
 		}
 
-		// Token: 0x0600001F RID: 31 RVA: 0x00004234 File Offset: 0x00002434
+		// Token: 0x0600001F RID: 31 RVA: 0x00004280 File Offset: 0x00002480
 		private void EndMoveMode()
 		{
 			this.StopNativeBuildPreview();
@@ -1239,7 +1252,7 @@ namespace GK2MoveStations
 			this.nextScan = Time.realtimeSinceStartup + 0.3f;
 		}
 
-		// Token: 0x06000020 RID: 32 RVA: 0x000042FC File Offset: 0x000024FC
+		// Token: 0x06000020 RID: 32 RVA: 0x00004348 File Offset: 0x00002548
 		private void RotateStation()
 		{
 			if (this.mTryRotate == null || this.movingWgo == null)
@@ -1262,7 +1275,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000021 RID: 33 RVA: 0x000043CC File Offset: 0x000025CC
+		// Token: 0x06000021 RID: 33 RVA: 0x00004418 File Offset: 0x00002618
 		private void ReRegisterInChunker()
 		{
 			if (this.pWgoRegistered == null || this.movingWgo == null)
@@ -1280,7 +1293,32 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000022 RID: 34 RVA: 0x00004454 File Offset: 0x00002654
+		// Token: 0x06000022 RID: 34 RVA: 0x000044A0 File Offset: 0x000026A0
+		private void RefreshAttachedGdPoints()
+		{
+			try
+			{
+				if (!(this.movingWgo == null) && this.movingData != null && !(this.fWgoGdPointsData == null) && !(this.mWgoRegisterGdPoints == null))
+				{
+					ICollection collection = this.fWgoGdPointsData.GetValue(this.movingData) as ICollection;
+					if (collection != null && collection.Count != 0)
+					{
+						this.mWgoRegisterGdPoints.Invoke(this.movingWgo, null);
+						if (this.mWgoBindGdPointViews != null)
+						{
+							this.mWgoBindGdPointViews.Invoke(this.movingWgo, null);
+						}
+						this.Dbg("GD points refreshed after station move: " + collection.Count.ToString());
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				this.Dbg("GD point refresh failed: " + MoveStationsPlugin.UnwrapInvocationError(ex));
+			}
+		}
+
+		// Token: 0x06000023 RID: 35 RVA: 0x00004588 File Offset: 0x00002788
 		private void ScheduleVerify(object data, GameObject go, Vector3 expected, string label)
 		{
 			this.verifyActive = true;
@@ -1291,7 +1329,7 @@ namespace GK2MoveStations
 			this.verifyTime = Time.realtimeSinceStartup + 2f;
 		}
 
-		// Token: 0x06000023 RID: 35 RVA: 0x0000448C File Offset: 0x0000268C
+		// Token: 0x06000024 RID: 36 RVA: 0x000045C0 File Offset: 0x000027C0
 		private void UpdateVerify()
 		{
 			if (!this.verifyActive || Time.realtimeSinceStartup < this.verifyTime)
@@ -1345,7 +1383,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000024 RID: 36 RVA: 0x00004658 File Offset: 0x00002858
+		// Token: 0x06000025 RID: 37 RVA: 0x0000478C File Offset: 0x0000298C
 		private bool IsBuildModeActive()
 		{
 			try
@@ -1380,7 +1418,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x06000025 RID: 37 RVA: 0x00004724 File Offset: 0x00002924
+		// Token: 0x06000026 RID: 38 RVA: 0x00004858 File Offset: 0x00002A58
 		private void GridStatusOnce(string msg)
 		{
 			if (this.gridStatusMsg == msg)
@@ -1391,7 +1429,7 @@ namespace GK2MoveStations
 			this.Dbg(msg);
 		}
 
-		// Token: 0x06000026 RID: 38 RVA: 0x00004744 File Offset: 0x00002944
+		// Token: 0x06000027 RID: 39 RVA: 0x00004878 File Offset: 0x00002A78
 		private void TrySnapshotGrid(bool force)
 		{
 			float realtimeSinceStartup = Time.realtimeSinceStartup;
@@ -1447,7 +1485,7 @@ namespace GK2MoveStations
 			this.BuildSnapshot(obj, flag2, text, flag, force);
 		}
 
-		// Token: 0x06000027 RID: 39 RVA: 0x000048A4 File Offset: 0x00002AA4
+		// Token: 0x06000028 RID: 40 RVA: 0x000049D8 File Offset: 0x00002BD8
 		private void FindBuildGrid(out object grid, out bool active, out string src)
 		{
 			grid = null;
@@ -1483,7 +1521,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000028 RID: 40 RVA: 0x00004954 File Offset: 0x00002B54
+		// Token: 0x06000029 RID: 41 RVA: 0x00004A88 File Offset: 0x00002C88
 		private void FindBuildGridRaw(out object grid, out bool active, out string src)
 		{
 			grid = null;
@@ -1631,7 +1669,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000029 RID: 41 RVA: 0x00004C68 File Offset: 0x00002E68
+		// Token: 0x0600002A RID: 42 RVA: 0x00004D9C File Offset: 0x00002F9C
 		private static bool ComponentActive(object o)
 		{
 			bool flag;
@@ -1654,7 +1692,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x0600002A RID: 42 RVA: 0x00004CB0 File Offset: 0x00002EB0
+		// Token: 0x0600002B RID: 43 RVA: 0x00004DE4 File Offset: 0x00002FE4
 		private void BuildSnapshot(object gridObj, bool active, string src, bool bm, bool forceLog)
 		{
 			try
@@ -1890,7 +1928,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600002B RID: 43 RVA: 0x0000531C File Offset: 0x0000351C
+		// Token: 0x0600002C RID: 44 RVA: 0x00005450 File Offset: 0x00003650
 		private string ReadEnumField(FieldInfo f, object o)
 		{
 			string text;
@@ -1913,7 +1951,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x0600002C RID: 44 RVA: 0x00005374 File Offset: 0x00003574
+		// Token: 0x0600002D RID: 45 RVA: 0x000054A8 File Offset: 0x000036A8
 		private static string ReadFieldState(FieldInfo f, object o)
 		{
 			string text;
@@ -1935,7 +1973,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x0600002D RID: 45 RVA: 0x000053C8 File Offset: 0x000035C8
+		// Token: 0x0600002E RID: 46 RVA: 0x000054FC File Offset: 0x000036FC
 		private object DefFor(object data)
 		{
 			try
@@ -1972,7 +2010,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600002E RID: 46 RVA: 0x00005478 File Offset: 0x00003678
+		// Token: 0x0600002F RID: 47 RVA: 0x000055AC File Offset: 0x000037AC
 		private void ValidateSnapshotWorld(Dictionary<Vector2Int, MoveStationsPlugin.SnapCell> map, out string report, out int probes, out int matched)
 		{
 			report = "";
@@ -2049,7 +2087,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600002F RID: 47 RVA: 0x00005690 File Offset: 0x00003890
+		// Token: 0x06000030 RID: 48 RVA: 0x000057C4 File Offset: 0x000039C4
 		private void DumpGridDiagnostics(Array arr, object gridObj)
 		{
 			try
@@ -2166,7 +2204,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000030 RID: 48 RVA: 0x00005A38 File Offset: 0x00003C38
+		// Token: 0x06000031 RID: 49 RVA: 0x00005B6C File Offset: 0x00003D6C
 		private void BuildSelectionSnapshot(object gridObj, bool force)
 		{
 			try
@@ -2308,7 +2346,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000031 RID: 49 RVA: 0x00005F20 File Offset: 0x00004120
+		// Token: 0x06000032 RID: 50 RVA: 0x00006054 File Offset: 0x00004254
 		private void CalibrateSelection()
 		{
 			try
@@ -2540,7 +2578,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000032 RID: 50 RVA: 0x00006760 File Offset: 0x00004960
+		// Token: 0x06000033 RID: 51 RVA: 0x00006894 File Offset: 0x00004A94
 		private int SelStateAtCell(Vector3 pos)
 		{
 			if (this.selStates == null)
@@ -2578,7 +2616,7 @@ namespace GK2MoveStations
 			return selCell.state;
 		}
 
-		// Token: 0x06000033 RID: 51 RVA: 0x00006834 File Offset: 0x00004A34
+		// Token: 0x06000034 RID: 52 RVA: 0x00006968 File Offset: 0x00004B68
 		private bool SelOverrideApplies()
 		{
 			if (!this.selOverrideReady)
@@ -2598,25 +2636,25 @@ namespace GK2MoveStations
 			return text.Length != 0 && string.Equals(text, this.movingWgoId, StringComparison.OrdinalIgnoreCase);
 		}
 
-		// Token: 0x06000034 RID: 52 RVA: 0x0000689F File Offset: 0x00004A9F
+		// Token: 0x06000035 RID: 53 RVA: 0x000069D3 File Offset: 0x00004BD3
 		private static int CellX(float x)
 		{
 			return Mathf.RoundToInt(x / 0.32f);
 		}
 
-		// Token: 0x06000035 RID: 53 RVA: 0x000068AD File Offset: 0x00004AAD
+		// Token: 0x06000036 RID: 54 RVA: 0x000069E1 File Offset: 0x00004BE1
 		private static int CellZ(float z)
 		{
 			return Mathf.RoundToInt(z / 0.3f);
 		}
 
-		// Token: 0x06000036 RID: 54 RVA: 0x000068BB File Offset: 0x00004ABB
+		// Token: 0x06000037 RID: 55 RVA: 0x000069EF File Offset: 0x00004BEF
 		private static float MarginFor(float size, float grid)
 		{
 			return Mathf.Min(grid * 0.95f, size * 0.3f);
 		}
 
-		// Token: 0x06000037 RID: 55 RVA: 0x000068D0 File Offset: 0x00004AD0
+		// Token: 0x06000038 RID: 56 RVA: 0x00006A04 File Offset: 0x00004C04
 		private bool OverlapsAfterMargin(Collider c, Vector3 pos, out string info)
 		{
 			info = "";
@@ -2681,7 +2719,7 @@ namespace GK2MoveStations
 			return flag;
 		}
 
-		// Token: 0x06000038 RID: 56 RVA: 0x00006B1C File Offset: 0x00004D1C
+		// Token: 0x06000039 RID: 57 RVA: 0x00006C50 File Offset: 0x00004E50
 		private static int ReadInt(FieldInfo f, object o)
 		{
 			int num;
@@ -2711,7 +2749,7 @@ namespace GK2MoveStations
 			return num;
 		}
 
-		// Token: 0x06000039 RID: 57 RVA: 0x00006B74 File Offset: 0x00004D74
+		// Token: 0x0600003A RID: 58 RVA: 0x00006CA8 File Offset: 0x00004EA8
 		private string CountOf(FieldInfo f, object o)
 		{
 			string text;
@@ -2750,7 +2788,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x0600003A RID: 58 RVA: 0x00006C00 File Offset: 0x00004E00
+		// Token: 0x0600003B RID: 59 RVA: 0x00006D34 File Offset: 0x00004F34
 		private static string ElemTypeName(FieldInfo f)
 		{
 			string text;
@@ -2781,7 +2819,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x0600003B RID: 59 RVA: 0x00006C68 File Offset: 0x00004E68
+		// Token: 0x0600003C RID: 60 RVA: 0x00006D9C File Offset: 0x00004F9C
 		private void LearnOwnCells()
 		{
 			this.ownCells = null;
@@ -2842,7 +2880,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600003C RID: 60 RVA: 0x00006E80 File Offset: 0x00005080
+		// Token: 0x0600003D RID: 61 RVA: 0x00006FB4 File Offset: 0x000051B4
 		private bool IsOwnCellRecord(MoveStationsPlugin.SnapCell rec)
 		{
 			if (rec == null)
@@ -2862,7 +2900,7 @@ namespace GK2MoveStations
 			return !string.IsNullOrEmpty(this.movingWgoId) && rec.label == this.movingWgoId;
 		}
 
-		// Token: 0x0600003D RID: 61 RVA: 0x00006EF0 File Offset: 0x000050F0
+		// Token: 0x0600003E RID: 62 RVA: 0x00007024 File Offset: 0x00005224
 		private bool SnapshotBlocks(Vector3 pos, int cx, int cz, out string reason)
 		{
 			reason = "";
@@ -2966,7 +3004,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600003E RID: 62 RVA: 0x00007224 File Offset: 0x00005424
+		// Token: 0x0600003F RID: 63 RVA: 0x00007358 File Offset: 0x00005558
 		private bool WorldObstacleBlocks(Vector3 pos, out string reason, out string diag)
 		{
 			reason = "";
@@ -3019,7 +3057,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600003F RID: 63 RVA: 0x000073F4 File Offset: 0x000055F4
+		// Token: 0x06000040 RID: 64 RVA: 0x00007528 File Offset: 0x00005728
 		private void EnsureValidation()
 		{
 			if (this.hasValidated && (this.previewPos - this.lastValidatedPos).sqrMagnitude < 0.0004f)
@@ -3039,7 +3077,7 @@ namespace GK2MoveStations
 			this.spotReason = (flag ? "" : text);
 		}
 
-		// Token: 0x06000040 RID: 64 RVA: 0x00007474 File Offset: 0x00005674
+		// Token: 0x06000041 RID: 65 RVA: 0x000075A8 File Offset: 0x000057A8
 		private bool ValidateSpot(Vector3 pos, out string reason)
 		{
 			reason = "";
@@ -3286,14 +3324,14 @@ namespace GK2MoveStations
 			return true;
 		}
 
-		// Token: 0x06000041 RID: 65 RVA: 0x00007BAC File Offset: 0x00005DAC
+		// Token: 0x06000042 RID: 66 RVA: 0x00007CE0 File Offset: 0x00005EE0
 		private static bool IsHardBlocker(Collider c)
 		{
 			int layer = c.gameObject.layer;
 			return layer == 8 || (layer == 19 && c.isTrigger);
 		}
 
-		// Token: 0x06000042 RID: 66 RVA: 0x00007BD8 File Offset: 0x00005DD8
+		// Token: 0x06000043 RID: 67 RVA: 0x00007D0C File Offset: 0x00005F0C
 		private bool IsSelfCollider(Collider c)
 		{
 			if (c == null || this.movingGo == null)
@@ -3316,7 +3354,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x06000043 RID: 67 RVA: 0x00007C70 File Offset: 0x00005E70
+		// Token: 0x06000044 RID: 68 RVA: 0x00007DA4 File Offset: 0x00005FA4
 		private static string FriendlyName(GameObject go)
 		{
 			if (go == null)
@@ -3394,7 +3432,7 @@ namespace GK2MoveStations
 			return text2;
 		}
 
-		// Token: 0x06000044 RID: 68 RVA: 0x00007E1C File Offset: 0x0000601C
+		// Token: 0x06000045 RID: 69 RVA: 0x00007F50 File Offset: 0x00006150
 		private static string FriendlyFromId(string id)
 		{
 			if (string.IsNullOrEmpty(id))
@@ -3453,7 +3491,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000045 RID: 69 RVA: 0x00007F5C File Offset: 0x0000615C
+		// Token: 0x06000046 RID: 70 RVA: 0x00008090 File Offset: 0x00006290
 		private static bool IsInternalName(string n)
 		{
 			if (string.IsNullOrEmpty(n))
@@ -3464,7 +3502,7 @@ namespace GK2MoveStations
 			return text == "world" || text == "new game object" || (text.Contains("collider") || text.Contains("obstacle")) || (text == "base" || text == "root" || text == "down" || text == "left" || text == "right") || (text == "horizontal" || text == "vertical" || text.Contains("variation")) || (text == "pillow" || text == "physics") || text.Contains("rotation");
 		}
 
-		// Token: 0x06000046 RID: 70 RVA: 0x0000804C File Offset: 0x0000624C
+		// Token: 0x06000047 RID: 71 RVA: 0x00008180 File Offset: 0x00006380
 		private static string TitleCase(string s)
 		{
 			if (string.IsNullOrEmpty(s))
@@ -3491,7 +3529,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000047 RID: 71 RVA: 0x000080E0 File Offset: 0x000062E0
+		// Token: 0x06000048 RID: 72 RVA: 0x00008214 File Offset: 0x00006414
 		private static object GetProp(object o, string name)
 		{
 			object obj;
@@ -3514,7 +3552,7 @@ namespace GK2MoveStations
 			return obj;
 		}
 
-		// Token: 0x06000048 RID: 72 RVA: 0x00008130 File Offset: 0x00006330
+		// Token: 0x06000049 RID: 73 RVA: 0x00008264 File Offset: 0x00006464
 		private static void SetProp(object o, string name, object v)
 		{
 			try
@@ -3544,7 +3582,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000049 RID: 73 RVA: 0x00008200 File Offset: 0x00006400
+		// Token: 0x0600004A RID: 74 RVA: 0x00008334 File Offset: 0x00006534
 		private bool HasBuildAreaWithId(Vector3 pos, string id)
 		{
 			foreach (Collider collider in Physics.OverlapSphere(pos + new Vector3(0f, 0.04f, 0f), 0.3f, -1, QueryTriggerInteraction.Collide))
@@ -3566,7 +3604,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600004A RID: 74 RVA: 0x000082A4 File Offset: 0x000064A4
+		// Token: 0x0600004B RID: 75 RVA: 0x000083D8 File Offset: 0x000065D8
 		private bool HasAnyBuildArea(Vector3 pos)
 		{
 			foreach (Collider collider in Physics.OverlapSphere(pos + new Vector3(0f, 0.04f, 0f), 0.3f, -1, QueryTriggerInteraction.Collide))
@@ -3579,7 +3617,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600004B RID: 75 RVA: 0x00008314 File Offset: 0x00006514
+		// Token: 0x0600004C RID: 76 RVA: 0x00008448 File Offset: 0x00006648
 		private string ResolveRequiredArea(object data)
 		{
 			this.movingBuildingDef = null;
@@ -3633,7 +3671,7 @@ namespace GK2MoveStations
 			return "";
 		}
 
-		// Token: 0x0600004C RID: 76 RVA: 0x00008458 File Offset: 0x00006658
+		// Token: 0x0600004D RID: 77 RVA: 0x0000858C File Offset: 0x0000678C
 		private void ReadFootprint()
 		{
 			this.footHalfX = 0.32f;
@@ -3691,7 +3729,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600004D RID: 77 RVA: 0x00008628 File Offset: 0x00006828
+		// Token: 0x0600004E RID: 78 RVA: 0x0000875C File Offset: 0x0000695C
 		private static List<Vector2Int> Cluster(List<Vector2Int> found)
 		{
 			List<Vector2Int> list = new List<Vector2Int>();
@@ -3737,7 +3775,7 @@ namespace GK2MoveStations
 			return list;
 		}
 
-		// Token: 0x0600004E RID: 78 RVA: 0x000087C8 File Offset: 0x000069C8
+		// Token: 0x0600004F RID: 79 RVA: 0x000088FC File Offset: 0x00006AFC
 		private static string OffsetsString(List<Vector2Int> tpl)
 		{
 			string text = "";
@@ -3765,7 +3803,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x0600004F RID: 79 RVA: 0x0000887C File Offset: 0x00006A7C
+		// Token: 0x06000050 RID: 80 RVA: 0x000089B0 File Offset: 0x00006BB0
 		private string DefLabel(object def)
 		{
 			string text;
@@ -3795,7 +3833,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000050 RID: 80 RVA: 0x000088D0 File Offset: 0x00006AD0
+		// Token: 0x06000051 RID: 81 RVA: 0x00008A04 File Offset: 0x00006C04
 		private string WgoIdRaw(object def)
 		{
 			string text;
@@ -3818,7 +3856,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000051 RID: 81 RVA: 0x00008924 File Offset: 0x00006B24
+		// Token: 0x06000052 RID: 82 RVA: 0x00008A58 File Offset: 0x00006C58
 		private Vector3 GetCursorWorldPos(float groundY)
 		{
 			Camera worldCamera = this.GetWorldCamera();
@@ -3836,7 +3874,7 @@ namespace GK2MoveStations
 			return this.previewPos;
 		}
 
-		// Token: 0x06000052 RID: 82 RVA: 0x00008994 File Offset: 0x00006B94
+		// Token: 0x06000053 RID: 83 RVA: 0x00008AC8 File Offset: 0x00006CC8
 		private Camera GetWorldCamera()
 		{
 			if (this.worldCam != null && this.worldCam.isActiveAndEnabled)
@@ -3970,7 +4008,7 @@ namespace GK2MoveStations
 			return this.worldCam;
 		}
 
-		// Token: 0x06000053 RID: 83 RVA: 0x00008DE0 File Offset: 0x00006FE0
+		// Token: 0x06000054 RID: 84 RVA: 0x00008F14 File Offset: 0x00007114
 		private static string CamPath(Camera c)
 		{
 			string text = c.gameObject.name;
@@ -3985,7 +4023,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000054 RID: 84 RVA: 0x00008E34 File Offset: 0x00007034
+		// Token: 0x06000055 RID: 85 RVA: 0x00008F68 File Offset: 0x00007168
 		private Vector3 ClampFromPlayer(Vector3 pos)
 		{
 			GameObject gameObject = GameObject.Find("PlayerPhysicalBody");
@@ -4004,7 +4042,7 @@ namespace GK2MoveStations
 			return pos;
 		}
 
-		// Token: 0x06000055 RID: 85 RVA: 0x00008ED0 File Offset: 0x000070D0
+		// Token: 0x06000056 RID: 86 RVA: 0x00009004 File Offset: 0x00007204
 		private void OnCanvasWillRenderCanvases()
 		{
 			try
@@ -4012,6 +4050,17 @@ namespace GK2MoveStations
 				if (!(this.moveMenuRow != null))
 				{
 					float realtimeSinceStartup = Time.realtimeSinceStartup;
+					if (this.buildMenuOpenEventsReady)
+					{
+						if (!this.buildMenuInjectionRequested || this.cachedBuildMenuWindow == null || !this.cachedBuildMenuWindow.activeInHierarchy)
+						{
+							return;
+						}
+					}
+					else if (!this.IsBuildMenuWindowShown(realtimeSinceStartup))
+					{
+						return;
+					}
 					if (realtimeSinceStartup >= this.nextMoveMenuSearch)
 					{
 						this.nextMoveMenuSearch = realtimeSinceStartup + 0.5f;
@@ -4025,60 +4074,110 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000056 RID: 86 RVA: 0x00008F3C File Offset: 0x0000713C
-		private void TryInjectMoveMenuRow()
+		// Token: 0x06000057 RID: 87 RVA: 0x000090A8 File Offset: 0x000072A8
+		private bool IsBuildMenuWindowShown(float now)
 		{
-			Button button = null;
+			bool flag;
 			try
 			{
-				Text[] array = global::UnityEngine.Object.FindObjectsOfType<Text>();
-				if (array != null)
+				if (this.cachedBuildMenuWindow != null)
 				{
-					foreach (Text text in array)
+					flag = this.cachedBuildMenuWindow.activeInHierarchy;
+				}
+				else if (now < this.nextBuildMenuWindowLookup)
+				{
+					flag = false;
+				}
+				else
+				{
+					this.nextBuildMenuWindowLookup = now + 0.5f;
+					GameObject gameObject = GameObject.Find("UI/UIRoot/UIBuildingWindow");
+					if (gameObject == null)
 					{
-						if (!(text == null) && string.Equals((text.text ?? "").Trim(), "Remove", StringComparison.OrdinalIgnoreCase))
-						{
-							button = MoveStationsPlugin.FindParentButton(text.transform);
-							if (button != null)
-							{
-								break;
-							}
-						}
+						flag = false;
+					}
+					else if (this.uiBuildingWindowType != null && gameObject.GetComponent(this.uiBuildingWindowType) == null)
+					{
+						flag = false;
+					}
+					else
+					{
+						this.cachedBuildMenuWindow = gameObject;
+						flag = gameObject.activeInHierarchy;
 					}
 				}
 			}
 			catch
 			{
+				flag = false;
 			}
-			if (button == null)
+			return flag;
+		}
+
+		// Token: 0x06000058 RID: 88 RVA: 0x00009150 File Offset: 0x00007350
+		private void SubscribeBuildMenuOpenEvent()
+		{
+			try
 			{
-				try
+				Type type = MoveStationsPlugin.FindTypeInAnyAssembly("LazyWindowsStackController");
+				if (!(type == null))
 				{
-					Type type = MoveStationsPlugin.FindTypeInAnyAssembly("TextMeshProUGUI");
-					if (type != null)
+					EventInfo @event = type.GetEvent("OnWindowOpened", BindingFlags.Static | BindingFlags.Public);
+					if (!(@event == null) && !(@event.EventHandlerType == null))
 					{
-						global::UnityEngine.Object[] array3 = global::UnityEngine.Object.FindObjectsOfType(type);
-						if (array3 != null)
+						MethodInfo method = @event.EventHandlerType.GetMethod("Invoke");
+						ParameterInfo[] array = ((method != null) ? method.GetParameters() : null);
+						if (array != null && array.Length == 1)
 						{
-							global::UnityEngine.Object[] array4 = array3;
-							for (int i = 0; i < array4.Length; i++)
+							MethodInfo methodInfo = base.GetType().GetMethod("OnLazyWindowOpened", BindingFlags.Instance | BindingFlags.NonPublic);
+							if (!(methodInfo == null) && methodInfo.IsGenericMethodDefinition)
 							{
-								Component component = array4[i] as Component;
-								if (!(component == null) && string.Equals(((MoveStationsPlugin.GetProp(component, "text") as string) ?? "").Trim(), "Remove", StringComparison.OrdinalIgnoreCase))
+								methodInfo = methodInfo.MakeGenericMethod(new Type[] { array[0].ParameterType });
+								Delegate @delegate = Delegate.CreateDelegate(@event.EventHandlerType, this, methodInfo, false);
+								if (@delegate != null)
 								{
-									button = MoveStationsPlugin.FindParentButton(component.transform);
-									if (button != null)
-									{
-										break;
-									}
+									@event.AddEventHandler(null, @delegate);
+									this.eLazyWindowOpened = @event;
+									this.dLazyWindowOpened = @delegate;
+									this.buildMenuOpenEventsReady = true;
+									this.Dbg("build menu: subscribed to LazyWindowsStackController.OnWindowOpened");
 								}
 							}
 						}
 					}
 				}
-				catch
+			}
+			catch (Exception ex)
+			{
+				this.Dbg("build menu: window-open event unavailable: " + ex.Message);
+			}
+		}
+
+		// Token: 0x06000059 RID: 89 RVA: 0x00009284 File Offset: 0x00007484
+		private void OnLazyWindowOpened<TWindow>(TWindow window)
+		{
+			try
+			{
+				Component component = window as Component;
+				if (!(component == null) && !(this.uiBuildingWindowType == null) && this.uiBuildingWindowType.IsInstanceOfType(component))
 				{
+					this.cachedBuildMenuWindow = component.gameObject;
+					this.buildMenuInjectionRequested = true;
+					this.nextMoveMenuSearch = 0f;
 				}
+			}
+			catch
+			{
+			}
+		}
+
+		// Token: 0x0600005A RID: 90 RVA: 0x000092F8 File Offset: 0x000074F8
+		private void TryInjectMoveMenuRow()
+		{
+			Button button = this.FindRemoveRowButtonByBuildMode();
+			if (button == null)
+			{
+				button = this.FindRemoveRowButtonByEnglishLabel();
 			}
 			if (button == null)
 			{
@@ -4092,22 +4191,22 @@ namespace GK2MoveStations
 				{
 					gameObject2.name = "GK2MoveStationsBuildMenuMoveRow";
 					gameObject2.transform.SetSiblingIndex(gameObject.transform.GetSiblingIndex());
-					foreach (Component component2 in gameObject2.GetComponentsInChildren<Component>(true))
+					foreach (Component component in gameObject2.GetComponentsInChildren<Component>(true))
 					{
-						if (!(component2 == null))
+						if (!(component == null))
 						{
-							Text text2 = component2 as Text;
-							if (text2 != null)
+							Text text = component as Text;
+							if (text != null)
 							{
-								text2.text = "Move";
-								text2.color = new Color(0.68f, 1f, 0.9f, 1f);
+								text.text = "Move";
+								text.color = new Color(0.68f, 1f, 0.9f, 1f);
 							}
-							else if (component2.GetType().Name == "TextMeshProUGUI" || component2.GetType().Name == "TMP_Text")
+							else if (component.GetType().Name == "TextMeshProUGUI" || component.GetType().Name == "TMP_Text")
 							{
-								MoveStationsPlugin.SetProp(component2, "text", "Move");
-								MoveStationsPlugin.SetProp(component2, "color", new Color(0.68f, 1f, 0.9f, 1f));
+								MoveStationsPlugin.SetProp(component, "text", "Move");
+								MoveStationsPlugin.SetProp(component, "color", new Color(0.68f, 1f, 0.9f, 1f));
 							}
-							Image image = component2 as Image;
+							Image image = component as Image;
 							if (image != null && image.gameObject.name.IndexOf("Icon", StringComparison.OrdinalIgnoreCase) >= 0)
 							{
 								image.sprite = this.GetMoveMenuIconSprite();
@@ -4118,17 +4217,17 @@ namespace GK2MoveStations
 							}
 						}
 					}
-					Button component3 = gameObject2.GetComponent<Button>();
-					if (component3 == null)
+					Button component2 = gameObject2.GetComponent<Button>();
+					if (component2 == null)
 					{
 						global::UnityEngine.Object.Destroy(gameObject2);
 					}
 					else
 					{
-						component3.onClick.RemoveAllListeners();
-						component3.onClick.AddListener(new UnityAction(this.OnMoveMenuClicked));
+						component2.onClick.RemoveAllListeners();
+						component2.onClick.AddListener(new UnityAction(this.OnMoveMenuClicked));
 						this.moveMenuRow = gameObject2;
-						this.moveMenuButton = component3;
+						this.moveMenuButton = component2;
 						this.Dbg("build menu: injected Move row from '" + MoveStationsPlugin.PathOf(gameObject) + "'");
 					}
 				}
@@ -4139,7 +4238,122 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000057 RID: 87 RVA: 0x000092D4 File Offset: 0x000074D4
+		// Token: 0x0600005B RID: 91 RVA: 0x00009564 File Offset: 0x00007764
+		private Button FindRemoveRowButtonByBuildMode()
+		{
+			try
+			{
+				if (this.uiBuildingWidgetType == null || this.fUiBuildingWidgetData == null)
+				{
+					return null;
+				}
+				global::UnityEngine.Object[] array = global::UnityEngine.Object.FindObjectsOfType(this.uiBuildingWidgetType);
+				if (array == null)
+				{
+					return null;
+				}
+				global::UnityEngine.Object[] array2 = array;
+				for (int i = 0; i < array2.Length; i++)
+				{
+					Component component = array2[i] as Component;
+					if (!(component == null) && component.gameObject.activeInHierarchy && !MoveStationsPlugin.IsMoveMenuRow(component.transform))
+					{
+						object prop = MoveStationsPlugin.GetProp(MoveStationsPlugin.GetProp(this.fUiBuildingWidgetData.GetValue(component), "BuildData"), "BuildingMode");
+						if (prop != null && string.Equals(prop.ToString(), "Remove", StringComparison.OrdinalIgnoreCase))
+						{
+							Button button = MoveStationsPlugin.FindParentButton(component.transform);
+							if (button == null)
+							{
+								Button[] componentsInChildren = component.GetComponentsInChildren<Button>(true);
+								if (componentsInChildren != null && componentsInChildren.Length != 0)
+								{
+									button = componentsInChildren[0];
+								}
+							}
+							if (button != null)
+							{
+								this.Dbg("build menu: localized Remove row found by BuildData.BuildingMode");
+								return button;
+							}
+						}
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				this.Dbg("build menu: semantic Remove lookup failed: " + ex.Message);
+			}
+			return null;
+		}
+
+		// Token: 0x0600005C RID: 92 RVA: 0x000096BC File Offset: 0x000078BC
+		private static bool IsMoveMenuRow(Transform start)
+		{
+			Transform transform = start;
+			int num = 0;
+			while (transform != null && num < 8)
+			{
+				if (string.Equals(transform.name, "GK2MoveStationsBuildMenuMoveRow", StringComparison.Ordinal))
+				{
+					return true;
+				}
+				num++;
+				transform = transform.parent;
+			}
+			return false;
+		}
+
+		// Token: 0x0600005D RID: 93 RVA: 0x00009700 File Offset: 0x00007900
+		private Button FindRemoveRowButtonByEnglishLabel()
+		{
+			try
+			{
+				Text[] array = global::UnityEngine.Object.FindObjectsOfType<Text>();
+				if (array != null)
+				{
+					foreach (Text text in array)
+					{
+						if (!(text == null) && string.Equals((text.text ?? "").Trim(), "Remove", StringComparison.OrdinalIgnoreCase))
+						{
+							Button button = MoveStationsPlugin.FindParentButton(text.transform);
+							if (button != null)
+							{
+								return button;
+							}
+						}
+					}
+				}
+				Type type = MoveStationsPlugin.FindTypeInAnyAssembly("TextMeshProUGUI");
+				if (type == null)
+				{
+					return null;
+				}
+				global::UnityEngine.Object[] array3 = global::UnityEngine.Object.FindObjectsOfType(type);
+				if (array3 == null)
+				{
+					return null;
+				}
+				global::UnityEngine.Object[] array4 = array3;
+				for (int i = 0; i < array4.Length; i++)
+				{
+					Component component = array4[i] as Component;
+					if (!(component == null) && string.Equals(((MoveStationsPlugin.GetProp(component, "text") as string) ?? "").Trim(), "Remove", StringComparison.OrdinalIgnoreCase))
+					{
+						Button button2 = MoveStationsPlugin.FindParentButton(component.transform);
+						if (button2 != null)
+						{
+							return button2;
+						}
+					}
+				}
+			}
+			catch
+			{
+			}
+			return null;
+		}
+
+		// Token: 0x0600005E RID: 94 RVA: 0x00009844 File Offset: 0x00007A44
 		private Sprite GetMoveMenuIconSprite()
 		{
 			if (this.moveMenuIconSprite != null)
@@ -4177,7 +4391,7 @@ namespace GK2MoveStations
 			return this.moveMenuIconSprite;
 		}
 
-		// Token: 0x06000058 RID: 88 RVA: 0x000094D0 File Offset: 0x000076D0
+		// Token: 0x0600005F RID: 95 RVA: 0x00009A40 File Offset: 0x00007C40
 		private static void FillRect(Texture2D tex, int x0, int y0, int width, int height, Color color)
 		{
 			if (tex == null)
@@ -4196,7 +4410,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000059 RID: 89 RVA: 0x00009528 File Offset: 0x00007728
+		// Token: 0x06000060 RID: 96 RVA: 0x00009A98 File Offset: 0x00007C98
 		private void CaptureBuildMenuBuilder()
 		{
 			try
@@ -4221,7 +4435,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600005A RID: 90 RVA: 0x00009610 File Offset: 0x00007810
+		// Token: 0x06000061 RID: 97 RVA: 0x00009B80 File Offset: 0x00007D80
 		private void ReopenBuildMenu()
 		{
 			try
@@ -4252,7 +4466,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600005B RID: 91 RVA: 0x000096F4 File Offset: 0x000078F4
+		// Token: 0x06000062 RID: 98 RVA: 0x00009C64 File Offset: 0x00007E64
 		private static Button FindParentButton(Transform start)
 		{
 			Transform transform = start;
@@ -4276,7 +4490,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600005C RID: 92 RVA: 0x0000974C File Offset: 0x0000794C
+		// Token: 0x06000063 RID: 99 RVA: 0x00009CBC File Offset: 0x00007EBC
 		private void OnMoveMenuClicked()
 		{
 			this.CaptureBuildMenuBuilder();
@@ -4319,7 +4533,7 @@ namespace GK2MoveStations
 			this.Dbg("build menu: Move selected; waiting for station click");
 		}
 
-		// Token: 0x0600005D RID: 93 RVA: 0x00009894 File Offset: 0x00007A94
+		// Token: 0x06000064 RID: 100 RVA: 0x00009E04 File Offset: 0x00008004
 		private bool TryCloseBuildMenuUi(GameObject moveRow)
 		{
 			if (moveRow == null)
@@ -4356,7 +4570,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600005E RID: 94 RVA: 0x00009984 File Offset: 0x00007B84
+		// Token: 0x06000065 RID: 101 RVA: 0x00009EF4 File Offset: 0x000080F4
 		private static bool LooksLikeCloseButton(Button b)
 		{
 			if (b == null)
@@ -4391,7 +4605,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x0600005F RID: 95 RVA: 0x00009AE0 File Offset: 0x00007CE0
+		// Token: 0x06000066 RID: 102 RVA: 0x0000A050 File Offset: 0x00008250
 		private static string UnwrapInvocationError(Exception e)
 		{
 			try
@@ -4408,7 +4622,7 @@ namespace GK2MoveStations
 			return e.Message;
 		}
 
-		// Token: 0x06000060 RID: 96 RVA: 0x00009B44 File Offset: 0x00007D44
+		// Token: 0x06000067 RID: 103 RVA: 0x0000A0B4 File Offset: 0x000082B4
 		private void CreateMarker()
 		{
 			try
@@ -4441,7 +4655,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000061 RID: 97 RVA: 0x00009CB4 File Offset: 0x00007EB4
+		// Token: 0x06000068 RID: 104 RVA: 0x0000A224 File Offset: 0x00008424
 		private void UpdateMarker()
 		{
 			if (this.markerGO == null)
@@ -4460,7 +4674,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000062 RID: 98 RVA: 0x00009D90 File Offset: 0x00007F90
+		// Token: 0x06000069 RID: 105 RVA: 0x0000A300 File Offset: 0x00008500
 		private void CreateUI()
 		{
 			try
@@ -4511,7 +4725,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000063 RID: 99 RVA: 0x0000A034 File Offset: 0x00008234
+		// Token: 0x0600006A RID: 106 RVA: 0x0000A5A4 File Offset: 0x000087A4
 		private void CreateMoveKeyLabel()
 		{
 			try
@@ -4617,7 +4831,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000064 RID: 100 RVA: 0x0000A494 File Offset: 0x00008694
+		// Token: 0x0600006B RID: 107 RVA: 0x0000AA04 File Offset: 0x00008C04
 		private Font GetFont()
 		{
 			try
@@ -4637,7 +4851,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x06000065 RID: 101 RVA: 0x0000A4E4 File Offset: 0x000086E4
+		// Token: 0x0600006C RID: 108 RVA: 0x0000AA54 File Offset: 0x00008C54
 		private void SetHint(string s)
 		{
 			if (this.hintPanel == null)
@@ -4678,7 +4892,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000066 RID: 102 RVA: 0x0000A5B4 File Offset: 0x000087B4
+		// Token: 0x0600006D RID: 109 RVA: 0x0000AB24 File Offset: 0x00008D24
 		private void UpdateMoveHint()
 		{
 			string text = "Moving station";
@@ -4710,7 +4924,7 @@ namespace GK2MoveStations
 			this.SetHint(text3);
 		}
 
-		// Token: 0x06000067 RID: 103 RVA: 0x0000A670 File Offset: 0x00008870
+		// Token: 0x0600006E RID: 110 RVA: 0x0000ABE0 File Offset: 0x00008DE0
 		private void HideMoveKey()
 		{
 			try
@@ -4725,7 +4939,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000068 RID: 104 RVA: 0x0000A6BC File Offset: 0x000088BC
+		// Token: 0x0600006F RID: 111 RVA: 0x0000AC2C File Offset: 0x00008E2C
 		private void UpdateMoveKeyLabel()
 		{
 			if (this.moveKeyGO == null || this.moveKeyRt == null)
@@ -4771,7 +4985,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000069 RID: 105 RVA: 0x0000A788 File Offset: 0x00008988
+		// Token: 0x06000070 RID: 112 RVA: 0x0000ACF8 File Offset: 0x00008EF8
 		private void SetMoveKeyText(string value)
 		{
 			try
@@ -4790,7 +5004,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600006A RID: 106 RVA: 0x0000A7F0 File Offset: 0x000089F0
+		// Token: 0x06000071 RID: 113 RVA: 0x0000AD60 File Offset: 0x00008F60
 		private void UpdateStyleProbe()
 		{
 			float realtimeSinceStartup = Time.realtimeSinceStartup;
@@ -4890,7 +5104,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600006B RID: 107 RVA: 0x0000AA20 File Offset: 0x00008C20
+		// Token: 0x06000072 RID: 114 RVA: 0x0000AF90 File Offset: 0x00009190
 		private static int KeyPromptScore(string s)
 		{
 			if (string.IsNullOrEmpty(s))
@@ -4921,7 +5135,7 @@ namespace GK2MoveStations
 			return num;
 		}
 
-		// Token: 0x0600006C RID: 108 RVA: 0x0000AA94 File Offset: 0x00008C94
+		// Token: 0x06000073 RID: 115 RVA: 0x0000B004 File Offset: 0x00009204
 		private void DumpBuildSystemProbe()
 		{
 			if (!this.debug)
@@ -4963,7 +5177,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600006D RID: 109 RVA: 0x0000AC54 File Offset: 0x00008E54
+		// Token: 0x06000074 RID: 116 RVA: 0x0000B1C4 File Offset: 0x000093C4
 		private void DumpGridPresence()
 		{
 			try
@@ -5033,7 +5247,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600006E RID: 110 RVA: 0x0000AF18 File Offset: 0x00009118
+		// Token: 0x06000075 RID: 117 RVA: 0x0000B488 File Offset: 0x00009688
 		private void DumpBuildUiProbe()
 		{
 			if (!this.debug)
@@ -5164,7 +5378,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x0600006F RID: 111 RVA: 0x0000B288 File Offset: 0x00009488
+		// Token: 0x06000076 RID: 118 RVA: 0x0000B7F8 File Offset: 0x000099F8
 		private void DumpBuildTypeApi(string typeName, bool printAllMethods)
 		{
 			try
@@ -5232,7 +5446,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000070 RID: 112 RVA: 0x0000B450 File Offset: 0x00009650
+		// Token: 0x06000077 RID: 119 RVA: 0x0000B9C0 File Offset: 0x00009BC0
 		private static string ReadPropertyState(Type owner, string name, object instance)
 		{
 			string text;
@@ -5256,7 +5470,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000071 RID: 113 RVA: 0x0000B4B0 File Offset: 0x000096B0
+		// Token: 0x06000078 RID: 120 RVA: 0x0000BA20 File Offset: 0x00009C20
 		private static string ReadFieldType(FieldInfo f, object instance)
 		{
 			string text;
@@ -5279,7 +5493,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000072 RID: 114 RVA: 0x0000B50C File Offset: 0x0000970C
+		// Token: 0x06000079 RID: 121 RVA: 0x0000BA7C File Offset: 0x00009C7C
 		private static bool IsBuildMenuProbeText(string text)
 		{
 			if (string.IsNullOrEmpty(text))
@@ -5290,7 +5504,7 @@ namespace GK2MoveStations
 			return text2.Equals("Remove", StringComparison.OrdinalIgnoreCase) || text2.Equals("Move", StringComparison.OrdinalIgnoreCase) || text2.Equals("Stone stockpile", StringComparison.OrdinalIgnoreCase) || text2.Equals("Stone cutter", StringComparison.OrdinalIgnoreCase) || text2.Equals("Potter's wheel", StringComparison.OrdinalIgnoreCase) || text2.Equals("Stone cutter II", StringComparison.OrdinalIgnoreCase) || text2.Equals("Build", StringComparison.OrdinalIgnoreCase) || text2.Equals("Yard", StringComparison.OrdinalIgnoreCase) || text2.IndexOf("Remove", StringComparison.OrdinalIgnoreCase) >= 0;
 		}
 
-		// Token: 0x06000073 RID: 115 RVA: 0x0000B5B0 File Offset: 0x000097B0
+		// Token: 0x0600007A RID: 122 RVA: 0x0000BB20 File Offset: 0x00009D20
 		private void LogBuildUiCandidate(GameObject go, string text, ref int count)
 		{
 			if (go == null)
@@ -5330,7 +5544,7 @@ namespace GK2MoveStations
 			}));
 		}
 
-		// Token: 0x06000074 RID: 116 RVA: 0x0000B678 File Offset: 0x00009878
+		// Token: 0x0600007B RID: 123 RVA: 0x0000BBE8 File Offset: 0x00009DE8
 		private static bool IsBuildApiProbeName(string name)
 		{
 			if (string.IsNullOrEmpty(name))
@@ -5351,7 +5565,7 @@ namespace GK2MoveStations
 			return false;
 		}
 
-		// Token: 0x06000075 RID: 117 RVA: 0x0000B724 File Offset: 0x00009924
+		// Token: 0x0600007C RID: 124 RVA: 0x0000BC94 File Offset: 0x00009E94
 		private static string FormatMethod(MethodInfo m)
 		{
 			string text2;
@@ -5383,7 +5597,7 @@ namespace GK2MoveStations
 			return text2;
 		}
 
-		// Token: 0x06000076 RID: 118 RVA: 0x0000B7C4 File Offset: 0x000099C4
+		// Token: 0x0600007D RID: 125 RVA: 0x0000BD34 File Offset: 0x00009F34
 		private void InitReflection()
 		{
 			this.wgoType = MoveStationsPlugin.FindType("Wgo");
@@ -5400,17 +5614,25 @@ namespace GK2MoveStations
 			this.takenControlType = MoveStationsPlugin.FindType("TakenControlType");
 			this.uiBuildingWindowType = MoveStationsPlugin.FindType("UIBuildingWindow");
 			this.uiBuildingWindowDataType = MoveStationsPlugin.FindType("UIBuildingWindowData");
+			this.uiBuildingWidgetType = MoveStationsPlugin.FindType("UIBuildingWidget");
+			if (this.uiBuildingWidgetType != null)
+			{
+				this.fUiBuildingWidgetData = MoveStationsPlugin.GetFieldHierarchy(this.uiBuildingWidgetType, "data");
+			}
 			if (this.wgoType != null)
 			{
 				this.fWgoData = MoveStationsPlugin.GetFieldHierarchy(this.wgoType, "data");
 				this.fWgoHandler = MoveStationsPlugin.GetFieldHierarchy(this.wgoType, "interactionHandler");
 				this.mTryRotate = MoveStationsPlugin.GetMethodHierarchy(this.wgoType, "TryRotate");
+				this.mWgoRegisterGdPoints = MoveStationsPlugin.GetMethodAnyHierarchy(this.wgoType, "RegisterGDPointsFromBakedData");
+				this.mWgoBindGdPointViews = MoveStationsPlugin.GetMethodAnyHierarchy(this.wgoType, "BindGDPointViews");
 				this.pWgoRegistered = MoveStationsPlugin.GetPropertyHierarchy(this.wgoType, "RegisteredInChunker");
 			}
 			if (this.wgoDataType != null)
 			{
 				this.pDataPosition = MoveStationsPlugin.GetPropertyHierarchy(this.wgoDataType, "Position");
 				this.fWgoDataTemp = MoveStationsPlugin.GetFieldHierarchy(this.wgoDataType, "isTempObject");
+				this.fWgoGdPointsData = MoveStationsPlugin.GetFieldHierarchy(this.wgoDataType, "gdPointsData");
 			}
 			if (this.defType != null)
 			{
@@ -5533,7 +5755,7 @@ namespace GK2MoveStations
 			}
 		}
 
-		// Token: 0x06000077 RID: 119 RVA: 0x0000C01C File Offset: 0x0000A21C
+		// Token: 0x0600007E RID: 126 RVA: 0x0000C608 File Offset: 0x0000A808
 		private static Type FindType(string name)
 		{
 			foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
@@ -5550,7 +5772,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x06000078 RID: 120 RVA: 0x0000C06C File Offset: 0x0000A26C
+		// Token: 0x0600007F RID: 127 RVA: 0x0000C658 File Offset: 0x0000A858
 		private static Type FindTypeInAnyAssembly(string name)
 		{
 			try
@@ -5571,7 +5793,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x06000079 RID: 121 RVA: 0x0000C0C4 File Offset: 0x0000A2C4
+		// Token: 0x06000080 RID: 128 RVA: 0x0000C6B0 File Offset: 0x0000A8B0
 		private static Type FindTypeInAssembly(Assembly asm, string name)
 		{
 			Type[] array = null;
@@ -5593,7 +5815,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600007A RID: 122 RVA: 0x0000C11C File Offset: 0x0000A31C
+		// Token: 0x06000081 RID: 129 RVA: 0x0000C708 File Offset: 0x0000A908
 		private static FieldInfo GetFieldHierarchy(Type start, string name)
 		{
 			Type type = start;
@@ -5609,7 +5831,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600007B RID: 123 RVA: 0x0000C168 File Offset: 0x0000A368
+		// Token: 0x06000082 RID: 130 RVA: 0x0000C754 File Offset: 0x0000A954
 		private static PropertyInfo GetPropertyHierarchy(Type start, string name)
 		{
 			Type type = start;
@@ -5625,7 +5847,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600007C RID: 124 RVA: 0x0000C1B4 File Offset: 0x0000A3B4
+		// Token: 0x06000083 RID: 131 RVA: 0x0000C7A0 File Offset: 0x0000A9A0
 		private static MethodInfo GetMethodHierarchy(Type start, string name)
 		{
 			Type type = start;
@@ -5641,7 +5863,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600007D RID: 125 RVA: 0x0000C200 File Offset: 0x0000A400
+		// Token: 0x06000084 RID: 132 RVA: 0x0000C7EC File Offset: 0x0000A9EC
 		private static MethodInfo GetMethodAnyHierarchy(Type start, string name)
 		{
 			Type type = start;
@@ -5663,7 +5885,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x0600007E RID: 126 RVA: 0x0000C264 File Offset: 0x0000A464
+		// Token: 0x06000085 RID: 133 RVA: 0x0000C850 File Offset: 0x0000AA50
 		private static object TryGet(FieldInfo f, object o)
 		{
 			if (f == null || o == null)
@@ -5682,7 +5904,7 @@ namespace GK2MoveStations
 			return obj;
 		}
 
-		// Token: 0x0600007F RID: 127 RVA: 0x0000C2A0 File Offset: 0x0000A4A0
+		// Token: 0x06000086 RID: 134 RVA: 0x0000C88C File Offset: 0x0000AA8C
 		private static object FindReferenceOfType(object obj, Type targetType)
 		{
 			if (obj == null || targetType == null)
@@ -5735,7 +5957,7 @@ namespace GK2MoveStations
 			return null;
 		}
 
-		// Token: 0x06000080 RID: 128 RVA: 0x0000C3B0 File Offset: 0x0000A5B0
+		// Token: 0x06000087 RID: 135 RVA: 0x0000C99C File Offset: 0x0000AB9C
 		private string ShortId(object data)
 		{
 			string text;
@@ -5775,7 +5997,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000081 RID: 129 RVA: 0x0000C470 File Offset: 0x0000A670
+		// Token: 0x06000088 RID: 136 RVA: 0x0000CA5C File Offset: 0x0000AC5C
 		private static string PathOf(GameObject go)
 		{
 			if (go == null)
@@ -5794,7 +6016,7 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000082 RID: 130 RVA: 0x0000C4D0 File Offset: 0x0000A6D0
+		// Token: 0x06000089 RID: 137 RVA: 0x0000CABC File Offset: 0x0000ACBC
 		private static string FullPathOf(GameObject go)
 		{
 			if (go == null)
@@ -5812,13 +6034,13 @@ namespace GK2MoveStations
 			return text;
 		}
 
-		// Token: 0x06000083 RID: 131 RVA: 0x0000C52F File Offset: 0x0000A72F
+		// Token: 0x0600008A RID: 138 RVA: 0x0000CB1B File Offset: 0x0000AD1B
 		private static string Fmt(Vector3 v)
 		{
 			return v.ToString("F2");
 		}
 
-		// Token: 0x06000084 RID: 132 RVA: 0x0000C53D File Offset: 0x0000A73D
+		// Token: 0x0600008B RID: 139 RVA: 0x0000CB29 File Offset: 0x0000AD29
 		private void Dbg(string msg)
 		{
 			if (this.debug)
@@ -5846,7 +6068,7 @@ namespace GK2MoveStations
 		private const float ScanInterval = 0.15f;
 
 		// Token: 0x04000007 RID: 7
-		private const string Version = "2.0.0";
+		private const string Version = "2.0.3";
 
 		// Token: 0x04000008 RID: 8
 		private Type wgoType;
@@ -5939,445 +6161,478 @@ namespace GK2MoveStations
 		private MethodInfo mTryGetBDef;
 
 		// Token: 0x04000026 RID: 38
-		private MethodInfo mSnapToBounds;
+		private MethodInfo mWgoRegisterGdPoints;
 
 		// Token: 0x04000027 RID: 39
-		private MethodInfo mBuildDataForBuild;
+		private MethodInfo mWgoBindGdPointViews;
 
 		// Token: 0x04000028 RID: 40
-		private MethodInfo mBuildDataForRemove;
+		private MethodInfo mSnapToBounds;
 
 		// Token: 0x04000029 RID: 41
-		private MethodInfo mBcEnableBuildMode;
+		private MethodInfo mBuildDataForBuild;
 
 		// Token: 0x0400002A RID: 42
-		private MethodInfo mBcUpdatePointerObjectPosition;
+		private MethodInfo mBuildDataForRemove;
 
 		// Token: 0x0400002B RID: 43
-		private MethodInfo mBcUpdatePointerAtPos;
+		private MethodInfo mBcEnableBuildMode;
 
 		// Token: 0x0400002C RID: 44
-		private MethodInfo mBpUpdateAvailability;
+		private MethodInfo mBcUpdatePointerObjectPosition;
 
 		// Token: 0x0400002D RID: 45
-		private MethodInfo mBpRotate;
+		private MethodInfo mBcUpdatePointerAtPos;
 
 		// Token: 0x0400002E RID: 46
-		private MethodInfo mPcSetControlTakenType;
+		private MethodInfo mBpUpdateAvailability;
 
 		// Token: 0x0400002F RID: 47
-		private MethodInfo mBmTryEnable;
+		private MethodInfo mBpRotate;
 
 		// Token: 0x04000030 RID: 48
-		private FieldInfo fBcLayout;
+		private MethodInfo mPcSetControlTakenType;
 
 		// Token: 0x04000031 RID: 49
-		private FieldInfo fBcBuildModeActive;
+		private MethodInfo mBmTryEnable;
 
 		// Token: 0x04000032 RID: 50
-		private FieldInfo fBcBuildPointer;
+		private FieldInfo fBcLayout;
 
 		// Token: 0x04000033 RID: 51
-		private FieldInfo fBcInputLocked;
+		private FieldInfo fBcBuildModeActive;
 
 		// Token: 0x04000034 RID: 52
-		private FieldInfo fLayoutGridData;
+		private FieldInfo fBcBuildPointer;
 
 		// Token: 0x04000035 RID: 53
-		private FieldInfo fGridGridData;
+		private FieldInfo fBcInputLocked;
 
 		// Token: 0x04000036 RID: 54
-		private FieldInfo fGridBuildMode;
+		private FieldInfo fLayoutGridData;
 
 		// Token: 0x04000037 RID: 55
-		private FieldInfo fGridSelection;
+		private FieldInfo fGridGridData;
 
 		// Token: 0x04000038 RID: 56
-		private FieldInfo fCellDef;
+		private FieldInfo fGridBuildMode;
 
 		// Token: 0x04000039 RID: 57
-		private FieldInfo fCellCoords;
+		private FieldInfo fGridSelection;
 
 		// Token: 0x0400003A RID: 58
-		private FieldInfo fCellState;
+		private FieldInfo fCellDef;
 
 		// Token: 0x0400003B RID: 59
-		private FieldInfo fGridCurrentDef;
+		private FieldInfo fCellCoords;
 
 		// Token: 0x0400003C RID: 60
-		private FieldInfo fGridBusySlots;
+		private FieldInfo fCellState;
 
 		// Token: 0x0400003D RID: 61
-		private FieldInfo fGridFreeSlots;
+		private FieldInfo fGridCurrentDef;
 
 		// Token: 0x0400003E RID: 62
-		private FieldInfo fSelState;
+		private FieldInfo fGridBusySlots;
 
 		// Token: 0x0400003F RID: 63
-		private FieldInfo fSelCoords;
+		private FieldInfo fGridFreeSlots;
 
 		// Token: 0x04000040 RID: 64
-		private FieldInfo fBcCurPos;
+		private FieldInfo fSelState;
 
 		// Token: 0x04000041 RID: 65
-		private FieldInfo fBcLastSnapped;
+		private FieldInfo fSelCoords;
 
 		// Token: 0x04000042 RID: 66
-		private FieldInfo fPointerShownAsActive;
+		private FieldInfo fBcCurPos;
 
 		// Token: 0x04000043 RID: 67
-		private FieldInfo fWgoDataTemp;
+		private FieldInfo fBcLastSnapped;
 
 		// Token: 0x04000044 RID: 68
-		private PropertyInfo pBmWorldZone;
+		private FieldInfo fPointerShownAsActive;
 
 		// Token: 0x04000045 RID: 69
-		private bool selMismatchLogged;
+		private FieldInfo fWgoDataTemp;
 
 		// Token: 0x04000046 RID: 70
-		private bool selCaptured;
+		private FieldInfo fWgoGdPointsData;
 
 		// Token: 0x04000047 RID: 71
-		private float nextSelTry;
+		private PropertyInfo pBmWorldZone;
 
 		// Token: 0x04000048 RID: 72
-		private Dictionary<Vector2Int, MoveStationsPlugin.SelCell> selStates;
+		private bool selMismatchLogged;
 
 		// Token: 0x04000049 RID: 73
-		private bool selOverrideReady;
+		private bool selCaptured;
 
 		// Token: 0x0400004A RID: 74
-		private int selBlockedValue = int.MinValue;
+		private float nextSelTry;
 
 		// Token: 0x0400004B RID: 75
-		private int selFreeValue = int.MinValue;
+		private Dictionary<Vector2Int, MoveStationsPlugin.SelCell> selStates;
 
 		// Token: 0x0400004C RID: 76
-		private string selDefName = "";
+		private bool selOverrideReady;
 
 		// Token: 0x0400004D RID: 77
-		private string selCalib = "(not calibrated)";
+		private int selBlockedValue = int.MinValue;
 
 		// Token: 0x0400004E RID: 78
-		private global::UnityEngine.Object buildControllerInstance;
+		private int selFreeValue = int.MinValue;
 
 		// Token: 0x0400004F RID: 79
-		private int snapErrors;
+		private string selDefName = "";
 
 		// Token: 0x04000050 RID: 80
-		private bool reflectionOk;
+		private string selCalib = "(not calibrated)";
 
 		// Token: 0x04000051 RID: 81
-		private Dictionary<Vector2Int, MoveStationsPlugin.SnapCell> snapCells;
+		private global::UnityEngine.Object buildControllerInstance;
 
 		// Token: 0x04000052 RID: 82
-		private bool snapValid;
+		private int snapErrors;
 
 		// Token: 0x04000053 RID: 83
-		private string snapSource = "";
+		private bool reflectionOk;
 
 		// Token: 0x04000054 RID: 84
-		private int snapMinX;
+		private Dictionary<Vector2Int, MoveStationsPlugin.SnapCell> snapCells;
 
 		// Token: 0x04000055 RID: 85
-		private int snapMaxX;
+		private bool snapValid;
 
 		// Token: 0x04000056 RID: 86
-		private int snapMinZ;
+		private string snapSource = "";
 
 		// Token: 0x04000057 RID: 87
-		private int snapMaxZ;
+		private int snapMinX;
 
 		// Token: 0x04000058 RID: 88
-		private float nextSnapTry;
+		private int snapMaxX;
 
 		// Token: 0x04000059 RID: 89
-		private float lastSnapRefresh;
+		private int snapMinZ;
 
 		// Token: 0x0400005A RID: 90
-		private int snapCountLogged = -1;
+		private int snapMaxZ;
 
 		// Token: 0x0400005B RID: 91
-		private string gridStatusMsg = "";
+		private float nextSnapTry;
 
 		// Token: 0x0400005C RID: 92
-		private bool snapRejected;
+		private float lastSnapRefresh;
 
 		// Token: 0x0400005D RID: 93
-		private string snapRejectReason = "";
+		private int snapCountLogged = -1;
 
 		// Token: 0x0400005E RID: 94
-		private bool gridRejectLogged;
+		private string gridStatusMsg = "";
 
 		// Token: 0x0400005F RID: 95
-		private bool snapDumpDone;
+		private bool snapRejected;
 
 		// Token: 0x04000060 RID: 96
-		private bool buildModeSeen;
+		private string snapRejectReason = "";
 
 		// Token: 0x04000061 RID: 97
-		private bool lastBuildModeActive;
+		private bool gridRejectLogged;
 
 		// Token: 0x04000062 RID: 98
-		private HashSet<Vector2Int> ownCells;
+		private bool snapDumpDone;
 
 		// Token: 0x04000063 RID: 99
-		private List<Vector2Int> ownOffsets;
+		private bool buildModeSeen;
 
 		// Token: 0x04000064 RID: 100
-		private string lastGridResult = "";
+		private bool lastBuildModeActive;
 
 		// Token: 0x04000065 RID: 101
-		private string lastGridOobKey = "";
+		private HashSet<Vector2Int> ownCells;
 
 		// Token: 0x04000066 RID: 102
-		private ConfigEntry<bool> debugLogs;
+		private List<Vector2Int> ownOffsets;
 
 		// Token: 0x04000067 RID: 103
-		private bool debug;
+		private string lastGridResult = "";
 
 		// Token: 0x04000068 RID: 104
-		private Camera worldCam;
+		private string lastGridOobKey = "";
 
 		// Token: 0x04000069 RID: 105
-		private bool camLogged;
+		private ConfigEntry<bool> debugLogs;
 
 		// Token: 0x0400006A RID: 106
-		private bool camDumpDone;
+		private bool debug;
 
 		// Token: 0x0400006B RID: 107
-		private bool snapLogged;
+		private Camera worldCam;
 
 		// Token: 0x0400006C RID: 108
-		private bool snapRejectLogged;
+		private bool camLogged;
 
 		// Token: 0x0400006D RID: 109
-		private global::UnityEngine.Object cachedGridObj;
+		private bool camDumpDone;
 
 		// Token: 0x0400006E RID: 110
-		private float nextGridFind;
+		private bool snapLogged;
 
 		// Token: 0x0400006F RID: 111
-		private float nextBcFind;
+		private bool snapRejectLogged;
 
 		// Token: 0x04000070 RID: 112
-		private global::UnityEngine.Object[] wgoCache;
+		private global::UnityEngine.Object cachedGridObj;
 
 		// Token: 0x04000071 RID: 113
-		private float nextWgoRefresh;
+		private float nextGridFind;
 
 		// Token: 0x04000072 RID: 114
-		private static global::UnityEngine.Object cachedAnyObj;
+		private float nextBcFind;
 
 		// Token: 0x04000073 RID: 115
-		private static float nextAnyFind;
+		private global::UnityEngine.Object[] wgoCache;
 
 		// Token: 0x04000074 RID: 116
-		private GameObject moveKeyGO;
+		private float nextWgoRefresh;
 
 		// Token: 0x04000075 RID: 117
-		private RectTransform moveKeyRt;
+		private static global::UnityEngine.Object cachedAnyObj;
 
 		// Token: 0x04000076 RID: 118
-		private Text moveKeyText;
+		private static float nextAnyFind;
 
 		// Token: 0x04000077 RID: 119
-		private Component moveKeyComp;
+		private GameObject moveKeyGO;
 
 		// Token: 0x04000078 RID: 120
-		private bool moveKeyIsTmp;
+		private RectTransform moveKeyRt;
 
 		// Token: 0x04000079 RID: 121
-		private Canvas keyCanvas;
+		private Text moveKeyText;
 
 		// Token: 0x0400007A RID: 122
-		private const float KeyLabelBottomOffset = 105f;
+		private Component moveKeyComp;
 
 		// Token: 0x0400007B RID: 123
-		private const float KeyLabelFontSize = 28f;
+		private bool moveKeyIsTmp;
 
 		// Token: 0x0400007C RID: 124
-		private Component styleSrc;
+		private Canvas keyCanvas;
 
 		// Token: 0x0400007D RID: 125
-		private bool styleSrcIsTmp;
+		private const float KeyLabelBottomOffset = 105f;
 
 		// Token: 0x0400007E RID: 126
-		private bool styleApplied;
+		private const float KeyLabelFontSize = 28f;
 
 		// Token: 0x0400007F RID: 127
-		private bool styleGaveUp;
+		private Component styleSrc;
 
 		// Token: 0x04000080 RID: 128
-		private int styleTries;
+		private bool styleSrcIsTmp;
 
 		// Token: 0x04000081 RID: 129
-		private float nextStyleTry;
+		private bool styleApplied;
 
 		// Token: 0x04000082 RID: 130
-		private float nextScan;
+		private bool styleGaveUp;
 
 		// Token: 0x04000083 RID: 131
-		private global::UnityEngine.Object targetedWgo;
+		private int styleTries;
 
 		// Token: 0x04000084 RID: 132
-		private global::UnityEngine.Object lastCursorTargetLogged;
+		private float nextStyleTry;
 
 		// Token: 0x04000085 RID: 133
-		private bool moving;
+		private float nextScan;
 
 		// Token: 0x04000086 RID: 134
-		private global::UnityEngine.Object movingWgo;
+		private global::UnityEngine.Object targetedWgo;
 
 		// Token: 0x04000087 RID: 135
-		private GameObject movingGo;
+		private global::UnityEngine.Object lastCursorTargetLogged;
 
 		// Token: 0x04000088 RID: 136
-		private object movingData;
+		private bool moving;
 
 		// Token: 0x04000089 RID: 137
-		private object movingBuildingDef;
+		private global::UnityEngine.Object movingWgo;
 
 		// Token: 0x0400008A RID: 138
-		private Vector3 originalPos;
+		private GameObject movingGo;
 
 		// Token: 0x0400008B RID: 139
-		private Vector3 previewPos;
+		private object movingData;
 
 		// Token: 0x0400008C RID: 140
-		private string requiredAreaId = "";
+		private object movingBuildingDef;
 
 		// Token: 0x0400008D RID: 141
-		private string movingWgoId = "";
+		private Vector3 originalPos;
 
 		// Token: 0x0400008E RID: 142
-		private bool nativeBuildPreview;
+		private Vector3 previewPos;
 
 		// Token: 0x0400008F RID: 143
-		private bool nativeBuildModeEnabled;
+		private string requiredAreaId = "";
 
 		// Token: 0x04000090 RID: 144
-		private bool nativeGridOnlyMode;
+		private string movingWgoId = "";
 
 		// Token: 0x04000091 RID: 145
-		private bool nativePlayerControlsTaken;
+		private bool nativeBuildPreview;
 
 		// Token: 0x04000092 RID: 146
-		private bool movingGoWasActive;
+		private bool nativeBuildModeEnabled;
 
 		// Token: 0x04000093 RID: 147
-		private bool movingDataWasTemp;
+		private bool nativeGridOnlyMode;
 
 		// Token: 0x04000094 RID: 148
-		private object nativePointer;
+		private bool nativePlayerControlsTaken;
 
 		// Token: 0x04000095 RID: 149
-		private object nativePointerObject;
+		private bool movingGoWasActive;
 
 		// Token: 0x04000096 RID: 150
-		private object nativeWorldZone;
+		private bool movingDataWasTemp;
 
 		// Token: 0x04000097 RID: 151
-		private float footHalfX = 0.32f;
+		private object nativePointer;
 
 		// Token: 0x04000098 RID: 152
-		private float footHalfZ = 0.3f;
+		private object nativePointerObject;
 
 		// Token: 0x04000099 RID: 153
-		private bool hasValidated;
+		private object nativeWorldZone;
 
 		// Token: 0x0400009A RID: 154
-		private Vector3 lastValidatedPos;
+		private float footHalfX = 0.32f;
 
 		// Token: 0x0400009B RID: 155
-		private bool spotValid;
+		private float footHalfZ = 0.3f;
 
 		// Token: 0x0400009C RID: 156
-		private string spotReason = "";
+		private bool hasValidated;
 
 		// Token: 0x0400009D RID: 157
-		private bool verifyActive;
+		private Vector3 lastValidatedPos;
 
 		// Token: 0x0400009E RID: 158
-		private float verifyTime;
+		private bool spotValid;
 
 		// Token: 0x0400009F RID: 159
-		private object verifyData;
+		private string spotReason = "";
 
 		// Token: 0x040000A0 RID: 160
-		private GameObject verifyGo;
+		private bool verifyActive;
 
 		// Token: 0x040000A1 RID: 161
-		private Vector3 verifyExpected;
+		private float verifyTime;
 
 		// Token: 0x040000A2 RID: 162
-		private string verifyLabel = "";
+		private object verifyData;
 
 		// Token: 0x040000A3 RID: 163
-		private GameObject markerGO;
+		private GameObject verifyGo;
 
 		// Token: 0x040000A4 RID: 164
-		private SpriteRenderer markerSr;
+		private Vector3 verifyExpected;
 
 		// Token: 0x040000A5 RID: 165
-		private static readonly Color ValidColor = new Color(0.45f, 1f, 0.5f, 0.95f);
+		private string verifyLabel = "";
 
 		// Token: 0x040000A6 RID: 166
-		private static readonly Color InvalidColor = new Color(1f, 0.45f, 0.4f, 0.95f);
+		private GameObject markerGO;
 
 		// Token: 0x040000A7 RID: 167
-		private GameObject hintPanel;
+		private SpriteRenderer markerSr;
 
 		// Token: 0x040000A8 RID: 168
-		private RectTransform hintPanelRt;
+		private static readonly Color ValidColor = new Color(0.45f, 1f, 0.5f, 0.95f);
 
 		// Token: 0x040000A9 RID: 169
-		private Text hintText;
+		private static readonly Color InvalidColor = new Color(1f, 0.45f, 0.4f, 0.95f);
 
 		// Token: 0x040000AA RID: 170
-		private string currentHint = "";
+		private GameObject hintPanel;
 
 		// Token: 0x040000AB RID: 171
-		private GameObject moveMenuRow;
+		private RectTransform hintPanelRt;
 
 		// Token: 0x040000AC RID: 172
-		private Button moveMenuButton;
+		private Text hintText;
 
 		// Token: 0x040000AD RID: 173
-		private Sprite moveMenuIconSprite;
+		private string currentHint = "";
 
 		// Token: 0x040000AE RID: 174
-		private global::UnityEngine.Object moveMenuBuilderWgo;
+		private GameObject moveMenuRow;
 
 		// Token: 0x040000AF RID: 175
-		private float nextMoveMenuSearch;
+		private Button moveMenuButton;
 
 		// Token: 0x040000B0 RID: 176
-		private bool moveMenuArmed;
+		private Sprite moveMenuIconSprite;
 
 		// Token: 0x040000B1 RID: 177
-		private float moveMenuArmReadyAt;
+		private global::UnityEngine.Object moveMenuBuilderWgo;
 
 		// Token: 0x040000B2 RID: 178
+		private float nextMoveMenuSearch;
+
+		// Token: 0x040000B3 RID: 179
+		private GameObject cachedBuildMenuWindow;
+
+		// Token: 0x040000B4 RID: 180
+		private float nextBuildMenuWindowLookup;
+
+		// Token: 0x040000B5 RID: 181
+		private bool buildMenuOpenEventsReady;
+
+		// Token: 0x040000B6 RID: 182
+		private bool buildMenuInjectionRequested;
+
+		// Token: 0x040000B7 RID: 183
+		private EventInfo eLazyWindowOpened;
+
+		// Token: 0x040000B8 RID: 184
+		private Delegate dLazyWindowOpened;
+
+		// Token: 0x040000B9 RID: 185
+		private bool moveMenuArmed;
+
+		// Token: 0x040000BA RID: 186
+		private float moveMenuArmReadyAt;
+
+		// Token: 0x040000BB RID: 187
 		private MethodInfo mDisableBuildMode;
+
+		// Token: 0x040000BC RID: 188
+		private Type uiBuildingWidgetType;
+
+		// Token: 0x040000BD RID: 189
+		private FieldInfo fUiBuildingWidgetData;
 
 		// Token: 0x02000003 RID: 3
 		private class SelCell
 		{
-			// Token: 0x040000B3 RID: 179
+			// Token: 0x040000BE RID: 190
 			public int state;
 
-			// Token: 0x040000B4 RID: 180
+			// Token: 0x040000BF RID: 191
 			public Vector3 coords;
 		}
 
 		// Token: 0x02000004 RID: 4
 		private class SnapCell
 		{
-			// Token: 0x040000B5 RID: 181
+			// Token: 0x040000C0 RID: 192
 			public string label;
 
-			// Token: 0x040000B6 RID: 182
+			// Token: 0x040000C1 RID: 193
 			public object def;
 		}
 	}
